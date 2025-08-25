@@ -1,7 +1,11 @@
 {
   "name": "Tabla Periódica Viva",
-  "short_name": "Tabla Viva",
+  "short_name": "Tabla Periódica",
   "description": "Una tabla periódica interactiva, moderna y multilingüe.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#FFFFFF",
+  "theme_color": "#30475E",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
@@ -13,10 +17,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "theme_color": "#30475E",
-  "background_color": "#F0F0F0",
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "portrait"
+  ]
 }
