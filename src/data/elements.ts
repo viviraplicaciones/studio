@@ -24,6 +24,7 @@ export const elements: ElementData[] = [
     electron_configuration: '1s1',
     xpos: 1,
     ypos: 1,
+    phase: 'Gas',
   },
   {
     atomicNumber: 2,
@@ -48,6 +49,7 @@ export const elements: ElementData[] = [
     electron_configuration: '1s2',
     xpos: 18,
     ypos: 1,
+    phase: 'Gas',
   },
   {
     atomicNumber: 3,
@@ -72,6 +74,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s1',
     xpos: 1,
     ypos: 2,
+    phase: 'Solid',
   },
   {
     atomicNumber: 4,
@@ -96,6 +99,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2',
     xpos: 2,
     ypos: 2,
+    phase: 'Solid',
   },
   {
     atomicNumber: 5,
@@ -120,6 +124,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2 2p1',
     xpos: 13,
     ypos: 2,
+    phase: 'Solid',
   },
   {
     atomicNumber: 6,
@@ -144,6 +149,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2 2p2',
     xpos: 14,
     ypos: 2,
+    phase: 'Solid',
   },
   {
     atomicNumber: 7,
@@ -168,6 +174,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2 2p3',
     xpos: 15,
     ypos: 2,
+    phase: 'Gas',
   },
   {
     atomicNumber: 8,
@@ -192,6 +199,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2 2p4',
     xpos: 16,
     ypos: 2,
+    phase: 'Gas',
   },
   {
     atomicNumber: 9,
@@ -216,6 +224,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2 2p5',
     xpos: 17,
     ypos: 2,
+    phase: 'Gas',
   },
   {
     atomicNumber: 10,
@@ -240,6 +249,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[He] 2s2 2p6',
     xpos: 18,
     ypos: 2,
+    phase: 'Gas',
   },
   {
     atomicNumber: 11,
@@ -264,6 +274,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[Ne] 3s1',
     xpos: 1,
     ypos: 3,
+    phase: 'Solid',
   },
   {
     atomicNumber: 12,
@@ -288,6 +299,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[Ne] 3s2',
     xpos: 2,
     ypos: 3,
+    phase: 'Solid',
   },
   {
     atomicNumber: 13,
@@ -312,6 +324,7 @@ export const elements: ElementData[] = [
     electron_configuration: '[Ne] 3s2 3p1',
     xpos: 13,
     ypos: 3,
+    phase: 'Solid',
   },
   {
     atomicNumber: 14,
@@ -329,7 +342,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ne] 3s2 3p2',
     xpos: 14,
-    ypos: 3
+    ypos: 3,
+    phase: 'Solid',
   },
   {
     atomicNumber: 15,
@@ -347,7 +361,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ne] 3s2 3p3',
     xpos: 15,
-    ypos: 3
+    ypos: 3,
+    phase: 'Solid',
   },
   {
     atomicNumber: 16,
@@ -365,7 +380,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ne] 3s2 3p4',
     xpos: 16,
-    ypos: 3
+    ypos: 3,
+    phase: 'Solid',
   },
   {
     atomicNumber: 17,
@@ -383,7 +399,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ne] 3s2 3p5',
     xpos: 17,
-    ypos: 3
+    ypos: 3,
+    phase: 'Gas',
   },
   {
     atomicNumber: 18,
@@ -407,7 +424,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ne] 3s2 3p6',
     xpos: 18,
-    ypos: 3
+    ypos: 3,
+    phase: 'Gas',
   },
   {
     atomicNumber: 19,
@@ -431,7 +449,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 4s1',
     xpos: 1,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 20,
@@ -455,7 +474,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 4s2',
     xpos: 2,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 21,
@@ -473,7 +493,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d1 4s2',
     xpos: 3,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 22,
@@ -491,7 +512,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d2 4s2',
     xpos: 4,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 23,
@@ -509,7 +531,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d3 4s2',
     xpos: 5,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 24,
@@ -527,7 +550,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d5 4s1',
     xpos: 6,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 25,
@@ -538,14 +562,15 @@ export const elements: ElementData[] = [
     density: 7.21,
     summary: {
         en: 'Manganese is a chemical element with the symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in minerals in combination with iron. Manganese is a transition metal with a multifaceted array of industrial alloy uses, particularly in stainless steels.',
-        es: 'El manganeso es un elemento químico con el símbolo Mn y número atómico 25. No se encuentra como un elemento libre en la naturaleza; a menudo se encuentra en minerales en combinación con hierro. El manganeso es un metal de transición con una gama multifacética de usos en aleaciones industriales, particularmente en aceros inoxidables.',
+        es: 'El manganeso es un elemento químico con el símbolo Mn y número atómico 25. No se encuentra como un elemento libre en la naturaleza; a menudo se encuentra en minerales en combinación con hierro. El manganeso es un metal de transición con una gama multifacética de usos en aleaciones industriales, particularly en aceros inoxidables.',
         fr: 'Le manganèse est un élément chimique de symbole Mn et de numéro atomique 25. Il n\'est pas trouvé comme un élément libre dans la nature; il est souvent trouvé dans les minéraux en combinaison avec le fer. Le manganèse est un métal de transition avec une gamme variée d\'utilisations d\'alliages industriels, en particulier dans les aciers inoxydables.',
         pt: 'O manganês é um elemento químico com o símbolo Mn e número atômico 25. Não é encontrado como um elemento livre na natureza; é frequentemente encontrado em minerais em combinação com o ferro. O manganês é um metal de transição com uma vasta gama de usos em ligas industriais, particularmente em aços inoxidáveis.',
         ja: 'マンガンは、記号Mn、原子番号25の化学元素です。自然界では遊離元素として見つからず、鉄と組み合わさった鉱物でよく見られます。マンガンは、特にステンレス鋼において、多岐にわたる工業用合金用途を持つ遷移金属です。',
     },
     electron_configuration: '[Ar] 3d5 4s2',
     xpos: 7,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 26,
@@ -569,7 +594,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d6 4s2',
     xpos: 8,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 27,
@@ -587,7 +613,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d7 4s2',
     xpos: 9,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 28,
@@ -605,7 +632,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d8 4s2',
     xpos: 10,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 29,
@@ -623,7 +651,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s1',
     xpos: 11,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 30,
@@ -641,7 +670,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2',
     xpos: 12,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 31,
@@ -659,7 +689,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2 4p1',
     xpos: 13,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 32,
@@ -677,7 +708,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2 4p2',
     xpos: 14,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 33,
@@ -695,7 +727,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2 4p3',
     xpos: 15,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 34,
@@ -713,7 +746,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2 4p4',
     xpos: 16,
-    ypos: 4
+    ypos: 4,
+    phase: 'Solid',
   },
   {
     atomicNumber: 35,
@@ -731,7 +765,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2 4p5',
     xpos: 17,
-    ypos: 4
+    ypos: 4,
+    phase: 'Liquid',
   },
   {
     atomicNumber: 36,
@@ -749,7 +784,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Ar] 3d10 4s2 4p6',
     xpos: 18,
-    ypos: 4
+    ypos: 4,
+    phase: 'Gas',
   },
   {
     atomicNumber: 37,
@@ -767,7 +803,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 5s1',
     xpos: 1,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 38,
@@ -785,7 +822,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 5s2',
     xpos: 2,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 39,
@@ -803,7 +841,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d1 5s2',
     xpos: 3,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 40,
@@ -821,7 +860,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d2 5s2',
     xpos: 4,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 41,
@@ -839,7 +879,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d4 5s1',
     xpos: 5,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 42,
@@ -857,7 +898,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d5 5s1',
     xpos: 6,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 43,
@@ -875,7 +917,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d5 5s2',
     xpos: 7,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 44,
@@ -893,7 +936,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d7 5s1',
     xpos: 8,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 45,
@@ -911,7 +955,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d8 5s1',
     xpos: 9,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 46,
@@ -929,7 +974,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10',
     xpos: 10,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 47,
@@ -947,7 +993,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s1',
     xpos: 11,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 48,
@@ -965,7 +1012,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2',
     xpos: 12,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 49,
@@ -983,7 +1031,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2 5p1',
     xpos: 13,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 50,
@@ -1001,7 +1050,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2 5p2',
     xpos: 14,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 51,
@@ -1019,7 +1069,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2 5p3',
     xpos: 15,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 52,
@@ -1037,7 +1088,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2 5p4',
     xpos: 16,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 53,
@@ -1055,7 +1107,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2 5p5',
     xpos: 17,
-    ypos: 5
+    ypos: 5,
+    phase: 'Solid',
   },
   {
     atomicNumber: 54,
@@ -1073,7 +1126,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Kr] 4d10 5s2 5p6',
     xpos: 18,
-    ypos: 5
+    ypos: 5,
+    phase: 'Gas',
   },
   {
     atomicNumber: 55,
@@ -1091,7 +1145,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 6s1',
     xpos: 1,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 56,
@@ -1109,7 +1164,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 6s2',
     xpos: 2,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 57,
@@ -1127,7 +1183,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 5d1 6s2',
     xpos: 3,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 58,
@@ -1145,7 +1202,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f1 5d1 6s2',
     xpos: 4,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 59,
@@ -1163,7 +1221,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f3 6s2',
     xpos: 5,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 60,
@@ -1181,7 +1240,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f4 6s2',
     xpos: 6,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 61,
@@ -1199,7 +1259,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f5 6s2',
     xpos: 7,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 62,
@@ -1217,7 +1278,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f6 6s2',
     xpos: 8,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 63,
@@ -1235,7 +1297,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f7 6s2',
     xpos: 9,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 64,
@@ -1253,7 +1316,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f7 5d1 6s2',
     xpos: 10,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 65,
@@ -1271,7 +1335,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f9 6s2',
     xpos: 11,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 66,
@@ -1289,7 +1354,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f10 6s2',
     xpos: 12,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 67,
@@ -1307,7 +1373,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f11 6s2',
     xpos: 13,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 68,
@@ -1325,7 +1392,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f12 6s2',
     xpos: 14,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 69,
@@ -1343,7 +1411,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f13 6s2',
     xpos: 15,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 70,
@@ -1361,7 +1430,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 6s2',
     xpos: 16,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 71,
@@ -1379,7 +1449,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d1 6s2',
     xpos: 17,
-    ypos: 9
+    ypos: 9,
+    phase: 'Solid',
   },
   {
     atomicNumber: 72,
@@ -1397,7 +1468,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d2 6s2',
     xpos: 4,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 73,
@@ -1415,7 +1487,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d3 6s2',
     xpos: 5,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 74,
@@ -1433,7 +1506,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d4 6s2',
     xpos: 6,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 75,
@@ -1451,7 +1525,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d5 6s2',
     xpos: 7,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 76,
@@ -1469,7 +1544,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d6 6s2',
     xpos: 8,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 77,
@@ -1487,7 +1563,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d7 6s2',
     xpos: 9,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 78,
@@ -1505,7 +1582,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d9 6s1',
     xpos: 10,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 79,
@@ -1523,7 +1601,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s1',
     xpos: 11,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 80,
@@ -1541,7 +1620,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2',
     xpos: 12,
-    ypos: 6
+    ypos: 6,
+    phase: 'Liquid',
   },
   {
     atomicNumber: 81,
@@ -1559,7 +1639,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2 6p1',
     xpos: 13,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 82,
@@ -1577,7 +1658,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2 6p2',
     xpos: 14,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 83,
@@ -1595,7 +1677,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2 6p3',
     xpos: 15,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 84,
@@ -1613,7 +1696,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2 6p4',
     xpos: 16,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 85,
@@ -1631,7 +1715,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2 6p5',
     xpos: 17,
-    ypos: 6
+    ypos: 6,
+    phase: 'Solid',
   },
   {
     atomicNumber: 86,
@@ -1649,7 +1734,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Xe] 4f14 5d10 6s2 6p6',
     xpos: 18,
-    ypos: 6
+    ypos: 6,
+    phase: 'Gas',
   },
   {
     atomicNumber: 87,
@@ -1667,7 +1753,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 7s1',
     xpos: 1,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 88,
@@ -1685,7 +1772,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 7s2',
     xpos: 2,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 89,
@@ -1703,7 +1791,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 6d1 7s2',
     xpos: 3,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 90,
@@ -1721,7 +1810,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 6d2 7s2',
     xpos: 4,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 91,
@@ -1739,7 +1829,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f2 6d1 7s2',
     xpos: 5,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 92,
@@ -1757,7 +1848,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f3 6d1 7s2',
     xpos: 6,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 93,
@@ -1775,7 +1867,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f4 6d1 7s2',
     xpos: 7,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 94,
@@ -1793,7 +1886,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f6 7s2',
     xpos: 8,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 95,
@@ -1811,7 +1905,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f7 7s2',
     xpos: 9,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 96,
@@ -1829,7 +1924,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f7 6d1 7s2',
     xpos: 10,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 97,
@@ -1847,7 +1943,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f9 7s2',
     xpos: 11,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 98,
@@ -1865,7 +1962,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f10 7s2',
     xpos: 12,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 99,
@@ -1883,7 +1981,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f11 7s2',
     xpos: 13,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 100,
@@ -1901,7 +2000,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f12 7s2',
     xpos: 14,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 101,
@@ -1919,7 +2019,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f13 7s2',
     xpos: 15,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 102,
@@ -1937,7 +2038,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 7s2',
     xpos: 16,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 103,
@@ -1955,7 +2057,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 7s2 7p1',
     xpos: 17,
-    ypos: 10
+    ypos: 10,
+    phase: 'Solid',
   },
   {
     atomicNumber: 104,
@@ -1973,7 +2076,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d2 7s2',
     xpos: 4,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 105,
@@ -1991,7 +2095,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d3 7s2',
     xpos: 5,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 106,
@@ -2009,7 +2114,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d4 7s2',
     xpos: 6,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 107,
@@ -2027,7 +2133,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d5 7s2',
     xpos: 7,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 108,
@@ -2045,7 +2152,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d6 7s2',
     xpos: 8,
-    ypos: 7
+    ypos: 7,
+    phase: 'Solid',
   },
   {
     atomicNumber: 109,
@@ -2063,7 +2171,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d7 7s2',
     xpos: 9,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 110,
@@ -2081,7 +2190,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d8 7s2',
     xpos: 10,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 111,
@@ -2099,7 +2209,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d9 7s2',
     xpos: 11,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 112,
@@ -2117,7 +2228,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2',
     xpos: 12,
-    ypos: 7
+    ypos: 7,
+    phase: 'Liquid',
   },
   {
     atomicNumber: 113,
@@ -2135,7 +2247,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2 7p1',
     xpos: 13,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 114,
@@ -2153,7 +2266,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2 7p2',
     xpos: 14,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 115,
@@ -2171,7 +2285,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2 7p3',
     xpos: 15,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 116,
@@ -2189,7 +2304,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2 7p4',
     xpos: 16,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 117,
@@ -2207,7 +2323,8 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2 7p5',
     xpos: 17,
-    ypos: 7
+    ypos: 7,
+    phase: 'Unknown',
   },
   {
     atomicNumber: 118,
@@ -2225,6 +2342,7 @@ export const elements: ElementData[] = [
     },
     electron_configuration: '[Rn] 5f14 6d10 7s2 7p6',
     xpos: 18,
-    ypos: 7
+    ypos: 7,
+    phase: 'Gas',
   }
 ];

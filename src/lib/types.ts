@@ -4,6 +4,8 @@ export type MultilingualString = {
   [key in Language]: string;
 };
 
+export type ElementPhase = 'Gas' | 'Liquid' | 'Solid' | 'Unknown';
+
 export interface ElementData {
   atomicNumber: number;
   symbol: string;
@@ -15,4 +17,5 @@ export interface ElementData {
   electron_configuration: string;
   xpos: number;
   ypos: number;
+  phase: ElementPhase;
 }

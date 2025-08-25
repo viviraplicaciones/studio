@@ -26,5 +26,12 @@
   "actinide": "アクチノイド",
   "unknown": "不明なプロパティ",
   "toggleFavorites": "お気に入りを表示",
-  "toggleGroups": "カテゴリーでグループ化"
+  "toggleGroups": "カテゴリーでグループ化",
+  "filterByState": "状態でフィルター",
+  "phase": "相",
+  "solid": "固体",
+  "liquid": "液体",
+  "gas": "気体",
+  "unknownState": "不明",
+  "all": "すべて"
 }

@@ -1,11 +1,20 @@
 
 'use client';
 
-import { Search, Star, Group } from 'lucide-react';
+import { Search, Star, Group, Thermometer } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import LanguageSwitcher from './language-switcher';
 import { useLanguage } from '@/contexts/language-context';
+import type { ElementPhase } from '@/lib/types';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+
 
 interface HeaderProps {
   onSearchChange: (query: string) => void;
@@ -13,9 +22,19 @@ interface HeaderProps {
   showFavorites: boolean;
   onToggleGroupByCategory: () => void;
   groupByCategory: boolean;
+  onFilterByPhaseChange: (phase: ElementPhase | 'all') => void;
+  currentPhase: ElementPhase | 'all';
 }
 
-const Header: React.FC<HeaderProps> = ({ onSearchChange, onToggleFavorites, showFavorites, onToggleGroupByCategory, groupByCategory }) => {
+const Header: React.FC<HeaderProps> = ({ 
+  onSearchChange, 
+  onToggleFavorites, 
+  showFavorites, 
+  onToggleGroupByCategory, 
+  groupByCategory,
+  onFilterByPhaseChange,
+  currentPhase
+}) => {
   const { t } = useLanguage();
   
   return (
@@ -37,6 +56,25 @@ const Header: React.FC<HeaderProps> = ({ onSearchChange, onToggleFavorites, show
               onChange={(e) => onSearchChange(e.target.value)}
             />
           </div>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant={currentPhase !== 'all' ? 'default' : 'outline'} size="icon" aria-label={t('filterByState')}>
+                <Thermometer className="h-5 w-5" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuRadioGroup
+                value={currentPhase}
+                onValueChange={(value) => onFilterByPhaseChange(value as ElementPhase | 'all')}
+              >
+                <DropdownMenuRadioItem value="all">{t('all')}</DropdownMenuRadioItem>
+                <DropdownMenuRadioItem value="Solid">{t('solid')}</DropdownMenuRadioItem>
+                <DropdownMenuRadioItem value="Liquid">{t('liquid')}</DropdownMenuRadioItem>
+                <DropdownMenuRadioItem value="Gas">{t('gas')}</DropdownMenuRadioItem>
+                <DropdownMenuRadioItem value="Unknown">{t('unknownState')}</DropdownMenuRadioItem>
+              </DropdownMenuRadioGroup>
+            </DropdownMenuContent>
+          </DropdownMenu>
            <Button
             variant={groupByCategory ? 'default' : 'outline'}
             size="icon"

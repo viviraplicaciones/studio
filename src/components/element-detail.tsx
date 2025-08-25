@@ -71,6 +71,7 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose,
             <ul className="space-y-1 text-sm text-muted-foreground">
               <li><strong>{t('atomicMass')}:</strong> {element.atomic_mass.toPrecision(6)}</li>
               <li><strong>{t('category')}:</strong> {t(element.category)}</li>
+              <li><strong>{t('phase')}:</strong> {t(element.phase.toLowerCase())}</li>
               <li><strong>{t('electronConfiguration')}:</strong> {element.electron_configuration}</li>
               <li><strong>{t('density')}:</strong> {element.density ? `${element.density} g/cm³` : 'N/A'}</li>
             </ul>

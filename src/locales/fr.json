@@ -26,5 +26,12 @@
   "actinide": "Actinide",
   "unknown": "Propriétés Inconnues",
   "toggleFavorites": "Afficher les favoris",
-  "toggleGroups": "Grouper par catégorie"
+  "toggleGroups": "Grouper par catégorie",
+  "filterByState": "Filtrer par état",
+  "phase": "Phase",
+  "solid": "Solide",
+  "liquid": "Liquide",
+  "gas": "Gazeux",
+  "unknownState": "Inconnu",
+  "all": "Tous"
 }

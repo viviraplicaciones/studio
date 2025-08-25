@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import type { ElementData } from '@/lib/types';
+import type { ElementData, ElementPhase } from '@/lib/types';
 import { elements } from '@/data/elements';
 import Header from '@/components/header';
 import PeriodicTable from '@/components/periodic-table';
@@ -15,6 +15,7 @@ export default function Home() {
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showFavorites, setShowFavorites] = useState(false);
   const [groupByCategory, setGroupByCategory] = useState(false);
+  const [filterByPhase, setFilterByPhase] = useState<ElementPhase | 'all'>('all');
   const { language } = useLanguage();
   const { favorites, toggleFavorite } = useFavorites();
 
@@ -22,6 +23,10 @@ export default function Home() {
     let elementsToFilter = elements;
     if (showFavorites) {
       elementsToFilter = elements.filter(el => favorites.includes(el.atomicNumber));
+    }
+    
+    if (filterByPhase !== 'all') {
+      elementsToFilter = elementsToFilter.filter(el => el.phase === filterByPhase);
     }
 
     if (!searchQuery) {
@@ -35,7 +40,7 @@ export default function Home() {
         element.symbol.toLowerCase().includes(lowerCaseQuery) ||
         String(element.atomicNumber).includes(lowerCaseQuery)
     );
-  }, [searchQuery, language, showFavorites, favorites]);
+  }, [searchQuery, language, showFavorites, favorites, filterByPhase]);
 
   const handleToggleFavorites = () => {
     setShowFavorites(prev => !prev);
@@ -61,6 +66,8 @@ export default function Home() {
         showFavorites={showFavorites}
         onToggleGroupByCategory={handleToggleGroupByCategory}
         groupByCategory={groupByCategory}
+        onFilterByPhaseChange={setFilterByPhase}
+        currentPhase={filterByPhase}
       />
       <main className="flex-grow p-4 md:p-8">
         <PeriodicTable
