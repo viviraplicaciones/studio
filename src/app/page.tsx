@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useMemo } from 'react';
@@ -14,7 +15,7 @@ export default function Home() {
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showFavorites, setShowFavorites] = useState(false);
   const { language } = useLanguage();
-  const { favorites } = useFavorites();
+  const { favorites, toggleFavorite } = useFavorites();
 
   const filteredElements = useMemo(() => {
     let elementsToFilter = elements;
@@ -39,6 +40,14 @@ export default function Home() {
     setShowFavorites(prev => !prev);
   }
 
+  const handleElementClick = (element: ElementData) => {
+    setSelectedElement(element);
+  };
+
+  const handleCloseDetail = () => {
+    setSelectedElement(null);
+  };
+
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header 
@@ -49,13 +58,17 @@ export default function Home() {
       <main className="flex-grow p-4 md:p-8">
         <PeriodicTable
           elements={filteredElements}
-          onElementClick={setSelectedElement}
+          onElementClick={handleElementClick}
+          favorites={favorites}
+          onToggleFavorite={toggleFavorite}
         />
       </main>
       <ElementDetail
         element={selectedElement}
         isOpen={!!selectedElement}
-        onClose={() => setSelectedElement(null)}
+        onClose={handleCloseDetail}
+        isFavorite={selectedElement ? favorites.includes(selectedElement.atomicNumber) : false}
+        onToggleFavorite={toggleFavorite}
       />
     </div>
   );

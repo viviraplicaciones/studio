@@ -1,10 +1,10 @@
+
 'use client';
 
-import { Heart, Share2, X } from 'lucide-react';
+import { Heart, Share2 } from 'lucide-react';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
-import { useFavorites } from '@/hooks/use-favorites';
 import type { ElementData } from '@/lib/types';
 import { useLanguage } from '@/contexts/language-context';
 
@@ -12,16 +12,15 @@ interface ElementDetailProps {
   element: ElementData | null;
   isOpen: boolean;
   onClose: () => void;
+  isFavorite: boolean;
+  onToggleFavorite: (atomicNumber: number) => void;
 }
 
-const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose }) => {
+const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose, isFavorite, onToggleFavorite }) => {
   const { toast } = useToast();
-  const { favorites, toggleFavorite } = useFavorites();
   const { t, language } = useLanguage();
 
   if (!element) return null;
-
-  const isFavorite = favorites.includes(element.atomicNumber);
 
   const handleShare = async () => {
     const shareData = {
@@ -50,7 +49,7 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose 
   
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation();
-    toggleFavorite(element.atomicNumber);
+    onToggleFavorite(element.atomicNumber);
   };
 
   return (

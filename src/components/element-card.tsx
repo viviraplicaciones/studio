@@ -1,16 +1,18 @@
+
 'use client';
 
 import { Heart } from 'lucide-react';
 import { motion } from 'framer-motion';
 import type { ElementData } from '@/lib/types';
 import { cn } from '@/lib/utils';
-import { useFavorites } from '@/hooks/use-favorites';
 import { useLanguage } from '@/contexts/language-context';
 
 interface ElementCardProps {
   element: ElementData;
   onClick: () => void;
   style: React.CSSProperties;
+  isFavorite: boolean;
+  onToggleFavorite: (atomicNumber: number) => void;
 }
 
 const categoryColorMap: { [key: string]: string } = {
@@ -27,16 +29,14 @@ const categoryColorMap: { [key: string]: string } = {
   unknown: 'bg-gray-400',
 };
 
-const ElementCard: React.FC<ElementCardProps> = ({ element, onClick, style }) => {
-  const { favorites, toggleFavorite } = useFavorites();
+const ElementCard: React.FC<ElementCardProps> = ({ element, onClick, style, isFavorite, onToggleFavorite }) => {
   const { language } = useLanguage();
-  const isFavorite = favorites.includes(element.atomicNumber);
-
+  
   const colorClass = categoryColorMap[element.category] || 'bg-gray-400';
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation();
-    toggleFavorite(element.atomicNumber);
+    onToggleFavorite(element.atomicNumber);
   };
 
   return (

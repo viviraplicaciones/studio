@@ -1,3 +1,4 @@
+
 'use client';
 
 import ElementCard from './element-card';
@@ -6,9 +7,11 @@ import type { ElementData } from '@/lib/types';
 interface PeriodicTableProps {
   elements: ElementData[];
   onElementClick: (element: ElementData) => void;
+  favorites: number[];
+  onToggleFavorite: (atomicNumber: number) => void;
 }
 
-const PeriodicTable: React.FC<PeriodicTableProps> = ({ elements, onElementClick }) => {
+const PeriodicTable: React.FC<PeriodicTableProps> = ({ elements, onElementClick, favorites, onToggleFavorite }) => {
   return (
     <div
       className="grid gap-1"
@@ -25,6 +28,8 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ elements, onElementClick 
           element={element}
           onClick={() => onElementClick(element)}
           style={{ gridColumnStart: element.xpos, gridRowStart: element.ypos }}
+          isFavorite={favorites.includes(element.atomicNumber)}
+          onToggleFavorite={onToggleFavorite}
         />
       ))}
     </div>
