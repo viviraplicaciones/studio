@@ -7,28 +7,45 @@ import Header from '@/components/header';
 import PeriodicTable from '@/components/periodic-table';
 import ElementDetail from '@/components/element-detail';
 import { useLanguage } from '@/contexts/language-context';
+import { useFavorites } from '@/hooks/use-favorites';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
+  const [showFavorites, setShowFavorites] = useState(false);
   const { language } = useLanguage();
+  const { favorites } = useFavorites();
 
   const filteredElements = useMemo(() => {
-    if (!searchQuery) {
-      return elements;
+    let elementsToFilter = elements;
+    if (showFavorites) {
+      elementsToFilter = elements.filter(el => favorites.includes(el.atomicNumber));
     }
+
+    if (!searchQuery) {
+      return elementsToFilter;
+    }
+    
     const lowerCaseQuery = searchQuery.toLowerCase();
-    return elements.filter(
+    return elementsToFilter.filter(
       (element) =>
         element.name[language]?.toLowerCase().includes(lowerCaseQuery) ||
         element.symbol.toLowerCase().includes(lowerCaseQuery) ||
         String(element.atomicNumber).includes(lowerCaseQuery)
     );
-  }, [searchQuery, language]);
+  }, [searchQuery, language, showFavorites, favorites]);
+
+  const handleToggleFavorites = () => {
+    setShowFavorites(prev => !prev);
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <Header onSearchChange={setSearchQuery} />
+      <Header 
+        onSearchChange={setSearchQuery} 
+        onToggleFavorites={handleToggleFavorites}
+        showFavorites={showFavorites}
+      />
       <main className="flex-grow p-4 md:p-8">
         <PeriodicTable
           elements={filteredElements}

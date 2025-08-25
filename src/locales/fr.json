@@ -23,5 +23,6 @@
   "transition-metal": "Métal de Transition",
   "lanthanide": "Lanthanide",
   "actinide": "Actinide",
-  "unknown": "Propriétés Inconnues"
+  "unknown": "Propriétés Inconnues",
+  "toggleFavorites": "Afficher les favoris"
 }

@@ -23,5 +23,6 @@
   "transition-metal": "遷移金属",
   "lanthanide": "ランタノイド",
   "actinide": "アクチノイド",
-  "unknown": "不明なプロパティ"
+  "unknown": "不明なプロパティ",
+  "toggleFavorites": "お気に入りを表示"
 }

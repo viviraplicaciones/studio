@@ -1,15 +1,18 @@
 'use client';
 
-import { Search } from 'lucide-react';
+import { Search, Star } from 'lucide-react';
 import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
 import LanguageSwitcher from './language-switcher';
 import { useLanguage } from '@/contexts/language-context';
 
 interface HeaderProps {
   onSearchChange: (query: string) => void;
+  onToggleFavorites: () => void;
+  showFavorites: boolean;
 }
 
-const Header: React.FC<HeaderProps> = ({ onSearchChange }) => {
+const Header: React.FC<HeaderProps> = ({ onSearchChange, onToggleFavorites, showFavorites }) => {
   const { t } = useLanguage();
   
   return (
@@ -21,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onSearchChange }) => {
             <span className="hidden font-bold sm:inline-block text-primary">{t('appName')}</span>
           </a>
         </div>
-        <div className="flex flex-1 items-center justify-end space-x-4">
+        <div className="flex flex-1 items-center justify-end space-x-2">
           <div className="relative w-full max-w-sm">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input
@@ -31,6 +34,14 @@ const Header: React.FC<HeaderProps> = ({ onSearchChange }) => {
               onChange={(e) => onSearchChange(e.target.value)}
             />
           </div>
+          <Button
+            variant={showFavorites ? 'default' : 'outline'}
+            size="icon"
+            onClick={onToggleFavorites}
+            aria-label={t('toggleFavorites')}
+          >
+            <Star className="h-5 w-5" />
+          </Button>
           <LanguageSwitcher />
         </div>
       </div>
