@@ -33,5 +33,8 @@
   "liquid": "Líquido",
   "gas": "Gasoso",
   "unknownState": "Desconhecido",
-  "all": "Todos"
+  "all": "Todos",
+  "appearance": "Aparência",
+  "historyAndDiscovery": "História e Descoberta",
+  "namedBy": "Nomeado por"
 }

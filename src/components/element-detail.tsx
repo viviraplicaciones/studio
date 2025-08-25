@@ -1,12 +1,13 @@
 
 'use client';
 
-import { Heart, Share2 } from 'lucide-react';
+import { Heart, Share2, Users, Calendar, FlaskConical, Languages } from 'lucide-react';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 import type { ElementData } from '@/lib/types';
 import { useLanguage } from '@/contexts/language-context';
+import { Separator } from '@/components/ui/separator';
 
 interface ElementDetailProps {
   element: ElementData | null;
@@ -74,7 +75,21 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose,
               <li><strong>{t('phase')}:</strong> {t(element.phase.toLowerCase())}</li>
               <li><strong>{t('electronConfiguration')}:</strong> {element.electron_configuration}</li>
               <li><strong>{t('density')}:</strong> {element.density ? `${element.density} g/cm³` : 'N/A'}</li>
+              {element.appearance && <li><strong>{t('appearance')}:</strong> {element.appearance}</li>}
             </ul>
+          </div>
+          
+          <Separator />
+          
+          <div>
+            <h3 className="font-semibold text-xl mb-4 text-primary">{t('historyAndDiscovery')}</h3>
+            <div className="space-y-4 text-sm text-muted-foreground">
+                <p>{element.history[language]}</p>
+                <div className="flex items-center gap-4">
+                  {element.discovered_by && <span className="flex items-center gap-2"><Users className="w-4 h-4 text-accent"/> {element.discovered_by}</span>}
+                </div>
+                 {element.named_by && <div className="flex items-center gap-2"><Languages className="w-4 h-4 text-accent"/> <strong>{t('namedBy')}:</strong> {element.named_by}</div>}
+            </div>
           </div>
 
           <div className="flex gap-2 mt-4">

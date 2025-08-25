@@ -33,5 +33,8 @@
   "liquid": "液体",
   "gas": "気体",
   "unknownState": "不明",
-  "all": "すべて"
+  "all": "すべて",
+  "appearance": "外観",
+  "historyAndDiscovery": "歴史と発見",
+  "namedBy": "命名者"
 }

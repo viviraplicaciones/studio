@@ -25,6 +25,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 1,
     phase: 'Gas',
+    discovered_by: 'Henry Cavendish',
+    named_by: 'Antoine Lavoisier',
+    appearance: 'colorless gas',
+    history: {
+        en: 'Discovered in 1766 by Henry Cavendish, hydrogen is the most abundant element in the universe. Its name, coined by Antoine Lavoisier, means "water-former".',
+        es: 'Descubierto en 1766 por Henry Cavendish, el hidrógeno es el elemento más abundante del universo. Su nombre, acuñado por Antoine Lavoisier, significa "formador de agua".',
+        fr: "Découvert en 1766 par Henry Cavendish, l'hydrogène est l'élément le plus abondant de l'univers. Son nom, créé par Antoine Lavoisier, signifie « formeur d'eau ».",
+        pt: 'Descoberto em 1766 por Henry Cavendish, o hidrogênio é o elemento mais abundante do universo. Seu nome, cunhado por Antoine Lavoisier, significa "formador de água".',
+        ja: '1766年にヘンリー・キャヴェンディッシュによって発見された水素は、宇宙で最も豊富な元素です。アントワーヌ・ラヴォアジエによって作られたその名前は、「水を形成するもの」を意味します。'
+    }
   },
   {
     atomicNumber: 2,
@@ -50,6 +60,16 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 1,
     phase: 'Gas',
+    discovered_by: 'Pierre Janssen & Norman Lockyer',
+    named_by: 'Norman Lockyer',
+    appearance: 'colorless gas, exhibiting a red-orange glow when placed in an electric field',
+    history: {
+        en: 'Helium was discovered in the sun\'s spectrum in 1868 by French astronomer Pierre Janssen and English astronomer Norman Lockyer, who named it after the Greek word for the sun, "helios".',
+        es: 'El helio fue descubierto en el espectro solar en 1868 por el astrónomo francés Pierre Janssen y el astrónomo inglés Norman Lockyer, quienes lo nombraron por la palabra griega para el sol, "helios".',
+        fr: "L'hélium a été découvert dans le spectre du soleil en 1868 par l'astronome français Pierre Janssen et l'astronome anglais Norman Lockyer, qui l'ont nommé d'après le mot grec pour le soleil, « helios ».",
+        pt: 'O hélio foi descoberto no espectro do sol em 1868 pelo astrônomo francês Pierre Janssen and o astrônomo inglês Norman Lockyer, que o nomearam em homenagem à palavra grega para o sol, "helios".',
+        ja: 'ヘリウムは1868年にフランスの天文学者ピエール・ジャンサンとイギリスの天文学者ノーマン・ロッキャーによって太陽のスペクトルから発見され、太陽を意味するギリシャ語「ヘリオス」にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 3,
@@ -75,6 +95,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 2,
     phase: 'Solid',
+    discovered_by: 'Johan August Arfwedson',
+    named_by: 'Jöns Jacob Berzelius',
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Johan August Arfwedson in 1817 in the mineral petalite. Its name comes from "lithos" (Greek for stone) because it was discovered from a mineral source, unlike other alkali metals.',
+        es: 'Descubierto por Johan August Arfwedson en 1817 en el mineral petalita. Su nombre proviene de "lithos" (griego para piedra) porque fue descubierto a partir de una fuente mineral, a diferencia de otros metales alcalinos.',
+        fr: 'Découvert par Johan August Arfwedson en 1817 dans le minéral pétalite. Son nom vient de « lithos » (grec pour pierre) car il a été découvert à partir d\'une source minérale, contrairement aux autres métaux alcalins.',
+        pt: 'Descoberto por Johan August Arfwedson em 1817 no mineral petalita. Seu nome vem de "lithos" (grego para pedra) porque foi descoberto a partir de uma fonte mineral, ao contrário de outros metais alcalinos.',
+        ja: '1817年にヨハン・オーガスト・アルフェドソンによってペタル石鉱物から発見されました。他のアルカリ金属とは異なり、鉱物源から発見されたため、その名前は「石」を意味するギリシャ語の「リトス」に由来します。'
+    }
   },
   {
     atomicNumber: 4,
@@ -100,6 +130,16 @@ export const elements: ElementData[] = [
     xpos: 2,
     ypos: 2,
     phase: 'Solid',
+    discovered_by: 'Louis-Nicolas Vauquelin',
+    named_by: 'Friedrich Wöhler',
+    appearance: 'steel-gray, hard, lightweight and brittle',
+    history: {
+        en: 'Discovered by Louis-Nicolas Vauquelin in 1798 in the mineral beryl. It was isolated as a pure metal independently by Friedrich Wöhler and Antoine Bussy in 1828.',
+        es: 'Descubierto por Louis-Nicolas Vauquelin en 1798 en el mineral berilo. Fue aislado como metal puro de forma independiente por Friedrich Wöhler y Antoine Bussy en 1828.',
+        fr: 'Découvert par Louis-Nicolas Vauquelin en 1798 dans le minéral béryl. Il a été isolé comme un métal pur indépendamment par Friedrich Wöhler et Antoine Bussy en 1828.',
+        pt: 'Descoberto por Louis-Nicolas Vauquelin em 1798 no mineral berilo. Foi isolado como um metal puro independentemente por Friedrich Wöhler e Antoine Bussy em 1828.',
+        ja: '1798年にルイ＝ニコラ・ヴォークランによって緑柱石から発見されました。1828年にフリードリヒ・ヴェーラーとアントワーヌ・ビュッシーによって独立して純金属として分離されました。'
+    }
   },
   {
     atomicNumber: 5,
@@ -125,6 +165,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 2,
     phase: 'Solid',
+    discovered_by: 'Joseph Louis Gay-Lussac & Humphry Davy',
+    named_by: null,
+    appearance: 'black-brown',
+    history: {
+        en: 'Boron compounds were known for thousands of years, but the element was isolated in 1808 by Sir Humphry Davy, Joseph Louis Gay-Lussac, and Louis Jacques Thénard.',
+        es: 'Los compuestos de boro se conocían desde hacía miles de años, pero el elemento fue aislado en 1808 por Sir Humphry Davy, Joseph Louis Gay-Lussac y Louis Jacques Thénard.',
+        fr: 'Les composés du bore étaient connus depuis des milliers d\'années, mais l\'élément a été isolé en 1808 par Sir Humphry Davy, Joseph Louis Gay-Lussac et Louis Jacques Thénard.',
+        pt: 'Os compostos de boro eram conhecidos há milhares de anos, mas o elemento foi isolado em 1808 por Sir Humphry Davy, Joseph Louis Gay-Lussac e Louis Jacques Thénard.',
+        ja: 'ホウ素化合物は何千年もの間知られていましたが、この元素は1808年にハンフリー・デービー卿、ジョセフ・ルイ・ゲイ＝リュサック、ルイ・ジャック・テナールによって単離されました。'
+    }
   },
   {
     atomicNumber: 6,
@@ -150,6 +200,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 2,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'graphite is black, diamond is clear',
+    history: {
+        en: 'Carbon has been known since antiquity in the form of soot, charcoal, graphite, and diamonds. The name "carbon" comes from the Latin "carbo" for charcoal.',
+        es: 'El carbono se conoce desde la antigüedad en forma de hollín, carbón, grafito y diamantes. El nombre "carbono" proviene del latín "carbo" para carbón.',
+        fr: 'Le carbone est connu depuis l\'antiquité sous forme de suie, de charbon de bois, de graphite et de diamants. Le nom « carbone » vient du latin « carbo » pour charbon de bois.',
+        pt: 'O carbono é conhecido desde a antiguidade na forma de fuligem, carvão, grafite e diamantes. O nome "carbono" vem do latim "carbo" para carvão.',
+        ja: '炭素は、すす、木炭、黒鉛、ダイヤモンドの形で古代から知られています。「炭素」という名前は、ラテン語の木炭を意味する「carbo」に由来します。'
+    }
   },
   {
     atomicNumber: 7,
@@ -175,6 +235,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 2,
     phase: 'Gas',
+    discovered_by: 'Daniel Rutherford',
+    named_by: 'Jean-Antoine Chaptal',
+    appearance: 'colorless gas, liquid or solid',
+    history: {
+        en: 'Discovered by Scottish physician Daniel Rutherford in 1772, nitrogen makes up about 78% of Earth\'s atmosphere. The French name, azote, means "no life", as it is an asphyxiant gas.',
+        es: 'Descubierto por el médico escocés Daniel Rutherford en 1772, el nitrógeno constituye aproximadamente el 78% de la atmósfera terrestre. El nombre francés, azote, significa "sin vida", ya que es un gas asfixiante.',
+        fr: 'Découvert par le médecin écossais Daniel Rutherford en 1772, l\'azote constitue environ 78% de l\'atmosphère terrestre. Le nom français, azote, signifie « sans vie », car c\'est un gaz asphyxiant.',
+        pt: 'Descoberto pelo médico escocês Daniel Rutherford em 1772, o nitrogênio compõe cerca de 78% da atmosfera da Terra. O nome francês, azote, significa "sem vida", pois é um gás asfixiante.',
+        ja: '1772年にスコットランドの医師ダニエル・ラザフォードによって発見された窒素は、地球の大気の約78％を占めています。フランス語の名前であるアゾットは、窒息性ガスであるため、「生命なし」を意味します。'
+    }
   },
   {
     atomicNumber: 8,
@@ -200,6 +270,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 2,
     phase: 'Gas',
+    discovered_by: 'Carl Wilhelm Scheele & Joseph Priestley',
+    named_by: 'Antoine Lavoisier',
+    appearance: null,
+    history: {
+        en: 'Independently discovered by Carl Wilhelm Scheele and Joseph Priestley. Priestley is usually given priority because his work was published first. The name was coined by Antoine Lavoisier, meaning "acid-former".',
+        es: 'Descubierto de forma independiente por Carl Wilhelm Scheele y Joseph Priestley. Generalmente se le da prioridad a Priestley porque su trabajo se publicó primero. El nombre fue acuñado por Antoine Lavoisier, que significa "formador de ácido".',
+        fr: 'Découvert indépendamment par Carl Wilhelm Scheele et Joseph Priestley. La priorité est généralement accordée à Priestley car son travail a été publié en premier. Le nom a été inventé par Antoine Lavoisier, qui signifie « formeur d\'acide ».',
+        pt: 'Descoberto independentemente por Carl Wilhelm Scheele e Joseph Priestley. Priestley geralmente recebe prioridade porque seu trabalho foi publicado primeiro. O nome foi cunhado por Antoine Lavoisier, significando "formador de ácido".',
+        ja: 'カール・ヴィルヘルム・シェーレとジョセフ・プリーストリーによって独立して発見されました。彼の研究が最初に発表されたため、通常プリーストリーが優先されます。名前はアントワーヌ・ラヴォアジエによって作られ、「酸を形成するもの」を意味します。'
+    }
   },
   {
     atomicNumber: 9,
@@ -225,6 +305,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 2,
     phase: 'Gas',
+    discovered_by: 'Henri Moissan',
+    named_by: null,
+    appearance: 'pale yellow gas',
+    history: {
+        en: 'Fluorine was first described in 1529 by Georgius Agricola for its use as a flux. It was isolated in 1886 by Henri Moissan. It is the most electronegative element.',
+        es: 'El flúor fue descrito por primera vez en 1529 por Georgius Agricola por su uso como fundente. Fue aislado en 1886 por Henri Moissan. Es el elemento más electronegativo.',
+        fr: 'Le fluor a été décrit pour la première fois en 1529 par Georgius Agricola pour son utilisation comme fondant. Il a été isolé en 1886 par Henri Moissan. C\'est l\'élément le plus électronégatif.',
+        pt: 'O flúor foi descrito pela primeira vez em 1529 por Georgius Agricola para seu uso como um fluxo. Foi isolado em 1886 por Henri Moissan. É o elemento mais eletronegativo.',
+        ja: 'フッ素は、1529年にゲオルギウス・アグリコラによって融剤としての使用が最初に記述されました。1886年にアンリ・モアッサンによって単離されました。最も電気陰性度の高い元素です。'
+    }
   },
   {
     atomicNumber: 10,
@@ -250,6 +340,16 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 2,
     phase: 'Gas',
+    discovered_by: 'William Ramsay & Morris Travers',
+    named_by: null,
+    appearance: 'colorless gas which gives a reddish-orange glow in a vacuum discharge tube',
+    history: {
+        en: 'Discovered in 1898 by Sir William Ramsay and Morris Travers in London as a residual component of liquefied air. Its name comes from the Greek "neos", meaning "new".',
+        es: 'Descubierto en 1898 por Sir William Ramsay y Morris Travers en Londres como un componente residual del aire licuado. Su nombre proviene del griego "neos", que significa "nuevo".',
+        fr: 'Découvert en 1898 par Sir William Ramsay et Morris Travers à Londres en tant que composant résiduel de l\'air liquéfié. Son nom vient du grec « neos », qui signifie « nouveau ».',
+        pt: 'Descoberto em 1898 por Sir William Ramsay e Morris Travers em Londres como um componente residual do ar liquefeito. Seu nome vem do grego "neos", que significa "novo".',
+        ja: '1898年にロンドンでウィリアム・ラムゼー卿とモリス・トラバースによって液化空気の残留成分として発見されました。その名前はギリシャ語の「新しい」を意味する「ネオス」に由来します。'
+    }
   },
   {
     atomicNumber: 11,
@@ -275,6 +375,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 3,
     phase: 'Solid',
+    discovered_by: 'Humphry Davy',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Isolated in 1807 by Humphry Davy through the electrolysis of caustic soda. The symbol Na comes from the Latin "natrium", which refers to natron, a natural mineral salt.',
+        es: 'Aislado en 1807 por Humphry Davy mediante la electrólisis de sosa cáustica. El símbolo Na proviene del latín "natrium", que se refiere al natrón, una sal mineral natural.',
+        fr: 'Isolé en 1807 par Humphry Davy par électrolyse de la soude caustique. Le symbole Na vient du latin « natrium », qui fait référence au natron, un sel minéral naturel.',
+        pt: 'Isolado em 1807 por Humphry Davy através da eletrólise da soda cáustica. O símbolo Na vem do latim "natrium", que se refere ao natron, um sal mineral natural.',
+        ja: '1807年にハンフリー・デービーによって苛性ソーダの電気分解によって単離されました。記号Naは、天然鉱物塩であるナトロンを指すラテン語の「natrium」に由来します。'
+    }
   },
   {
     atomicNumber: 12,
@@ -300,6 +410,16 @@ export const elements: ElementData[] = [
     xpos: 2,
     ypos: 3,
     phase: 'Solid',
+    discovered_by: 'Joseph Black',
+    named_by: 'Humphry Davy',
+    appearance: 'shiny grey solid',
+    history: {
+        en: 'Recognized as an element by Joseph Black in 1755. It was first isolated by Sir Humphry Davy in 1808. It is named after Magnesia, a district in Thessaly, Greece.',
+        es: 'Reconocido como un elemento por Joseph Black en 1755. Fue aislado por primera vez por Sir Humphry Davy en 1808. Lleva el nombre de Magnesia, un distrito de Tesalia, Grecia.',
+        fr: 'Reconnu comme un élément par Joseph Black en 1755. Il a été isolé pour la première fois par Sir Humphry Davy en 1808. Il est nommé d\'après la Magnésie, un district de Thessalie, en Grèce.',
+        pt: 'Reconhecido como um elemento por Joseph Black em 1755. Foi isolado pela primeira vez por Sir Humphry Davy em 1808. É nomeado em homenagem à Magnésia, um distrito na Tessália, Grécia.',
+        ja: '1755年にジョセフ・ブラックによって元素として認識されました。1808年にハンフリー・デービー卿によって初めて単離されました。ギリシャのテッサリア地方のマグネシアにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 13,
@@ -325,6 +445,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 3,
     phase: 'Solid',
+    discovered_by: 'Hans Christian Ørsted',
+    named_by: 'Humphry Davy',
+    appearance: 'silvery-gray metallic',
+    history: {
+        en: 'The existence of this metal was first proposed by Humphry Davy in 1808. It was first isolated by Hans Christian Ørsted in 1825. Its name is derived from "alumen", the Latin name for alum.',
+        es: 'La existencia de este metal fue propuesta por primera vez por Humphry Davy en 1808. Fue aislado por primera vez por Hans Christian Ørsted en 1825. Su nombre se deriva de "alumen", el nombre latino para el alumbre.',
+        fr: 'L\'existence de ce métal a été proposée pour la première fois par Humphry Davy en 1808. Il a été isolé pour la première fois par Hans Christian Ørsted en 1825. Son nom est dérivé de « alumen », le nom latin de l\'alun.',
+        pt: 'A existência deste metal foi proposta pela primeira vez por Humphry Davy em 1808. Foi isolado pela primeira vez por Hans Christian Ørsted em 1825. Seu nome é derivado de "alumen", o nome latino para alúmen.',
+        ja: 'この金属の存在は、1808年にハンフリー・デービーによって最初に提案されました。1825年にハンス・クリスチャン・エルステッドによって初めて単離されました。その名前は、ミョウバンのラテン名である「アルメン」に由来します。'
+    }
   },
   {
     atomicNumber: 14,
@@ -344,6 +474,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 3,
     phase: 'Solid',
+    discovered_by: 'Jöns Jacob Berzelius',
+    named_by: null,
+    appearance: 'crystalline, reflective with bluish-tinged faces',
+    history: {
+        en: 'Silicon was first prepared in a pure form in 1823 by Jöns Jacob Berzelius. Its name is derived from the Latin "silex" or "silicis", meaning flint.',
+        es: 'El silicio fue preparado por primera vez en forma pura en 1823 por Jöns Jacob Berzelius. Su nombre se deriva del latín "silex" o "silicis", que significa pedernal.',
+        fr: 'Le silicium a été préparé pour la première fois sous forme pure en 1823 par Jöns Jacob Berzelius. Son nom est dérivé du latin « silex » ou « silicis », qui signifie silex.',
+        pt: 'O silício foi preparado pela primeira vez em sua forma pura em 1823 por Jöns Jacob Berzelius. Seu nome é derivado do latim "silex" ou "silicis", que significa pederneira.',
+        ja: 'ケイ素は、1823年にイェンス・ヤコブ・ベルセリウスによって初めて純粋な形で調製されました。その名前は、ラテン語で「火打ち石」を意味する「silex」または「silicis」に由来します。'
+    }
   },
   {
     atomicNumber: 15,
@@ -363,6 +503,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 3,
     phase: 'Solid',
+    discovered_by: 'Hennig Brand',
+    named_by: null,
+    appearance: 'colorless, waxy white, yellow, scarlet, red, violet, black',
+    history: {
+        en: 'Discovered in 1669 by Hennig Brand in Hamburg, Germany, by extracting it from urine. Its name comes from the Greek "phosphoros", meaning "bringer of light", due to its luminescence.',
+        es: 'Descubierto en 1669 por Hennig Brand en Hamburgo, Alemania, al extraerlo de la orina. Su nombre proviene del griego "phosphoros", que significa "portador de luz", debido a su luminiscencia.',
+        fr: 'Découvert en 1669 par Hennig Brand à Hambourg, en Allemagne, en l\'extrayant de l\'urine. Son nom vient du grec « phosphoros », qui signifie « porteur de lumière », en raison de sa luminescence.',
+        pt: 'Descoberto em 1669 por Hennig Brand em Hamburgo, Alemanha, extraindo-o da urina. Seu nome vem do grego "phosphoros", que significa "portador de luz", devido à sua luminescência.',
+        ja: '1669年にドイツのハンブルクでヘニッヒ・ブラントによって尿から抽出されて発見されました。その名前は、その発光により、「光をもたらすもの」を意味するギリシャ語の「フォスフォロス」に由来します。'
+    }
   },
   {
     atomicNumber: 16,
@@ -382,6 +532,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 3,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'lemon yellow sintered microcrystals',
+    history: {
+        en: 'Sulfur has been known since ancient times and is mentioned in the Bible as "brimstone". Its name is derived from the Latin "sulphurium".',
+        es: 'El azufre se conoce desde la antigüedad y se menciona en la Biblia como "azufre". Su nombre se deriva del latín "sulphurium".',
+        fr: 'Le soufre est connu depuis l\'Antiquité et est mentionné dans la Bible sous le nom de « soufre ». Son nom est dérivé du latin « sulphurium ».',
+        pt: 'O enxofre é conhecido desde os tempos antigos e é mencionado na Bíblia como "enxofre". Seu nome é derivado do latim "sulphurium".',
+        ja: '硫黄は古くから知られており、聖書では「硫黄」として言及されています。その名前はラテン語の「sulphurium」に由来します。'
+    }
   },
   {
     atomicNumber: 17,
@@ -401,6 +561,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 3,
     phase: 'Gas',
+    discovered_by: 'Carl Wilhelm Scheele',
+    named_by: 'Humphry Davy',
+    appearance: 'pale yellow-green gas',
+    history: {
+        en: 'First prepared by Carl Wilhelm Scheele in 1774. In 1810, Humphry Davy established it as an element and named it chlorine from the Greek "chloros", meaning "pale green".',
+        es: 'Preparado por primera vez por Carl Wilhelm Scheele en 1774. En 1810, Humphry Davy lo estableció como un elemento y lo llamó cloro del griego "chloros", que significa "verde pálido".',
+        fr: 'Préparé pour la première fois par Carl Wilhelm Scheele en 1774. En 1810, Humphry Davy l\'a établi comme un élément et l\'a nommé chlore du grec « chloros », qui signifie « vert pâle ».',
+        pt: 'Preparado pela primeira vez por Carl Wilhelm Scheele em 1774. Em 1810, Humphry Davy o estabeleceu como um elemento e o chamou de cloro do grego "chloros", que significa "verde pálido".',
+        ja: '1774年にカール・ヴィルヘルム・シェーレによって最初に調製されました。1810年にハンフリー・デービーがそれを元素として確立し、ギリシャ語で「淡い緑」を意味する「クロロス」から塩素と名付けました。'
+    }
   },
   {
     atomicNumber: 18,
@@ -426,6 +596,16 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 3,
     phase: 'Gas',
+    discovered_by: 'Lord Rayleigh & William Ramsay',
+    named_by: null,
+    appearance: 'colorless gas which gives a lilac/violet glow in a vacuum discharge tube',
+    history: {
+        en: 'Discovered in 1894 by Lord Rayleigh and Sir William Ramsay. Its name comes from the Greek "argos", meaning "inactive", a reference to its chemical inertness.',
+        es: 'Descubierto en 1894 por Lord Rayleigh y Sir William Ramsay. Su nombre proviene del griego "argos", que significa "inactivo", una referencia a su inercia química.',
+        fr: 'Découvert en 1894 par Lord Rayleigh et Sir William Ramsay. Son nom vient du grec « argos », qui signifie « inactif », une référence à son inertie chimique.',
+        pt: 'Descoberto em 1894 por Lord Rayleigh e Sir William Ramsay. Seu nome vem do grego "argos", que significa "inativo", uma referência à sua inércia química.',
+        ja: '1894年にレイリー卿とウィリアム・ラムゼー卿によって発見されました。その名前は、その化学的不活性への言及である、「不活性」を意味するギリシャ語の「アルゴス」に由来します。'
+    }
   },
   {
     atomicNumber: 19,
@@ -451,6 +631,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Humphry Davy',
+    named_by: null,
+    appearance: 'silvery-gray',
+    history: {
+        en: 'Isolated in 1807 by Humphry Davy from caustic potash (KOH). The symbol K comes from "kalium", the Medieval Latin for potash.',
+        es: 'Aislado en 1807 por Humphry Davy a partir de potasa cáustica (KOH). El símbolo K proviene de "kalium", el latín medieval para potasa.',
+        fr: 'Isolé en 1807 par Humphry Davy de la potasse caustique (KOH). Le symbole K vient de « kalium », le latin médiéval pour potasse.',
+        pt: 'Isolado em 1807 por Humphry Davy da potassa cáustica (KOH). O símbolo K vem de "kalium", o latim medieval para potassa.',
+        ja: '1807年にハンフリー・デービーによって苛性カリ（KOH）から単離されました。記号Kは、カリのラテン語の中世の「kalium」に由来します。'
+    }
   },
   {
     atomicNumber: 20,
@@ -476,6 +666,16 @@ export const elements: ElementData[] = [
     xpos: 2,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Humphry Davy',
+    named_by: null,
+    appearance: 'dull gray, silver',
+    history: {
+        en: 'Isolated in 1808 by Sir Humphry Davy by electrolyzing a mixture of lime and mercuric oxide. Its name comes from the Latin "calx" meaning "lime".',
+        es: 'Aislado en 1808 por Sir Humphry Davy al electrolizar una mezcla de cal y óxido de mercurio. Su nombre proviene del latín "calx" que significa "cal".',
+        fr: 'Isolé en 1808 par Sir Humphry Davy en électrolysant un mélange de chaux et d\'oxyde de mercure. Son nom vient du latin « calx » qui signifie « chaux ».',
+        pt: 'Isolado em 1808 por Sir Humphry Davy ao eletrolisar uma mistura de cal e óxido de mercúrio. Seu nome vem do latim "calx" que significa "cal".',
+        ja: '1808年にハンフリー・デービー卿によって、石灰と酸化第二水銀の混合物を電気分解することによって単離されました。その名前は、「石灰」を意味するラテン語の「calx」に由来します。'
+    }
   },
   {
     atomicNumber: 21,
@@ -495,6 +695,16 @@ export const elements: ElementData[] = [
     xpos: 3,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Lars Fredrik Nilson',
+    named_by: null,
+    appearance: 'silvery white',
+    history: {
+        en: 'Discovered by Lars Fredrik Nilson in 1879 in the minerals euxenite and gadolinite from Scandinavia. The element is named after Scandinavia.',
+        es: 'Descubierto por Lars Fredrik Nilson en 1879 en los minerales euxenita y gadolinita de Escandinavia. El elemento lleva el nombre de Escandinavia.',
+        fr: 'Découvert par Lars Fredrik Nilson en 1879 dans les minéraux euxénite et gadolinite de Scandinavie. L\'élément est nommé d\'après la Scandinavie.',
+        pt: 'Descoberto por Lars Fredrik Nilson em 1879 nos minerais euxenita e gadolinita da Escandinávia. O elemento tem o nome da Escandinávia.',
+        ja: '1879年にスカンジナビア産のユークセン石とガドリン石からラース・フレドリック・ニルソンによって発見されました。この元素はスカンジナビアにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 22,
@@ -514,6 +724,16 @@ export const elements: ElementData[] = [
     xpos: 4,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'William Gregor',
+    named_by: 'Martin Heinrich Klaproth',
+    appearance: 'silvery-grey-white metallic',
+    history: {
+        en: 'Discovered by William Gregor in 1791 in Cornwall, Great Britain. Named by Martin Heinrich Klaproth after the Titans of Greek mythology.',
+        es: 'Descubierto por William Gregor en 1791 en Cornualles, Gran Bretaña. Nombrado por Martin Heinrich Klaproth en honor a los Titanes de la mitología griega.',
+        fr: 'Découvert par William Gregor en 1791 en Cornouailles, Grande-Bretagne. Nommé par Martin Heinrich Klaproth d\'après les Titans de la mythologie grecque.',
+        pt: 'Descoberto por William Gregor em 1791 em Cornwall, Grã-Bretanha. Nomeado por Martin Heinrich Klaproth em homenagem aos Titãs da mitologia grega.',
+        ja: '1791年にイギリスのコーンウォールでウィリアム・グレガーによって発見されました。ギリシャ神話のタイタンにちなんでマルティン・ハインリヒ・クラプロートによって名付けられました。'
+    }
   },
   {
     atomicNumber: 23,
@@ -533,6 +753,16 @@ export const elements: ElementData[] = [
     xpos: 5,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Andrés Manuel del Río',
+    named_by: 'Nils Gabriel Sefström',
+    appearance: 'blue-silvery-grey metallic',
+    history: {
+        en: 'Discovered in 1801 by Andrés Manuel del Río. It was rediscovered and named by Nils Gabriel Sefström in 1830 after Vanadís, the Old Norse name for the Scandinavian goddess Freyja.',
+        es: 'Descubierto en 1801 por Andrés Manuel del Río. Fue redescubierto y nombrado por Nils Gabriel Sefström en 1830 en honor a Vanadís, el antiguo nombre nórdico de la diosa escandinava Freyja.',
+        fr: 'Découvert en 1801 par Andrés Manuel del Río. Il a été redécouvert et nommé par Nils Gabriel Sefström en 1830 d\'après Vanadís, l\'ancien nom nordique de la déesse scandinave Freyja.',
+        pt: 'Descoberto em 1801 por Andrés Manuel del Río. Foi redescoberto e nomeado por Nils Gabriel Sefström em 1830 em homenagem a Vanadís, o antigo nome nórdico da deusa escandinava Freyja.',
+        ja: '1801年にアンドレス・マヌエル・デル・リオによって発見されました。1830年にニルス・ガブリエル・セフストレムによって再発見され、スカンジナビアの女神フレイヤの古ノルド語名であるヴァナディースにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 24,
@@ -552,6 +782,16 @@ export const elements: ElementData[] = [
     xpos: 6,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Louis-Nicolas Vauquelin',
+    named_by: null,
+    appearance: 'silvery metallic',
+    history: {
+        en: 'Chromium was first isolated as an element by Louis-Nicolas Vauquelin in 1797. Its name is derived from the Greek "chroma", meaning color, because many of its compounds are intensely colored.',
+        es: 'El cromo fue aislado por primera vez como elemento por Louis-Nicolas Vauquelin en 1797. Su nombre se deriva del griego "chroma", que significa color, porque muchos de sus compuestos son intensamente coloreados.',
+        fr: 'Le chrome a été isolé pour la première fois en tant qu\'élément par Louis-Nicolas Vauquelin en 1797. Son nom est dérivé du grec « chroma », qui signifie couleur, car beaucoup de ses composés sont intensément colorés.',
+        pt: 'O cromo foi isolado pela primeira vez como um elemento por Louis-Nicolas Vauquelin em 1797. Seu nome é derivado do grego "chroma", que significa cor, porque muitos de seus compostos são intensamente coloridos.',
+        ja: 'クロムは1797年にルイ＝ニコラ・ヴォークランによって初めて元素として単離されました。その化合物の多くが強烈に着色されているため、その名前はギリシャ語で「色」を意味する「クロマ」に由来します。'
+    }
   },
   {
     atomicNumber: 25,
@@ -571,6 +811,16 @@ export const elements: ElementData[] = [
     xpos: 7,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Carl Wilhelm Scheele',
+    named_by: 'Johan Gottlieb Gahn',
+    appearance: 'silvery-grey metal',
+    history: {
+        en: 'Manganese was first recognized as an element by Carl Wilhelm Scheele in 1774. The same year, Johan Gottlieb Gahn was the first to isolate the element.',
+        es: 'El manganeso fue reconocido por primera vez como un elemento por Carl Wilhelm Scheele en 1774. El mismo año, Johan Gottlieb Gahn fue el primero en aislar el elemento.',
+        fr: 'Le manganèse a été reconnu pour la première fois comme un élément par Carl Wilhelm Scheele en 1774. La même année, Johan Gottlieb Gahn a été le premier à isoler l\'élément.',
+        pt: 'O manganês foi reconhecido pela primeira vez como um elemento por Carl Wilhelm Scheele em 1774. No mesmo ano, Johan Gottlieb Gahn foi o primeiro a isolar o elemento.',
+        ja: 'マンガンは1774年にカール・ヴィルヘルム・シェーレによって初めて元素として認識されました。同年、ヨハン・ゴットリーブ・ガーンが初めてこの元素を単離しました。'
+    }
   },
   {
     atomicNumber: 26,
@@ -596,6 +846,16 @@ export const elements: ElementData[] = [
     xpos: 8,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'lustrous metallic with a grayish tinge',
+    history: {
+        en: 'Iron has been in use since antiquity. The symbol Fe comes from the Latin word "ferrum". Iron is the most common element on Earth by mass, forming much of Earth\'s outer and inner core.',
+        es: 'El hierro se ha utilizado desde la antigüedad. El símbolo Fe proviene de la palabra latina "ferrum". El hierro es el elemento más común en la Tierra por masa, formando gran parte del núcleo externo e interno de la Tierra.',
+        fr: 'Le fer est utilisé depuis l\'antiquité. Le symbole Fe vient du mot latin « ferrum ». Le fer est l\'élément le plus courant sur Terre en masse, formant une grande partie du noyau externe et interne de la Terre.',
+        pt: 'O ferro está em uso desde a antiguidade. O símbolo Fe vem da palavra latina "ferrum". O ferro é o elemento mais comum na Terra em massa, formando grande parte do núcleo externo e interno da Terra.',
+        ja: '鉄は古くから使用されています。記号Feはラテン語の「ferrum」に由来します。鉄は質量で地球上で最も一般的な元素であり、地球の外核と内核の多くを形成しています。'
+    }
   },
   {
     atomicNumber: 27,
@@ -615,6 +875,16 @@ export const elements: ElementData[] = [
     xpos: 9,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Georg Brandt',
+    named_by: null,
+    appearance: 'hard, lustrous, silver-gray metal',
+    history: {
+        en: 'Discovered by Georg Brandt in 1735 in Sweden. The name comes from the German "kobold", meaning "goblin ore", a name given by miners who found the ore difficult to smelt.',
+        es: 'Descubierto por Georg Brandt en 1735 en Suecia. El nombre proviene del alemán "kobold", que significa "mineral de duende", un nombre dado por los mineros que encontraron el mineral difícil de fundir.',
+        fr: 'Découvert par Georg Brandt en 1735 en Suède. Le nom vient de l\'allemand « kobold », qui signifie « minerai de gobelin », un nom donné par les mineurs qui trouvaient le minerai difficile à fondre.',
+        pt: 'Descoberto por Georg Brandt em 1735 na Suécia. O nome vem do alemão "kobold", que significa "minério de duende", um nome dado por mineiros que achavam o minério difícil de fundir.',
+        ja: '1735年にスウェーデンのゲオルク・ブラントによって発見されました。この名前は、ドイツ語で「ゴブリン鉱石」を意味する「コボルト」に由来します。これは、鉱石を製錬するのが難しいと感じた鉱夫によって付けられた名前です。'
+    }
   },
   {
     atomicNumber: 28,
@@ -634,6 +904,16 @@ export const elements: ElementData[] = [
     xpos: 10,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Axel Fredrik Cronstedt',
+    named_by: null,
+    appearance: 'lustrous, metallic, and silver with a gold tinge',
+    history: {
+        en: 'Discovered by Axel Fredrik Cronstedt in 1751 in the mineral niccolite. The name comes from the German "kupfernickel", meaning "devil\'s copper" or "St. Nicholas\'s copper".',
+        es: 'Descubierto por Axel Fredrik Cronstedt en 1751 en el mineral nicolita. El nombre proviene del alemán "kupfernickel", que significa "cobre del diablo" o "cobre de San Nicolás".',
+        fr: 'Découvert par Axel Fredrik Cronstedt en 1751 dans le minéral niccolite. Le nom vient de l\'allemand « kupfernickel », qui signifie « cuivre du diable » ou « cuivre de Saint-Nicolas ».',
+        pt: 'Descoberto por Axel Fredrik Cronstedt em 1751 no mineral nicolita. O nome vem do alemão "kupfernickel", que significa "cobre do diabo" ou "cobre de São Nicolau".',
+        ja: '1751年にアクセル・フレドリック・クロンステットによって紅ヒ鉄鉱から発見されました。名前はドイツ語の「クプファーニッケル」に由来し、「悪魔の銅」または「聖ニコラスの銅」を意味します。'
+    }
   },
   {
     atomicNumber: 29,
@@ -653,6 +933,16 @@ export const elements: ElementData[] = [
     xpos: 11,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'red-orange metallic lustre',
+    history: {
+        en: 'Copper has been used by humans for at least 10,000 years. The symbol Cu is from the Latin "cuprum", which means "metal of Cyprus", as Cyprus was a major source of copper.',
+        es: 'El cobre ha sido utilizado por los humanos durante al menos 10.000 años. El símbolo Cu proviene del latín "cuprum", que significa "metal de Chipre", ya que Chipre era una fuente principal de cobre.',
+        fr: 'Le cuivre est utilisé par l\'homme depuis au moins 10 000 ans. Le symbole Cu vient du latin « cuprum », qui signifie « métal de Chypre », car Chypre était une source majeure de cuivre.',
+        pt: 'O cobre tem sido usado por humanos há pelo menos 10.000 anos. O símbolo Cu vem do latim "cuprum", que significa "metal de Chipre", pois Chipre era uma importante fonte de cobre.',
+        ja: '銅は少なくとも1万年前から人類によって使用されてきました。記号Cuは、キプロスが銅の主要な供給源であったため、「キプロスの金属」を意味するラテン語の「cuprum」に由来します。'
+    }
   },
   {
     atomicNumber: 30,
@@ -672,6 +962,16 @@ export const elements: ElementData[] = [
     xpos: 12,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Andreas Sigismund Marggraf',
+    named_by: 'Paracelsus',
+    appearance: 'silver-gray',
+    history: {
+        en: 'Zinc ores were used for making brass long before the element was discovered. It was recognized as a metal by Andreas Sigismund Marggraf in 1746. The name is thought to come from the German "zinke", meaning "tooth-like, pointed".',
+        es: 'Los minerales de zinc se usaron para hacer latón mucho antes de que se descubriera el elemento. Fue reconocido como un metal por Andreas Sigismund Marggraf en 1746. Se cree que el nombre proviene del alemán "zinke", que significa "similar a un diente, puntiagudo".',
+        fr: 'Les minerais de zinc étaient utilisés pour fabriquer du laiton bien avant la découverte de l\'élément. Il a été reconnu comme un métal par Andreas Sigismund Marggraf en 1746. Le nom proviendrait de l\'allemand « zinke », qui signifie « en forme de dent, pointu ».',
+        pt: 'Os minérios de zinco eram usados ​​para fazer latão muito antes de o elemento ser descoberto. Foi reconhecido como um metal por Andreas Sigismund Marggraf em 1746. Pensa-se que o nome venha do alemão "zinke", que significa "semelhante a um dente, pontudo".',
+        ja: '亜鉛鉱石は、この元素が発見されるずっと前から真鍮の製造に使用されていました。1746年にアンドレアス・ジギスムント・マルクグラーフによって金属として認識されました。名前は、「歯のような、尖った」を意味するドイツ語の「zinke」に由来すると考えられています。'
+    }
   },
   {
     atomicNumber: 31,
@@ -691,6 +991,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Paul-Émile Lecoq de Boisbaudran',
+    named_by: null,
+    appearance: 'silvery-blue',
+    history: {
+        en: 'Predicted by Dmitri Mendeleev in 1871 and discovered by French chemist Paul-Émile Lecoq de Boisbaudran in 1875. Its name comes from "Gallia", Latin for France, and also from "gallus", Latin for "le coq" (the rooster), a pun on his name.',
+        es: 'Predicho por Dmitri Mendeléyev en 1871 y descubierto por el químico francés Paul-Émile Lecoq de Boisbaudran en 1875. Su nombre proviene de "Gallia", latín para Francia, y también de "gallus", latín para "le coq" (el gallo), un juego de palabras con su nombre.',
+        fr: 'Prédit par Dmitri Mendeleïev en 1871 et découvert par le chimiste français Paul-Émile Lecoq de Boisbaudran en 1875. Son nom vient de « Gallia », latin pour France, et aussi de « gallus », latin pour « le coq », un jeu de mots sur son nom.',
+        pt: 'Previsto por Dmitri Mendeleev em 1871 e descoberto pelo químico francês Paul-Émile Lecoq de Boisbaudran em 1875. Seu nome vem de "Gallia", latim para França, e também de "gallus", latim para "le coq" (o galo), um trocadilho com seu nome.',
+        ja: '1871年にドミトリ・メンデレーエフによって予測され、1875年にフランスの化学者ポール＝エミール・ルコック・ド・ボアボードランによって発見されました。その名前はフランスのラテン語「ガリア」に由来し、また彼の名前のしゃれである「le coq」（雄鶏）を意味するラテン語「gallus」にも由来します。'
+    }
   },
   {
     atomicNumber: 32,
@@ -710,6 +1020,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Clemens Winkler',
+    named_by: null,
+    appearance: 'grayish-white',
+    history: {
+        en: 'Its existence was predicted by Dmitri Mendeleev in 1869. It was discovered by Clemens Winkler in 1886. The element was named after Winkler\'s country, Germany.',
+        es: 'Su existencia fue predicha por Dmitri Mendeléyev en 1869. Fue descubierto por Clemens Winkler en 1886. El elemento recibió el nombre del país de Winkler, Alemania.',
+        fr: 'Son existence a été prédite par Dmitri Mendeleïev en 1869. Il a été découvert par Clemens Winkler en 1886. L\'élément a été nommé d\'après le pays de Winkler, l\'Allemagne.',
+        pt: 'Sua existência foi prevista por Dmitri Mendeleev em 1869. Foi descoberto por Clemens Winkler em 1886. O elemento foi nomeado em homenagem ao país de Winkler, a Alemanha.',
+        ja: 'その存在は1869年にドミトリ・メンデレーエフによって予測されました。1886年にクレメンス・ヴィンクラーによって発見されました。この元素はヴィンクラーの国、ドイツにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 33,
@@ -729,6 +1049,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Albertus Magnus',
+    named_by: null,
+    appearance: 'metallic grey',
+    history: {
+        en: 'Arsenic and its compounds were known to the ancients. It is believed that Albertus Magnus obtained the free element in 1250. The name comes from the Greek "arsenikon", meaning "yellow orpiment".',
+        es: 'El arsénico y sus compuestos eran conocidos por los antiguos. Se cree que Alberto Magno obtuvo el elemento libre en 1250. El nombre proviene del griego "arsenikon", que significa "oropimente amarillo".',
+        fr: 'L\'arsenic et ses composés étaient connus des anciens. On pense qu\'Albert le Grand a obtenu l\'élément libre en 1250. Le nom vient du grec « arsenikon », qui signifie « orpiment jaune ».',
+        pt: 'O arsênio e seus compostos eram conhecidos pelos antigos. Acredita-se que Alberto Magno obteve o elemento livre em 1250. O nome vem do grego "arsenikon", que significa "ouropigmento amarelo".',
+        ja: 'ヒ素とその化合物は古くから知られていました。1250年にアルベルトゥス・マグヌスが遊離元素を得たと信じられています。名前はギリシャ語で「黄色い雄黄」を意味する「アルセニコン」に由来します。'
+    }
   },
   {
     atomicNumber: 34,
@@ -748,6 +1078,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 4,
     phase: 'Solid',
+    discovered_by: 'Jöns Jacob Berzelius',
+    named_by: null,
+    appearance: 'black, red, and gray (not pictured) allotropes',
+    history: {
+        en: 'Discovered in 1817 by Jöns Jacob Berzelius, who found the element associated with tellurium (named for the Earth), so he named it after "selene", the Greek word for the Moon.',
+        es: 'Descubierto en 1817 por Jöns Jacob Berzelius, quien encontró el elemento asociado con el telurio (nombrado por la Tierra), por lo que lo nombró en honor a "selene", la palabra griega para la Luna.',
+        fr: 'Découvert en 1817 par Jöns Jacob Berzelius, qui a trouvé l\'élément associé au tellure (nommé d\'après la Terre), il l\'a donc nommé d\'après « selene », le mot grec pour la Lune.',
+        pt: 'Descoberto em 1817 por Jöns Jacob Berzelius, que encontrou o elemento associado ao telúrio (nomeado em homenagem à Terra), então ele o nomeou em homenagem a "selene", a palavra grega para a Lua.',
+        ja: '1817年にイェンス・ヤコブ・ベルセリウスによって発見され、地球にちなんで名付けられたテルルに関連する元素を発見したため、月のギリシャ語である「セレーネ」にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 35,
@@ -767,6 +1107,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 4,
     phase: 'Liquid',
+    discovered_by: 'Antoine Jérôme Balard & Carl Jacob Löwig',
+    named_by: null,
+    appearance: 'reddish-brown liquid',
+    history: {
+        en: 'Discovered independently by two chemists, Carl Jacob Löwig and Antoine Balard, in 1825 and 1826. Its name is derived from the Greek "bromos", meaning "stench", referring to its sharp and unpleasant smell.',
+        es: 'Descubierto de forma independiente por dos químicos, Carl Jacob Löwig y Antoine Balard, en 1825 y 1826. Su nombre se deriva del griego "bromos", que significa "hedor", en referencia a su olor agudo y desagradable.',
+        fr: 'Découvert indépendamment par deux chimistes, Carl Jacob Löwig et Antoine Balard, en 1825 et 1826. Son nom est dérivé du grec « bromos », qui signifie « puanteur », en référence à son odeur forte et désagréable.',
+        pt: 'Descoberto independentemente por dois químicos, Carl Jacob Löwig e Antoine Balard, em 1825 e 1826. Seu nome é derivado do grego "bromos", que significa "mau cheiro", referindo-se ao seu cheiro forte e desagradável.',
+        ja: '1825年と1826年に、2人の化学者、カール・ヤコブ・レーヴィッヒとアントワーヌ・バラールによって独立して発見されました。その名前は、その鋭く不快な臭いを指す、「悪臭」を意味するギリシャ語の「ブロモス」に由来します。'
+    }
   },
   {
     atomicNumber: 36,
@@ -786,6 +1136,16 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 4,
     phase: 'Gas',
+    discovered_by: 'William Ramsay & Morris Travers',
+    named_by: null,
+    appearance: 'colorless gas, exhibiting a whitish glow in a high electric field',
+    history: {
+        en: 'Discovered in 1898 by Sir William Ramsay and Morris Travers in the residue left from evaporating nearly all components of liquid air. Its name comes from the Greek "kryptos", meaning "the hidden one".',
+        es: 'Descubierto en 1898 por Sir William Ramsay y Morris Travers en el residuo que queda de la evaporación de casi todos los componentes del aire líquido. Su nombre proviene del griego "kryptos", que significa "el oculto".',
+        fr: 'Découvert en 1898 par Sir William Ramsay et Morris Travers dans le résidu laissé par l\'évaporation de presque tous les composants de l\'air liquide. Son nom vient du grec « kryptos », qui signifie « le caché ».',
+        pt: 'Descoberto em 1898 por Sir William Ramsay e Morris Travers no resíduo deixado pela evaporação de quase todos os componentes do ar líquido. Seu nome vem do grego "kryptos", que significa "o oculto".',
+        ja: '1898年にウィリアм・ラムゼー卿とモリス・トラバースによって、液体空気のほぼすべての成分を蒸発させた後に残った残留物から発見されました。その名前は、ギリシャ語で「隠されたもの」を意味する「クリプトス」に由来します。'
+    }
   },
   {
     atomicNumber: 37,
@@ -805,6 +1165,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Robert Bunsen & Gustav Kirchhoff',
+    named_by: null,
+    appearance: 'grey-white',
+    history: {
+        en: 'Discovered in 1861 by Robert Bunsen and Gustav Kirchhoff using a spectroscope. Its name comes from the Latin "rubidus", meaning "deep red", the color of its emission spectrum.',
+        es: 'Descubierto en 1861 por Robert Bunsen y Gustav Kirchhoff utilizando un espectroscopio. Su nombre proviene del latín "rubidus", que significa "rojo oscuro", el color de su espectro de emisión.',
+        fr: 'Découvert en 1861 par Robert Bunsen et Gustav Kirchhoff à l\'aide d\'un spectroscope. Son nom vient du latin « rubidus », qui signifie « rouge foncé », la couleur de son spectre d\'émission.',
+        pt: 'Descoberto em 1861 por Robert Bunsen e Gustav Kirchhoff usando um espectroscópio. Seu nome vem do latim "rubidus", que significa "vermelho profundo", a cor de seu espectro de emissão.',
+        ja: '1861年にロベルト・ブンゼンとグスタフ・キルヒホッフによって分光器を使用して発見されました。その名前は、その発光スペクトルの色である、「濃い赤」を意味するラテン語の「rubidus」に由来します。'
+    }
   },
   {
     atomicNumber: 38,
@@ -824,6 +1194,16 @@ export const elements: ElementData[] = [
     xpos: 2,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'William Cruickshank & Adair Crawford',
+    named_by: 'Humphry Davy',
+    appearance: 'silvery-white metallic',
+    history: {
+        en: 'Discovered in 1790 by Adair Crawford and William Cruickshank in a mineral from a lead mine in the village of Strontian, Scotland. It was isolated by Sir Humphry Davy in 1808.',
+        es: 'Descubierto en 1790 por Adair Crawford y William Cruickshank en un mineral de una mina de plomo en el pueblo de Strontian, Escocia. Fue aislado por Sir Humphry Davy en 1808.',
+        fr: 'Découvert en 1790 par Adair Crawford et William Cruickshank dans un minéral d\'une mine de plomb du village de Strontian, en Écosse. Il a été isolé par Sir Humphry Davy en 1808.',
+        pt: 'Descoberto em 1790 por Adair Crawford e William Cruickshank em um mineral de uma mina de chumbo na vila de Strontian, Escócia. Foi isolado por Sir Humphry Davy em 1808.',
+        ja: '1790年にスコットランドのストロンチアン村の鉛鉱山からの鉱物で、アデア・クロフォードとウィリアム・クルックシャンクによって発見されました。1808年にハンフリー・デービー卿によって単離されました。'
+    }
   },
   {
     atomicNumber: 39,
@@ -843,6 +1223,16 @@ export const elements: ElementData[] = [
     xpos: 3,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Johan Gadolin',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Johan Gadolin in 1794 in a mineral from Ytterby in Sweden. The village of Ytterby is the source of four elements\' names: yttrium, erbium, terbium, and ytterbium.',
+        es: 'Descubierto por Johan Gadolin en 1794 en un mineral de Ytterby en Suecia. El pueblo de Ytterby es la fuente de los nombres de cuatro elementos: itrio, erbio, terbio e iterbio.',
+        fr: 'Découvert par Johan Gadolin en 1794 dans un minéral d\'Ytterby en Suède. Le village d\'Ytterby est la source des noms de quatre éléments : yttrium, erbium, terbium et ytterbium.',
+        pt: 'Descoberto por Johan Gadolin em 1794 em um mineral de Ytterby na Suécia. A vila de Ytterby é a fonte dos nomes de quatro elementos: ítrio, érbio, térbio e itérbio.',
+        ja: '1794年にスウェーデンのイッテルビー産の鉱物でヨハン・ガドリンによって発見されました。イッテルビー村は、イットリウム、エルビウム、テルビウム、イッテルビウムの4つの元素の名前の由来です。'
+    }
   },
   {
     atomicNumber: 40,
@@ -862,6 +1252,16 @@ export const elements: ElementData[] = [
     xpos: 4,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Martin Heinrich Klaproth',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Martin Heinrich Klaproth in 1789 in Berlin. The name is derived from the Persian "zargun", meaning "gold-like".',
+        es: 'Descubierto por Martin Heinrich Klaproth en 1789 en Berlín. El nombre se deriva del persa "zargun", que significa "similar al oro".',
+        fr: 'Découvert par Martin Heinrich Klaproth en 1789 à Berlin. Le nom est dérivé du persan « zargun », qui signifie « semblable à de l\'or ».',
+        pt: 'Descoberto por Martin Heinrich Klaproth em 1789 em Berlim. O nome é derivado do persa "zargun", que significa "semelhante a ouro".',
+        ja: '1789年にベルリンでマルティン・ハインリヒ・クラプロートによって発見されました。名前はペルシャ語で「金のような」を意味する「ザルグン」に由来します。'
+    }
   },
   {
     atomicNumber: 41,
@@ -881,6 +1281,16 @@ export const elements: ElementData[] = [
     xpos: 5,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Charles Hatchett',
+    named_by: null,
+    appearance: 'gray metallic, bluish when oxidized',
+    history: {
+        en: 'Discovered by Charles Hatchett in 1801. He named it columbium. In 1846, Heinrich Rose determined it was identical to tantalum and named it niobium, after Niobe, the daughter of Tantalus in Greek mythology.',
+        es: 'Descubierto por Charles Hatchett en 1801. Lo llamó columbio. En 1846, Heinrich Rose determinó que era idéntico al tantalio y lo llamó niobio, en honor a Níobe, la hija de Tántalo en la mitología griega.',
+        fr: 'Découvert par Charles Hatchett en 1801. Il l\'a nommé columbium. En 1846, Heinrich Rose a déterminé qu\'il était identique au tantale et l\'a nommé niobium, d\'après Niobé, la fille de Tantale dans la mythologie grecque.',
+        pt: 'Descoberto por Charles Hatchett em 1801. Ele o chamou de colúmbio. Em 1846, Heinrich Rose determinou que era idêntico ao tântalo e o chamou de nióbio, em homenagem a Níobe, a filha de Tântalo na mitologia grega.',
+        ja: '1801年にチャールズ・ハチェットによって発見されました。彼はそれをコロンビウムと名付けました。1846年、ハインリヒ・ローゼはそれがタンタルと同一であると判断し、ギリシャ神話のタンタロスの娘であるニオベにちなんでニオブと名付けました。'
+    }
   },
   {
     atomicNumber: 42,
@@ -900,6 +1310,16 @@ export const elements: ElementData[] = [
     xpos: 6,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Carl Wilhelm Scheele',
+    named_by: null,
+    appearance: 'gray metallic',
+    history: {
+        en: 'Molybdenum was identified as a new element in 1778 by Carl Wilhelm Scheele. It was first isolated by Peter Jacob Hjelm in 1781. The name comes from the Greek "molybdos", meaning "lead".',
+        es: 'El molibdeno fue identificado como un nuevo elemento en 1778 por Carl Wilhelm Scheele. Fue aislado por primera vez por Peter Jacob Hjelm en 1781. El nombre proviene del griego "molybdos", que significa "plomo".',
+        fr: 'Le molybdène a été identifié comme un nouvel élément en 1778 par Carl Wilhelm Scheele. Il a été isolé pour la première fois par Peter Jacob Hjelm en 1781. Le nom vient du grec « molybdos », qui signifie « plomb ».',
+        pt: 'O molibdênio foi identificado como um novo elemento em 1778 por Carl Wilhelm Scheele. Foi isolado pela primeira vez por Peter Jacob Hjelm em 1781. O nome vem do grego "molybdos", que significa "chumbo".',
+        ja: 'モリブデンは、1778年にカール・ヴィルヘルム・シェーレによって新しい元素として特定されました。1781年にペーター・ヤコブ・イェルムによって初めて単離されました。名前はギリシャ語で「鉛」を意味する「モリブドス」に由来します。'
+    }
   },
   {
     atomicNumber: 43,
@@ -919,6 +1339,16 @@ export const elements: ElementData[] = [
     xpos: 7,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Carlo Perrier & Emilio Segrè',
+    named_by: null,
+    appearance: 'shiny-gray metal',
+    history: {
+        en: 'Discovered by Carlo Perrier and Emilio Segrè in 1937. It was the first element to be produced artificially. Its name comes from the Greek "technetos", meaning "artificial".',
+        es: 'Descubierto por Carlo Perrier y Emilio Segrè en 1937. Fue el primer elemento que se produjo artificialmente. Su nombre proviene del griego "technetos", que significa "artificial".',
+        fr: 'Découvert par Carlo Perrier et Emilio Segrè en 1937. Ce fut le premier élément à être produit artificiellement. Son nom vient du grec « technetos », qui signifie « artificiel ».',
+        pt: 'Descoberto por Carlo Perrier e Emilio Segrè em 1937. Foi o primeiro elemento a ser produzido artificialmente. Seu nome vem do grego "technetos", que significa "artificial".',
+        ja: '1937年にカルロ・ペリエとエミリオ・セグレによって発見されました。人工的に製造された最初の元素でした。その名前はギリシャ語で「人工的な」を意味する「テクネトス」に由来します。'
+    }
   },
   {
     atomicNumber: 44,
@@ -938,6 +1368,16 @@ export const elements: ElementData[] = [
     xpos: 8,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Karl Ernst Claus',
+    named_by: null,
+    appearance: 'silvery-white metallic',
+    history: {
+        en: 'Discovered by Karl Ernst Claus in 1844 in Kazan, Russia. He named it Ruthenium in honor of his homeland, as "Ruthenia" is the Latin word for Rus\' (an early medieval state).',
+        es: 'Descubierto por Karl Ernst Claus en 1844 en Kazán, Rusia. Lo llamó Rutenio en honor a su patria, ya que "Ruthenia" es la palabra latina para Rus\' (un estado medieval temprano).',
+        fr: 'Découvert par Karl Ernst Claus en 1844 à Kazan, en Russie. Il l\'a nommé Ruthénium en l\'honneur de sa patrie, car « Ruthenia » est le mot latin pour Rus\' (un État du début du Moyen Âge).',
+        pt: 'Descoberto por Karl Ernst Claus em 1844 em Kazan, Rússia. Ele o chamou de Rutênio em homenagem à sua pátria, pois "Ruthenia" é a palavra latina para Rus\' (um estado medieval primitivo).',
+        ja: '1844年にロシアのカザンでカール・エルンスト・クラウスによって発見されました。「Ruthenia」はルーシ（初期の中世国家）のラテン語であるため、彼は故郷に敬意を表してルテニウムと名付けました。'
+    }
   },
   {
     atomicNumber: 45,
@@ -957,6 +1397,16 @@ export const elements: ElementData[] = [
     xpos: 9,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'William Hyde Wollaston',
+    named_by: null,
+    appearance: 'silvery-white metallic',
+    history: {
+        en: 'Discovered in 1803 by William Hyde Wollaston, soon after his discovery of palladium. He named it from the Greek "rhodon" meaning "rose", because of the rose color of one of its chlorine compounds.',
+        es: 'Descubierto en 1803 por William Hyde Wollaston, poco después de su descubrimiento del paladio. Lo nombró del griego "rhodon" que significa "rosa", debido al color rosa de uno de sus compuestos de cloro.',
+        fr: 'Découvert en 1803 par William Hyde Wollaston, peu après sa découverte du palladium. Il l\'a nommé du grec « rhodon » signifiant « rose », en raison de la couleur rose de l\'un de ses composés de chlore.',
+        pt: 'Descoberto em 1803 por William Hyde Wollaston, logo após sua descoberta do paládio. Ele o nomeou do grego "rhodon" que significa "rosa", por causa da cor rosa de um de seus compostos de cloro.',
+        ja: '1803年にウィリアм・ハイド・ウォラストンによって、パラジウムの発見直後に発見されました。彼は、その塩素化合物の1つのバラ色にちなんで、ギリシャ語で「バラ」を意味する「ロドン」からそれを名付けました。'
+    }
   },
   {
     atomicNumber: 46,
@@ -976,6 +1426,16 @@ export const elements: ElementData[] = [
     xpos: 10,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'William Hyde Wollaston',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1803 by William Hyde Wollaston. It is named after the asteroid Pallas, which was discovered two years earlier and named after the epithet of the Greek goddess Athena, Pallas.',
+        es: 'Descubierto en 1803 por William Hyde Wollaston. Lleva el nombre del asteroide Pallas, que fue descubierto dos años antes y nombrado en honor al epíteto de la diosa griega Atenea, Palas.',
+        fr: 'Découvert en 1803 par William Hyde Wollaston. Il est nommé d\'après l\'astéroïde Pallas, qui a été découvert deux ans plus tôt et nommé d\'après l\'épithète de la déesse grecque Athéna, Pallas.',
+        pt: 'Descoberto em 1803 por William Hyde Wollaston. É nomeado em homenagem ao asteroide Pallas, que foi descoberto dois anos antes e nomeado em homenagem ao epíteto da deusa grega Atena, Pallas.',
+        ja: '1803年にウィリアм・ハイド・ウォラストンによって発見されました。2年前に発見され、ギリシャの女神アテナの異名であるパラスにちなんで名付けられた小惑星パラスにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 47,
@@ -995,6 +1455,16 @@ export const elements: ElementData[] = [
     xpos: 11,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'lustrous white metal',
+    history: {
+        en: 'Silver has been known since ancient times. The symbol Ag is from the Latin "argentum", derived from the Proto-Indo-European root *h₂erǵ-, meaning "white" or "shining".',
+        es: 'La plata se conoce desde la antigüedad. El símbolo Ag proviene del latín "argentum", derivado de la raíz protoindoeuropea *h₂erǵ-, que significa "blanco" o "brillante".',
+        fr: 'L\'argent est connu depuis l\'antiquité. Le symbole Ag vient du latin « argentum », dérivé de la racine proto-indo-européenne *h₂erǵ-, qui signifie « blanc » ou « brillant ».',
+        pt: 'A prata é conhecida desde os tempos antigos. O símbolo Ag vem do latim "argentum", derivado da raiz proto-indo-européia *h₂erǵ-, que significa "branco" ou "brilhante".',
+        ja: '銀は古くから知られています。記号Agは、プロト・インド・ヨーロッパ祖語の「白い」または「輝く」を意味する*h₂erǵ-に由来するラテン語の「argentum」に由来します。'
+    }
   },
   {
     atomicNumber: 48,
@@ -1014,6 +1484,16 @@ export const elements: ElementData[] = [
     xpos: 12,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Karl Samuel Leberecht Hermann & Friedrich Stromeyer',
+    named_by: null,
+    appearance: 'silvery-bluish-gray metallic',
+    history: {
+        en: 'Discovered independently in 1817 by Friedrich Stromeyer and Karl Samuel Leberecht Hermann. It is named from the Latin "cadmia", meaning "calamine" (zinc carbonate), with which it was found.',
+        es: 'Descubierto de forma independiente en 1817 por Friedrich Stromeyer y Karl Samuel Leberecht Hermann. Su nombre proviene del latín "cadmia", que significa "calamina" (carbonato de zinc), con la que se encontró.',
+        fr: 'Découvert indépendamment en 1817 par Friedrich Stromeyer et Karl Samuel Leberecht Hermann. Il tire son nom du latin « cadmia », qui signifie « calamine » (carbonate de zinc), avec laquelle il a été trouvé.',
+        pt: 'Descoberto independentemente em 1817 por Friedrich Stromeyer e Karl Samuel Leberecht Hermann. É nomeado do latim "cadmia", que significa "calamina" (carbonato de zinco), com o qual foi encontrado.',
+        ja: '1817年にフリードリヒ・シュトロマイヤーとカール・ザムエル・レベレヒト・ヘルマンによって独立して発見されました。ラテン語で「カラミン」（炭酸亜鉛）を意味する「カドミア」にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 49,
@@ -1033,6 +1513,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Ferdinand Reich & Hieronymus Theodor Richter',
+    named_by: null,
+    appearance: 'silvery-lustrous-grayish',
+    history: {
+        en: 'Discovered by Ferdinand Reich and Hieronymus Theodor Richter in 1863. They named it indium from the indigo-blue line in its spectrum.',
+        es: 'Descubierto por Ferdinand Reich y Hieronymus Theodor Richter en 1863. Lo llamaron indio por la línea de color azul índigo en su espectro.',
+        fr: 'Découvert par Ferdinand Reich et Hieronymus Theodor Richter en 1863. Ils l\'ont nommé indium d\'après la ligne bleu indigo de son spectre.',
+        pt: 'Descoberto por Ferdinand Reich e Hieronymus Theodor Richter em 1863. Eles o nomearam índio a partir da linha azul-índigo em seu espectro.',
+        ja: '1863年にフェルディナント・ライヒとヒエロニムス・テオドール・リヒターによって発見されました。彼らはそのスペクトル中のインディゴブルーの線からインジウムと名付けました。'
+    }
   },
   {
     atomicNumber: 50,
@@ -1052,6 +1542,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'silvery-white (beta) or gray (alpha)',
+    history: {
+        en: 'Tin has been known since ancient times. The symbol Sn is from the Latin "stannum".',
+        es: 'El estaño se conoce desde la antigüedad. El símbolo Sn proviene del latín "stannum".',
+        fr: 'L\'étain est connu depuis l\'antiquité. Le symbole Sn vient du latin « stannum ».',
+        pt: 'O estanho é conhecido desde os tempos antigos. O símbolo Sn vem do latim "stannum".',
+        ja: 'スズは古くから知られています。記号Snはラテン語の「stannum」に由来します。'
+    }
   },
   {
     atomicNumber: 51,
@@ -1071,6 +1571,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'silvery-lustrous-gray',
+    history: {
+        en: 'Antimony and its compounds were known to the ancients. The symbol Sb is from the Latin "stibium".',
+        es: 'El antimonio y sus compuestos eran conocidos por los antiguos. El símbolo Sb proviene del latín "stibium".',
+        fr: 'L\'antimoine et ses composés étaient connus des anciens. Le symbole Sb vient du latin « stibium ».',
+        pt: 'O antimônio e seus compostos eram conhecidos pelos antigos. O símbolo Sb vem do latim "stibium".',
+        ja: 'アンチモンとその化合物は古くから知られていました。記号Sbはラテン語の「stibium」に由来します。'
+    }
   },
   {
     atomicNumber: 52,
@@ -1090,6 +1600,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Franz-Joseph Müller von Reichenstein',
+    named_by: 'Martin Heinrich Klaproth',
+    appearance: 'silvery-lustrous-gray',
+    history: {
+        en: 'Discovered in 1782 by Franz-Joseph Müller von Reichenstein in Transylvania. It was named by Martin Heinrich Klaproth in 1798 after the Latin word for "earth", tellus.',
+        es: 'Descubierto en 1782 por Franz-Joseph Müller von Reichenstein en Transilvania. Fue nombrado por Martin Heinrich Klaproth en 1798 en honor a la palabra latina para "tierra", tellus.',
+        fr: 'Découvert en 1782 par Franz-Joseph Müller von Reichenstein en Transylvanie. Il a été nommé par Martin Heinrich Klaproth en 1798 d\'après le mot latin pour « terre », tellus.',
+        pt: 'Descoberto em 1782 por Franz-Joseph Müller von Reichenstein na Transilvânia. Foi nomeado por Martin Heinrich Klaproth em 1798 em homenagem à palavra latina para "terra", tellus.',
+        ja: '1782年にトランシルヴァニアでフランツ・ヨーゼフ・ミュラー・フォン・ライヒェンシュタインによって発見されました。1798年にマルティン・ハインリヒ・クラプロートによって、「地球」を意味するラテン語「tellus」にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 53,
@@ -1109,6 +1629,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 5,
     phase: 'Solid',
+    discovered_by: 'Bernard Courtois',
+    named_by: null,
+    appearance: 'lustrous metallic gray, violet as a gas',
+    history: {
+        en: 'Discovered by French chemist Bernard Courtois in 1811. Its name is from the Greek "iodes", meaning "violet", from the color of its vapor.',
+        es: 'Descubierto por el químico francés Bernard Courtois en 1811. Su nombre proviene del griego "iodes", que significa "violeta", por el color de su vapor.',
+        fr: 'Découvert par le chimiste français Bernard Courtois en 1811. Son nom vient du grec « iodes », qui signifie « violet », de la couleur de sa vapeur.',
+        pt: 'Descoberto pelo químico francês Bernard Courtois em 1811. Seu nome vem do grego "iodes", que significa "violeta", da cor de seu vapor.',
+        ja: '1811年にフランスの化学者ベルナール・クルトワによって発見されました。その名前は、その蒸気の色から、「すみれ色」を意味するギリシャ語の「iodes」に由来します。'
+    }
   },
   {
     atomicNumber: 54,
@@ -1128,6 +1658,16 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 5,
     phase: 'Gas',
+    discovered_by: 'William Ramsay & Morris Travers',
+    named_by: null,
+    appearance: 'colorless gas, exhibiting a blue glow when placed in a high voltage electric field',
+    history: {
+        en: 'Discovered by William Ramsay and Morris Travers in 1898. Its name comes from the Greek "xenos", meaning "strange" or "foreign".',
+        es: 'Descubierto por William Ramsay y Morris Travers en 1898. Su nombre proviene del griego "xenos", que significa "extraño" o "extranjero".',
+        fr: 'Découvert par William Ramsay et Morris Travers en 1898. Son nom vient du grec « xenos », qui signifie « étrange » ou « étranger ».',
+        pt: 'Descoberto por William Ramsay e Morris Travers em 1898. Seu nome vem do grego "xenos", que significa "estranho" ou "estrangeiro".',
+        ja: '1898年にウィリアム・ラムゼーとモリス・トラバースによって発見されました。その名前はギリシャ語で「奇妙な」または「外国の」を意味する「ゼノス」に由来します。'
+    }
   },
   {
     atomicNumber: 55,
@@ -1147,6 +1687,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Robert Bunsen & Gustav Kirchhoff',
+    named_by: null,
+    appearance: 'silvery-gold',
+    history: {
+        en: 'Discovered in 1860 by Robert Bunsen and Gustav Kirchhoff by the spectroscopic analysis of mineral water. Its name comes from the Latin "caesius", meaning "sky-blue", from the blue lines in its spectrum.',
+        es: 'Descubierto en 1860 por Robert Bunsen y Gustav Kirchhoff mediante el análisis espectroscópico de agua mineral. Su nombre proviene del latín "caesius", que significa "azul cielo", por las líneas azules en su espectro.',
+        fr: 'Découvert en 1860 par Robert Bunsen et Gustav Kirchhoff par l\'analyse spectroscopique de l\'eau minérale. Son nom vient du latin « caesius », qui signifie « bleu ciel », des lignes bleues de son spectre.',
+        pt: 'Descoberto em 1860 por Robert Bunsen e Gustav Kirchhoff pela análise espectroscópica da água mineral. Seu nome vem do latim "caesius", que significa "azul-celeste", das linhas azuis em seu espectro.',
+        ja: '1860年にロベルト・ブンゼンとグスタフ・キルヒホッフによって鉱泉水の分光分析によって発見されました。その名前は、そのスペクトル中の青い線から、「空色」を意味するラテン語の「caesius」に由来します。'
+    }
   },
   {
     atomicNumber: 56,
@@ -1166,6 +1716,16 @@ export const elements: ElementData[] = [
     xpos: 2,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Carl Wilhelm Scheele',
+    named_by: 'Humphry Davy',
+    appearance: 'silvery-white',
+    history: {
+        en: 'Barium was first identified in 1774 by Carl Wilhelm Scheele. The pure element was isolated in 1808 by Sir Humphry Davy. Its name comes from the Greek "barys", meaning "heavy".',
+        es: 'El bario fue identificado por primera vez en 1774 por Carl Wilhelm Scheele. El elemento puro fue aislado en 1808 por Sir Humphry Davy. Su nombre proviene del griego "barys", que significa "pesado".',
+        fr: 'Le baryum a été identifié pour la première fois en 1774 par Carl Wilhelm Scheele. L\'élément pur a été isolé en 1808 par Sir Humphry Davy. Son nom vient du grec « barys », qui signifie « lourd ».',
+        pt: 'O bário foi identificado pela primeira vez em 1774 por Carl Wilhelm Scheele. O elemento puro foi isolado em 1808 por Sir Humphry Davy. Seu nome vem do grego "barys", que significa "pesado".',
+        ja: 'バリウムは1774年にカール・ヴィルヘルム・シェーレによって初めて特定されました。純粋な元素は1808年にハンフリー・デービー卿によって単離されました。その名前はギリシャ語で「重い」を意味する「バリス」に由来します。'
+    }
   },
   {
     atomicNumber: 57,
@@ -1185,6 +1745,16 @@ export const elements: ElementData[] = [
     xpos: 3,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Carl Gustaf Mosander',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1839 by Carl Gustaf Mosander. The name comes from the Greek "lanthanein", meaning "to lie hidden".',
+        es: 'Descubierto en 1839 por Carl Gustaf Mosander. El nombre proviene del griego "lanthanein", que significa "estar oculto".',
+        fr: 'Découvert en 1839 par Carl Gustaf Mosander. Le nom vient du grec « lanthanein », qui signifie « être caché ».',
+        pt: 'Descoberto em 1839 por Carl Gustaf Mosander. O nome vem do grego "lanthanein", que significa "ficar escondido".',
+        ja: '1839年にカール・グスタフ・モサンデルによって発見されました。名前はギリシャ語で「隠れている」を意味する「ランタネイン」に由来します。'
+    }
   },
   {
     atomicNumber: 58,
@@ -1204,6 +1774,16 @@ export const elements: ElementData[] = [
     xpos: 4,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Jöns Jacob Berzelius, Wilhelm Hisinger & Martin Klaproth',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1803 by Jöns Jacob Berzelius and Wilhelm Hisinger, and independently by Martin Klaproth. It is named after the dwarf planet Ceres, which was discovered in 1801.',
+        es: 'Descubierto en 1803 por Jöns Jacob Berzelius y Wilhelm Hisinger, e independientemente por Martin Klaproth. Lleva el nombre del planeta enano Ceres, que fue descubierto en 1801.',
+        fr: 'Découvert en 1803 par Jöns Jacob Berzelius et Wilhelm Hisinger, et indépendamment par Martin Klaproth. Il est nommé d\'après la planète naine Cérès, qui a été découverte en 1801.',
+        pt: 'Descoberto em 1803 por Jöns Jacob Berzelius e Wilhelm Hisinger, e independentemente por Martin Klaproth. É nomeado em homenagem ao planeta anão Ceres, que foi descoberto em 1801.',
+        ja: '1803年にイェンス・ヤコブ・ベルセリウスとヴィルヘルム・ヒージンガーによって、そして独立してマルティン・クラプロートによって発見されました。1801年に発見された準惑星セレスにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 59,
@@ -1223,6 +1803,16 @@ export const elements: ElementData[] = [
     xpos: 5,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Carl Gustaf Mosander',
+    named_by: 'Carl Auer von Welsbach',
+    appearance: 'silvery-white, yellowish',
+    history: {
+        en: 'First separated from didymium in 1885 by Carl Auer von Welsbach. The name comes from the Greek "prasios didymos" which means "green twin".',
+        es: 'Separado por primera vez del didimio en 1885 por Carl Auer von Welsbach. El nombre proviene del griego "prasios didymos" que significa "gemelo verde".',
+        fr: 'D\'abord séparé du didyme en 1885 par Carl Auer von Welsbach. Le nom vient du grec « prasios didymos » qui signifie « jumeau vert ».',
+        pt: 'Primeiro separado do didímio em 1885 por Carl Auer von Welsbach. O nome vem do grego "prasios didymos" que significa "gêmeo verde".',
+        ja: '1885年にカール・アウアー・フォン・ヴェルスバッハによってジジムから初めて分離されました。名前は「緑の双子」を意味するギリシャ語の「プラシオス・ディデュモス」に由来します。'
+    }
   },
   {
     atomicNumber: 60,
@@ -1242,6 +1832,16 @@ export const elements: ElementData[] = [
     xpos: 6,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Carl Auer von Welsbach',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Carl Auer von Welsbach in 1885. He separated it from didymium. The name is from the Greek "neos didymos", meaning "new twin".',
+        es: 'Descubierto por Carl Auer von Welsbach en 1885. Lo separó del didimio. El nombre proviene del griego "neos didymos", que significa "nuevo gemelo".',
+        fr: 'Découvert par Carl Auer von Welsbach en 1885. Il l\'a séparé du didyme. Le nom vient du grec « neos didymos », qui signifie « nouveau jumeau ».',
+        pt: 'Descoberto por Carl Auer von Welsbach em 1885. Ele o separou do didímio. O nome vem do grego "neos didymos", que significa "novo gêmeo".',
+        ja: '1885年にカール・アウアー・フォン・ヴェルスバッハによって発見されました。彼はそれをジジムから分離しました。名前はギリシャ語で「新しい双子」を意味する「ネオス・ディデュモス」に由来します。'
+    }
   },
   {
     atomicNumber: 61,
@@ -1261,6 +1861,16 @@ export const elements: ElementData[] = [
     xpos: 7,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Jacob A. Marinsky, Lawrence E. Glendenin & Charles D. Coryell',
+    named_by: 'Grace Mary Coryell',
+    appearance: 'metallic',
+    history: {
+        en: 'The existence of promethium was predicted by Bohuslav Brauner in 1902. It was first confirmed at Oak Ridge National Laboratory in 1945 by Jacob A. Marinsky, Lawrence E. Glendenin, and Charles D. Coryell. It is named after the Titan Prometheus.',
+        es: 'La existencia del prometio fue predicha por Bohuslav Brauner en 1902. Fue confirmado por primera vez en el Laboratorio Nacional de Oak Ridge en 1945 por Jacob A. Marinsky, Lawrence E. Glendenin y Charles D. Coryell. Lleva el nombre del Titán Prometeo.',
+        fr: 'L\'existence du prométhium a été prédite par Bohuslav Brauner en 1902. Elle a été confirmée pour la première fois au Laboratoire national d\'Oak Ridge en 1945 par Jacob A. Marinsky, Lawrence E. Glendenin et Charles D. Coryell. Il est nommé d\'après le Titan Prométhée.',
+        pt: 'A existência do promécio foi prevista por Bohuslav Brauner em 1902. Foi confirmado pela primeira vez no Laboratório Nacional de Oak Ridge em 1945 por Jacob A. Marinsky, Lawrence E. Glendenin e Charles D. Coryell. É nomeado em homenagem ao Titã Prometeu.',
+        ja: 'プロメチウムの存在は1902年にボフスラフ・ブラウナーによって予測されました。1945年にオークリッジ国立研究所でジェイコブ・A・マリンスキー、ローレンス・E・グレンデニン、チャールズ・D・コーリエルによって初めて確認されました。タイタンのプロメテウスにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 62,
@@ -1280,6 +1890,16 @@ export const elements: ElementData[] = [
     xpos: 8,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Paul-Émile Lecoq de Boisbaudran',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1879 by French chemist Paul-Émile Lecoq de Boisbaudran and named after the mineral samarskite, from which it was isolated. The mineral itself was earlier named after a Russian mine official, Colonel Vassili Samarsky-Bykhovets.',
+        es: 'Descubierto en 1879 por el químico francés Paul-Émile Lecoq de Boisbaudran y nombrado en honor al mineral samarskita, del que fue aislado. El mineral en sí fue nombrado anteriormente en honor a un funcionario minero ruso, el coronel Vassili Samarsky-Bykhovets.',
+        fr: 'Découvert en 1879 par le chimiste français Paul-Émile Lecoq de Boisbaudran et nommé d\'après le minéral samarskite, dont il a été isolé. Le minéral lui-même a été nommé plus tôt d\'après un fonctionnaire des mines russe, le colonel Vassili Samarsky-Bykhovets.',
+        pt: 'Descoberto em 1879 pelo químico francês Paul-Émile Lecoq de Boisbaudran e nomeado em homenagem ao mineral samarskita, do qual foi isolado. O próprio mineral foi anteriormente nomeado em homenagem a um oficial de minas russo, Coronel Vassili Samarsky-Bykhovets.',
+        ja: '1879年にフランスの化学者ポール＝エミール・ルコック・ド・ボアボードランによって発見され、単離されたサマルスカイト鉱物にちなんで名付けられました。鉱物自体は、以前にロシアの鉱山職員であるヴァシーリー・サマルスキー＝ビホヴェッツ大佐にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 63,
@@ -1299,6 +1919,16 @@ export const elements: ElementData[] = [
     xpos: 9,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Eugène-Anatole Demarçay',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'First isolated in 1901 by Eugène-Anatole Demarçay and is named after the continent of Europe.',
+        es: 'Aislado por primera vez en 1901 por Eugène-Anatole Demarçay y lleva el nombre del continente de Europa.',
+        fr: 'D\'abord isolé en 1901 par Eugène-Anatole Demarçay et est nommé d\'après le continent européen.',
+        pt: 'Isolado pela primeira vez em 1901 por Eugène-Anatole Demarçay e é nomeado em homenagem ao continente da Europa.',
+        ja: '1901年にウジェーヌ＝アナトール・ドマルセーによって初めて単離され、ヨーロッパ大陸にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 64,
@@ -1318,6 +1948,16 @@ export const elements: ElementData[] = [
     xpos: 10,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Jean Charles Galissard de Marignac',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1880 by Jean Charles Galissard de Marignac, who detected its spectroscopic lines. It is named after the mineral gadolinite, one of the minerals in which it was found, which in turn is named for chemist Johan Gadolin.',
+        es: 'Descubierto en 1880 por Jean Charles Galissard de Marignac, quien detectó sus líneas espectroscópicas. Lleva el nombre del mineral gadolinita, uno de los minerales en los que se encontró, que a su vez lleva el nombre del químico Johan Gadolin.',
+        fr: 'Découvert en 1880 par Jean Charles Galissard de Marignac, qui a détecté ses lignes spectroscopiques. Il est nommé d\'après le minéral gadolinite, l\'un des minéraux dans lesquels il a été trouvé, qui à son tour est nommé d\'après le chimiste Johan Gadolin.',
+        pt: 'Descoberto em 1880 por Jean Charles Galissard de Marignac, que detectou suas linhas espectroscópicas. É nomeado em homenagem ao mineral gadolinita, um dos minerais em que foi encontrado, que por sua vez é nomeado em homenagem ao químico Johan Gadolin.',
+        ja: '1880年にジャン・シャルル・ガリサール・ド・マリニャックによって発見され、彼はその分光線を検出しました。発見された鉱物の一つであるガドリン石にちなんで名付けられ、その鉱物自体は化学者ヨハン・ガドリンにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 65,
@@ -1337,6 +1977,16 @@ export const elements: ElementData[] = [
     xpos: 11,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Carl Gustaf Mosander',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Swedish chemist Carl Gustaf Mosander in 1843. He detected it as an impurity in yttria. It is named after the village of Ytterby in Sweden.',
+        es: 'Descubierto por el químico sueco Carl Gustaf Mosander en 1843. Lo detectó como una impureza en la itria. Lleva el nombre del pueblo de Ytterby en Suecia.',
+        fr: 'Découvert par le chimiste suédois Carl Gustaf Mosander en 1843. Il l\'a détecté comme une impureté dans l\'yttria. Il est nommé d\'après le village d\'Ytterby en Suède.',
+        pt: 'Descoberto pelo químico sueco Carl Gustaf Mosander em 1843. Ele o detectou como uma impureza na ítria. É nomeado em homenagem à vila de Ytterby na Suécia.',
+        ja: '1843年にスウェーデンの化学者カール・グスタフ・モサンデルによって発見されました。彼はそれをイットリア中の不純物として検出しました。スウェーデンのイッテルビー村にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 66,
@@ -1356,6 +2006,16 @@ export const elements: ElementData[] = [
     xpos: 12,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Paul-Émile Lecoq de Boisbaudran',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1886 by French chemist Paul-Émile Lecoq de Boisbaudran, but it was not isolated in pure form until the development of ion exchange techniques in the 1950s. The name comes from the Greek "dysprositos", meaning "hard to get".',
+        es: 'Descubierto en 1886 por el químico francés Paul-Émile Lecoq de Boisbaudran, pero no fue aislado en forma pura hasta el desarrollo de técnicas de intercambio iónico en la década de 1950. El nombre proviene del griego "dysprositos", que significa "difícil de conseguir".',
+        fr: 'Découvert en 1886 par le chimiste français Paul-Émile Lecoq de Boisbaudran, mais il n\'a été isolé sous forme pure qu\'avec le développement des techniques d\'échange d\'ions dans les années 1950. Le nom vient du grec « dysprositos », qui signifie « difficile à obtenir ».',
+        pt: 'Descoberto em 1886 pelo químico francês Paul-Émile Lecoq de Boisbaudran, mas não foi isolado em forma pura até o desenvolvimento de técnicas de troca iônica na década de 1950. O nome vem do grego "dysprositos", que significa "difícil de obter".',
+        ja: '1886年にフランスの化学者ポール＝エミール・ルコック・ド・ボアボードランによって発見されましたが、1950年代のイオン交換技術が開発されるまで純粋な形で単離されることはありませんでした。名前はギリシャ語で「入手困難」を意味する「デュスプロシトス」に由来します。'
+    }
   },
   {
     atomicNumber: 67,
@@ -1375,6 +2035,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Marc Delafontaine & Jacques-Louis Soret',
+    named_by: 'Per Teodor Cleve',
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered through spectroscopic observation in 1878 by Jacques-Louis Soret and Marc Delafontaine. It was named by Per Teodor Cleve after his native city of Stockholm (from its Latin name "Holmia").',
+        es: 'Descubierto mediante observación espectroscópica en 1878 por Jacques-Louis Soret y Marc Delafontaine. Fue nombrado por Per Teodor Cleve en honor a su ciudad natal de Estocolmo (de su nombre latino "Holmia").',
+        fr: 'Découvert par observation spectroscopique en 1878 par Jacques-Louis Soret et Marc Delafontaine. Il a été nommé par Per Teodor Cleve d\'après sa ville natale de Stockholm (de son nom latin « Holmia »).',
+        pt: 'Descoberto por observação espectroscópica em 1878 por Jacques-Louis Soret e Marc Delafontaine. Foi nomeado por Per Teodor Cleve em homenagem à sua cidade natal de Estocolmo (de seu nome latino "Holmia").',
+        ja: '1878年にジャック＝ルイ・ソレとマルク・ドラフォンテーヌによって分光観測によって発見されました。ペール・テオドール・クレーヴェによって彼の故郷であるストックホルム（ラテン名「ホルミア」から）にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 68,
@@ -1394,6 +2064,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Carl Gustaf Mosander',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Carl Gustaf Mosander in 1843. He separated yttria from the mineral gadolinite into three fractions which he called yttria, erbia, and terbia. It is named after the village Ytterby in Sweden.',
+        es: 'Descubierto por Carl Gustaf Mosander en 1843. Separó la itria del mineral gadolinita en tres fracciones que llamó itria, erbia y terbia. Lleva el nombre del pueblo de Ytterby en Suecia.',
+        fr: 'Découvert par Carl Gustaf Mosander en 1843. Il a séparé l\'yttria du minéral gadolinite en trois fractions qu\'il a appelées yttria, erbia et terbia. Il est nommé d\'après le village d\'Ytterby en Suède.',
+        pt: 'Descoberto por Carl Gustaf Mosander em 1843. Ele separou a ítria do mineral gadolinita em três frações que ele chamou de ítria, érbia e térbia. É nomeado em homenagem à vila de Ytterby na Suécia.',
+        ja: '1843年にカール・グスタフ・モサンデルによって発見されました。彼はガドリン石からイットリアを、イットリア、エルビア、テルビアと呼ぶ3つの画分に分離しました。スウェーデンのイッテルビー村にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 69,
@@ -1413,6 +2093,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Per Teodor Cleve',
+    named_by: null,
+    appearance: 'silvery-gray',
+    history: {
+        en: 'Discovered by Swedish chemist Per Teodor Cleve in 1879. The name is from Thule, an ancient name for a mythical land in the far north, possibly Scandinavia.',
+        es: 'Descubierto por el químico sueco Per Teodor Cleve en 1879. El nombre proviene de Thule, un antiguo nombre para una tierra mítica en el extremo norte, posiblemente Escandinavia.',
+        fr: 'Découvert par le chimiste suédois Per Teodor Cleve en 1879. Le nom vient de Thulé, un ancien nom pour une terre mythique à l\'extrême nord, peut-être la Scandinavie.',
+        pt: 'Descoberto pelo químico sueco Per Teodor Cleve em 1879. O nome vem de Thule, um nome antigo para uma terra mítica no extremo norte, possivelmente a Escandinávia.',
+        ja: '1879年にスウェーデンの化学者ペール・テオドール・クレーヴェによって発見されました。名前は、おそらくスカンジナビアである、最北の神話の土地の古代の名前であるテューレに由来します。'
+    }
   },
   {
     atomicNumber: 70,
@@ -1432,6 +2122,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Jean Charles Galissard de Marignac',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Swiss chemist Jean Charles Galissard de Marignac in 1878. He named the new component ytterbia, after the Swedish village of Ytterby where he found the new component of erbium.',
+        es: 'Descubierto por el químico suizo Jean Charles Galissard de Marignac en 1878. Llamó al nuevo componente iterbia, en honor al pueblo sueco de Ytterby donde encontró el nuevo componente de erbio.',
+        fr: 'Découvert par le chimiste suisse Jean Charles Galissard de Marignac en 1878. Il a nommé le nouveau composant ytterbia, d\'après le village suédois d\'Ytterby où il a trouvé le nouveau composant de l\'erbium.',
+        pt: 'Descoberto pelo químico suíço Jean Charles Galissard de Marignac em 1878. Ele nomeou o novo componente itérbia, em homenagem à vila sueca de Ytterby, onde encontrou o novo componente de érbio.',
+        ja: '1878年にスイスの化学者ジャン・シャルル・ガリサール・ド・マリニャックによって発見されました。彼はエルビウムの新しい成分を発見したスウェーデンのイッテルビー村にちなんで、新しい成分をイッテルビアと名付けました。'
+    }
   },
   {
     atomicNumber: 71,
@@ -1451,6 +2151,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 9,
     phase: 'Solid',
+    discovered_by: 'Georges Urbain, Carl Auer von Welsbach & Charles James',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered independently in 1907 by French scientist Georges Urbain, Austrian mineralogist Baron Carl Auer von Welsbach, and American chemist Charles James. It is named after Lutetia, the ancient Roman name for Paris.',
+        es: 'Descubierto de forma independiente en 1907 por el científico francés Georges Urbain, el mineralogista austriaco Barón Carl Auer von Welsbach y el químico estadounidense Charles James. Lleva el nombre de Lutecia, el antiguo nombre romano de París.',
+        fr: 'Découvert indépendamment en 1907 par le scientifique français Georges Urbain, le minéralogiste autrichien baron Carl Auer von Welsbach et le chimiste américain Charles James. Il porte le nom de Lutèce, l\'ancien nom romain de Paris.',
+        pt: 'Descoberto independentemente em 1907 pelo cientista francês Georges Urbain, o mineralogista austríaco Barão Carl Auer von Welsbach e o químico americano Charles James. É nomeado em homenagem a Lutécia, o antigo nome romano de Paris.',
+        ja: '1907年にフランスの科学者ジョルジュ・ユルバン、オーストリアの鉱物学者カール・アウアー・フォン・ヴェルスバッハ男爵、アメリカの化学者チャールズ・ジェームズによって独立して発見されました。パリの古代ローマ名であるルテティアにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 72,
@@ -1470,6 +2180,16 @@ export const elements: ElementData[] = [
     xpos: 4,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Dirk Coster & George de Hevesy',
+    named_by: null,
+    appearance: 'steel-gray',
+    history: {
+        en: 'Discovered by Dirk Coster and George de Hevesy in 1923 in Copenhagen, Denmark. It is named after Hafnia, the Latin name for Copenhagen.',
+        es: 'Descubierto por Dirk Coster y George de Hevesy en 1923 en Copenhague, Dinamarca. Lleva el nombre de Hafnia, el nombre latino de Copenhague.',
+        fr: 'Découvert par Dirk Coster et George de Hevesy en 1923 à Copenhague, Danemark. Il est nommé d\'après Hafnia, le nom latin de Copenhague.',
+        pt: 'Descoberto por Dirk Coster e George de Hevesy em 1923 em Copenhague, Dinamarca. É nomeado em homenagem a Hafnia, o nome latino de Copenhague.',
+        ja: '1923年にデンマークのコペンハーゲンでディルク・コスターとゲオルク・ド・ヘヴェシーによって発見されました。コペンハーゲンのラテン名であるハフニアにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 73,
@@ -1489,6 +2209,16 @@ export const elements: ElementData[] = [
     xpos: 5,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Anders Gustaf Ekeberg',
+    named_by: null,
+    appearance: 'gray-blue',
+    history: {
+        en: 'Discovered in Sweden in 1802 by Anders Ekeberg. It is named after Tantalus, a figure from Greek mythology.',
+        es: 'Descubierto en Suecia en 1802 por Anders Ekeberg. Lleva el nombre de Tántalo, una figura de la mitología griega.',
+        fr: 'Découvert en Suède en 1802 par Anders Ekeberg. Il est nommé d\'après Tantale, une figure de la mythologie grecque.',
+        pt: 'Descoberto na Suécia em 1802 por Anders Ekeberg. É nomeado em homenagem a Tântalo, uma figura da mitologia grega.',
+        ja: '1802年にスウェーデンでアンデルス・エーケベリによって発見されました。ギリシャ神話の登場人物タンタロスにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 74,
@@ -1508,6 +2238,16 @@ export const elements: ElementData[] = [
     xpos: 6,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Fausto & Juan José de Elhuyar',
+    named_by: null,
+    appearance: 'grayish-white, lustrous',
+    history: {
+        en: 'First isolated by Fausto and Juan José de Elhuyar in 1783 in Spain. The symbol W is from its German name, wolfram, which comes from the mineral wolframite, in which it was found.',
+        es: 'Aislado por primera vez por Fausto y Juan José de Elhuyar en 1783 en España. El símbolo W proviene de su nombre en alemán, wolframio, que proviene del mineral wolframita, en el que se encontró.',
+        fr: 'D\'abord isolé par Fausto et Juan José de Elhuyar en 1783 en Espagne. Le symbole W vient de son nom allemand, wolfram, qui vient du minéral wolframite, dans lequel il a été trouvé.',
+        pt: 'Primeiro isolado por Fausto e Juan José de Elhuyar em 1783 na Espanha. O símbolo W vem de seu nome em alemão, volfrâmio, que vem do mineral volframita, no qual foi encontrado.',
+        ja: '1783年にスペインでファウストとフアン・ホセ・デ・エルヤルによって初めて単離されました。記号Wは、発見された鉱物である鉄マンガン重石に由来するドイツ語名ウォルフラムに由来します。'
+    }
   },
   {
     atomicNumber: 75,
@@ -1527,6 +2267,16 @@ export const elements: ElementData[] = [
     xpos: 7,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Walter Noddack, Ida Noddack & Otto Berg',
+    named_by: null,
+    appearance: 'silvery-grayish-white',
+    history: {
+        en: 'Discovered in 1925 by Walter Noddack, Ida Tacke, and Otto Berg in Germany. It is named after the river Rhine in Europe.',
+        es: 'Descubierto en 1925 por Walter Noddack, Ida Tacke y Otto Berg en Alemania. Lleva el nombre del río Rin en Europa.',
+        fr: 'Découvert en 1925 par Walter Noddack, Ida Tacke et Otto Berg en Allemagne. Il est nommé d\'après le fleuve Rhin en Europe.',
+        pt: 'Descoberto em 1925 por Walter Noddack, Ida Tacke e Otto Berg na Alemanha. É nomeado em homenagem ao rio Reno na Europa.',
+        ja: '1925年にドイツでヴァルター・ノダック、イーダ・タッケ、オットー・ベルクによって発見されました。ヨーロッパのライン川にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 76,
@@ -1546,6 +2296,16 @@ export const elements: ElementData[] = [
     xpos: 8,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Smithson Tennant',
+    named_by: null,
+    appearance: 'silvery, blue cast',
+    history: {
+        en: 'Discovered in 1803 by Smithson Tennant in London. The name comes from the Greek "osme", meaning "smell", from the sharp odor of its volatile oxide.',
+        es: 'Descubierto en 1803 por Smithson Tennant en Londres. El nombre proviene del griego "osme", que significa "olor", por el olor agudo de su óxido volátil.',
+        fr: 'Découvert en 1803 par Smithson Tennant à Londres. Le nom vient du grec « osme », qui signifie « odeur », de l\'odeur forte de son oxyde volatil.',
+        pt: 'Descoberto em 1803 por Smithson Tennant em Londres. O nome vem do grego "osme", que significa "cheiro", do odor forte de seu óxido volátil.',
+        ja: '1803年にロンドンでスミソン・テナントによって発見されました。名前は、その揮発性酸化物の鋭い臭いから、「臭い」を意味するギリシャ語の「osme」に由来します。'
+    }
   },
   {
     atomicNumber: 77,
@@ -1565,6 +2325,16 @@ export const elements: ElementData[] = [
     xpos: 9,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Smithson Tennant',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1803 by Smithson Tennant. He named it Iridium from the Latin word for rainbow, "iris", because of the varied colors of its salts.',
+        es: 'Descubierto en 1803 por Smithson Tennant. Lo llamó Iridio de la palabra latina para arco iris, "iris", debido a los variados colores de sus sales.',
+        fr: 'Découvert en 1803 par Smithson Tennant. Il l\'a nommé Iridium du mot latin pour arc-en-ciel, « iris », en raison des couleurs variées de ses sels.',
+        pt: 'Descoberto em 1803 por Smithson Tennant. Ele o nomeou Iridium da palavra latina para arco-íris, "iris", por causa das cores variadas de seus sais.',
+        ja: '1803年にスミソン・テナントによって発見されました。彼はその塩のさまざまな色から、虹のラテン語である「iris」からイリジウムと名付けました。'
+    }
   },
   {
     atomicNumber: 78,
@@ -1584,6 +2354,16 @@ export const elements: ElementData[] = [
     xpos: 10,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Antonio de Ulloa',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Platinum was known to pre-Columbian Americans. It was first introduced to Europe in 1735. The name is from the Spanish "platina", meaning "little silver".',
+        es: 'El platino era conocido por los estadounidenses precolombinos. Se introdujo por primera vez en Europa en 1735. El nombre proviene del español "platina", que significa "pequeña plata".',
+        fr: 'Le platine était connu des Américains précolombiens. Il a été introduit pour la première fois en Europe en 1735. Le nom vient de l\'espagnol « platina », qui signifie « petite argent ».',
+        pt: 'A platina era conhecida pelos americanos pré-colombianos. Foi introduzida pela primeira vez na Europa em 1735. O nome vem do espanhol "platina", que significa "pequena prata".',
+        ja: '白金はコロンブス以前のアメリカ人に知られていました。ヨーロッパに初めて導入されたのは1735年です。名前はスペイン語で「小さな銀」を意味する「プラチナ」に由来します。'
+    }
   },
   {
     atomicNumber: 79,
@@ -1603,6 +2383,16 @@ export const elements: ElementData[] = [
     xpos: 11,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'metallic-yellow',
+    history: {
+        en: 'Gold has been known and highly valued since prehistoric times. The symbol Au is from the Latin "aurum", meaning "shining dawn".',
+        es: 'El oro ha sido conocido y muy valorado desde la prehistoria. El símbolo Au proviene del latín "aurum", que significa "amanecer brillante".',
+        fr: 'L\'or est connu et très apprécié depuis la préhistoire. Le symbole Au vient du latin « aurum », qui signifie « aube brillante ».',
+        pt: 'O ouro é conhecido e muito valorizado desde os tempos pré-históricos. O símbolo Au vem do latim "aurum", que significa "amanhecer brilhante".',
+        ja: '金は先史時代から知られており、高く評価されてきました。記号Auは、ラテン語で「輝く夜明け」を意味する「aurum」に由来します。'
+    }
   },
   {
     atomicNumber: 80,
@@ -1622,6 +2412,16 @@ export const elements: ElementData[] = [
     xpos: 12,
     ypos: 6,
     phase: 'Liquid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Known to ancient civilizations. The symbol Hg comes from its Greek name, "hydrargyrum", which means "water-silver".',
+        es: 'Conocido por las civilizaciones antiguas. El símbolo Hg proviene de su nombre griego, "hydrargyrum", que significa "plata de agua".',
+        fr: 'Connu des civilisations anciennes. Le symbole Hg vient de son nom grec, « hydrargyrum », qui signifie « eau-argent ».',
+        pt: 'Conhecido por civilizações antigas. O símbolo Hg vem de seu nome grego, "hydrargyrum", que significa "água-prata".',
+        ja: '古代文明に知られています。記号Hgは、そのギリシャ名「ヒュドラルギルム」に由来し、「水銀」を意味します。'
+    }
   },
   {
     atomicNumber: 81,
@@ -1641,6 +2441,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'William Crookes',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered by Sir William Crookes in 1861 through spectroscopy. The name comes from the Greek "thallos", meaning "a green shoot or twig", due to the bright green spectral line.',
+        es: 'Descubierto por Sir William Crookes en 1861 mediante espectroscopia. El nombre proviene del griego "thallos", que significa "un brote o ramita verde", debido a la línea espectral de color verde brillante.',
+        fr: 'Découvert par Sir William Crookes en 1861 par spectroscopie. Le nom vient du grec « thallos », qui signifie « une pousse ou une brindille verte », en raison de la ligne spectrale vert vif.',
+        pt: 'Descoberto por Sir William Crookes em 1861 por meio de espectroscopia. O nome vem do grego "thallos", que significa "um broto ou galho verde", devido à linha espectral verde brilhante.',
+        ja: '1861年にウィリアム・クルックス卿によって分光法によって発見されました。名前は、明るい緑色のスペクトル線から、ギリシャ語で「緑の芽または小枝」を意味する「タロス」に由来します。'
+    }
   },
   {
     atomicNumber: 82,
@@ -1660,6 +2470,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Ancient civilizations',
+    named_by: null,
+    appearance: 'metallic-gray',
+    history: {
+        en: 'Lead has been known since ancient times. The symbol Pb comes from the Latin "plumbum".',
+        es: 'El plomo se conoce desde la antigüedad. El símbolo Pb proviene del latín "plumbum".',
+        fr: 'Le plomb est connu depuis l\'antiquité. Le symbole Pb vient du latin « plumbum ».',
+        pt: 'O chumbo é conhecido desde os tempos antigos. O símbolo Pb vem do latim "plumbum".',
+        ja: '鉛は古くから知られています。記号Pbはラテン語の「plumbum」に由来します。'
+    }
   },
   {
     atomicNumber: 83,
@@ -1679,6 +2499,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Claude François Geoffroy',
+    named_by: null,
+    appearance: 'lustrous-silvery-pinkish',
+    history: {
+        en: 'Bismuth was confused with tin and lead in ancient times. It was shown to be a distinct element in 1753 by Claude François Geoffroy. The name is from the German "weisse masse", later "wismuth", meaning "white mass".',
+        es: 'El bismuto se confundía con el estaño y el plomo en la antigüedad. Claude François Geoffroy demostró que era un elemento distinto en 1753. El nombre proviene del alemán "weisse masse", más tarde "wismuth", que significa "masa blanca".',
+        fr: 'Le bismuth a été confondu avec l\'étain et le plomb dans les temps anciens. Il a été démontré qu\'il s\'agissait d\'un élément distinct en 1753 par Claude François Geoffroy. Le nom vient de l\'allemand « weisse masse », plus tard « wismuth », qui signifie « masse blanche ».',
+        pt: 'O bismuto foi confundido com o estanho e o chumbo nos tempos antigos. Foi demonstrado ser um elemento distinto em 1753 por Claude François Geoffroy. O nome vem do alemão "weisse masse", mais tarde "wismuth", que significa "massa branca".',
+        ja: 'ビスマスは古代にはスズや鉛と混同されていました。1753年にクロード・フランソワ・ジョフロワによって別の元素であることが示されました。名前はドイツ語で「白い塊」を意味する「weisse masse」（後に「wismuth」）に由来します。'
+    }
   },
   {
     atomicNumber: 84,
@@ -1698,6 +2528,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Marie Curie',
+    named_by: null,
+    appearance: 'silvery',
+    history: {
+        en: 'Discovered by Marie and Pierre Curie in 1898. It is named after Marie Curie\'s native land, Poland (Polska in Polish).',
+        es: 'Descubierto por Marie y Pierre Curie en 1898. Lleva el nombre de la tierra natal de Marie Curie, Polonia (Polska en polaco).',
+        fr: 'Découvert par Marie et Pierre Curie en 1898. Il est nommé d\'après la terre natale de Marie Curie, la Pologne (Polska en polonais).',
+        pt: 'Descoberto por Marie e Pierre Curie em 1898. É nomeado em homenagem à terra natal de Marie Curie, a Polônia (Polska em polonês).',
+        ja: '1898年にマリー・キュリーとピエール・キュリーによって発見されました。マリー・キュリーの故郷であるポーランド（ポーランド語でポルスカ）にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 85,
@@ -1717,6 +2557,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 6,
     phase: 'Solid',
+    discovered_by: 'Dale R. Corson, Kenneth Ross MacKenzie & Emilio Segrè',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1940 by Dale R. Corson, Kenneth Ross MacKenzie, and Emilio Segrè at the University of California, Berkeley. The name comes from the Greek "astatos", meaning "unstable".',
+        es: 'Sintetizado en 1940 por Dale R. Corson, Kenneth Ross MacKenzie y Emilio Segrè en la Universidad de California, Berkeley. El nombre proviene del griego "astatos", que significa "inestable".',
+        fr: 'Synthétisé en 1940 par Dale R. Corson, Kenneth Ross MacKenzie et Emilio Segrè à l\'Université de Californie, Berkeley. Le nom vient du grec « astatos », qui signifie « instable ».',
+        pt: 'Sintetizado em 1940 por Dale R. Corson, Kenneth Ross MacKenzie e Emilio Segrè na Universidade da Califórnia, Berkeley. O nome vem do grego "astatos", que significa "instável".',
+        ja: '1940年にカリフォルニア大学バークレー校でデール・R・コーソン、ケネス・ロス・マッケンジー、エミリオ・セグレによって合成されました。名前はギリシャ語で「不安定な」を意味する「アスタトス」に由来します。'
+    }
   },
   {
     atomicNumber: 86,
@@ -1736,6 +2586,16 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 6,
     phase: 'Gas',
+    discovered_by: 'Friedrich Ernst Dorn',
+    named_by: null,
+    appearance: 'colorless gas, which glows yellow to reddish-orange in a vacuum tube',
+    history: {
+        en: 'Discovered by Friedrich Ernst Dorn in 1900. It was the fifth radioactive element to be discovered. Named after radium, from which it is produced by radioactive decay.',
+        es: 'Descubierto por Friedrich Ernst Dorn en 1900. Fue el quinto elemento radiactivo en ser descubierto. Nombrado en honor al radio, del cual se produce por desintegración radiactiva.',
+        fr: 'Découvert par Friedrich Ernst Dorn en 1900. C\'était le cinquième élément radioactif à être découvert. Nommé d\'après le radium, dont il est produit par désintégration radioactive.',
+        pt: 'Descoberto por Friedrich Ernst Dorn em 1900. Foi o quinto elemento radioativo a ser descoberto. Nomeado em homenagem ao rádio, do qual é produzido por decaimento radioativo.',
+        ja: '1900年にフリードリヒ・エルンスト・ドルンによって発見されました。発見された5番目の放射性元素でした。放射性崩壊によって生成されるラジウムにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 87,
@@ -1755,6 +2615,16 @@ export const elements: ElementData[] = [
     xpos: 1,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Marguerite Perey',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Discovered in 1939 by Marguerite Perey of the Curie Institute in Paris, France. Named for France, her home country.',
+        es: 'Descubierto en 1939 por Marguerite Perey del Instituto Curie en París, Francia. Nombrado en honor a Francia, su país de origen.',
+        fr: 'Découvert en 1939 par Marguerite Perey de l\'Institut Curie à Paris, France. Nommé d\'après la France, son pays d\'origine.',
+        pt: 'Descoberto em 1939 por Marguerite Perey do Instituto Curie em Paris, França. Nomeado em homenagem à França, seu país natal.',
+        ja: '1939年にフランス、パリのキュリー研究所のマルグリット・ペレーによって発見されました。彼女の母国であるフランスにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 88,
@@ -1774,6 +2644,16 @@ export const elements: ElementData[] = [
     xpos: 2,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Marie & Pierre Curie',
+    named_by: null,
+    appearance: 'silvery-white metallic',
+    history: {
+        en: 'Discovered by Marie and Pierre Curie in 1898 from the mineral pitchblende. The name comes from the Latin "radius", meaning "ray", in recognition of its power of emitting energy in the form of rays.',
+        es: 'Descubierto por Marie y Pierre Curie en 1898 a partir del mineral pechblenda. El nombre proviene del latín "radius", que significa "rayo", en reconocimiento a su poder de emitir energía en forma de rayos.',
+        fr: 'Découvert par Marie et Pierre Curie en 1898 à partir du minéral pechblende. Le nom vient du latin « radius », qui signifie « rayon », en reconnaissance de son pouvoir d\'émettre de l\'énergie sous forme de rayons.',
+        pt: 'Descoberto por Marie e Pierre Curie em 1898 a partir do mineral pechblenda. O nome vem do latim "radius", que significa "raio", em reconhecimento ao seu poder de emitir energia na forma de raios.',
+        ja: '1898年にマリー・キュリーとピエール・キュリーによってピッチブレンド鉱物から発見されました。名前は、光線の形でエネルギーを放出する力に敬意を表して、「光線」を意味するラテン語の「radius」に由来します。'
+    }
   },
   {
     atomicNumber: 89,
@@ -1793,6 +2673,16 @@ export const elements: ElementData[] = [
     xpos: 3,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'André-Louis Debierne',
+    named_by: null,
+    appearance: 'silvery',
+    history: {
+        en: 'Discovered in 1899 by André-Louis Debierne. The name comes from the Greek "aktis" or "aktinos", meaning "beam" or "ray".',
+        es: 'Descubierto en 1899 por André-Louis Debierne. El nombre proviene del griego "aktis" o "aktinos", que significa "haz" o "rayo".',
+        fr: 'Découvert en 1899 par André-Louis Debierne. Le nom vient du grec « aktis » ou « aktinos », qui signifie « faisceau » ou « rayon ».',
+        pt: 'Descoberto em 1899 por André-Louis Debierne. O nome vem do grego "aktis" ou "aktinos", que significa "feixe" ou "raio".',
+        ja: '1899年にアンドレ＝ルイ・ドビエルヌによって発見されました。名前はギリシャ語で「光線」または「光」を意味する「aktis」または「aktinos」に由来します。'
+    }
   },
   {
     atomicNumber: 90,
@@ -1812,6 +2702,16 @@ export const elements: ElementData[] = [
     xpos: 4,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Jöns Jacob Berzelius',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'Discovered in 1828 by Jöns Jacob Berzelius. It is named after Thor, the Norse god of thunder.',
+        es: 'Descubierto en 1828 por Jöns Jacob Berzelius. Lleva el nombre de Thor, el dios nórdico del trueno.',
+        fr: 'Découvert en 1828 par Jöns Jacob Berzelius. Il est nommé d\'après Thor, le dieu nordique du tonnerre.',
+        pt: 'Descoberto em 1828 por Jöns Jacob Berzelius. É nomeado em homenagem a Thor, o deus nórdico do trovão.',
+        ja: '1828年にイェンス・ヤコブ・ベルセリウスによって発見されました。北欧の雷神であるトールにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 91,
@@ -1831,6 +2731,16 @@ export const elements: ElementData[] = [
     xpos: 5,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Oswald Helmuth Göhring & Kasimir Fajans',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'First identified in 1913 by Kasimir Fajans and Oswald Helmuth Göhring. The name protactinium was adopted in 1949 and means "(nuclear) precursor of actinium".',
+        es: 'Identificado por primera vez en 1913 por Kasimir Fajans y Oswald Helmuth Göhring. El nombre protactinio fue adoptado en 1949 y significa "(precursor nuclear) del actinio".',
+        fr: 'Identifié pour la première fois en 1913 par Kasimir Fajans et Oswald Helmuth Göhring. Le nom protactinium a été adopté en 1949 et signifie « précurseur (nucléaire) de l\'actinium ».',
+        pt: 'Identificado pela primeira vez em 1913 por Kasimir Fajans e Oswald Helmuth Göhring. O nome protactínio foi adotado em 1949 e significa "(precursor nuclear) do actínio".',
+        ja: '1913年にカジミール・ファヤンスとオスヴァルト・ヘルムート・ゲーリングによって初めて特定されました。プロトアクチニウムという名前は1949年に採用され、「アクチニウムの（核）前駆体」を意味します。'
+    }
   },
   {
     atomicNumber: 92,
@@ -1850,6 +2760,16 @@ export const elements: ElementData[] = [
     xpos: 6,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Martin Heinrich Klaproth',
+    named_by: null,
+    appearance: 'silvery-gray metallic',
+    history: {
+        en: 'Discovered in 1789 by Martin Heinrich Klaproth. It is named after the planet Uranus, which had been discovered eight years earlier.',
+        es: 'Descubierto en 1789 por Martin Heinrich Klaproth. Lleva el nombre del planeta Urano, que había sido descubierto ocho años antes.',
+        fr: 'Découvert en 1789 par Martin Heinrich Klaproth. Il est nommé d\'après la planète Uranus, qui avait été découverte huit ans plus tôt.',
+        pt: 'Descoberto em 1789 por Martin Heinrich Klaproth. É nomeado em homenagem ao planeta Urano, que havia sido descoberto oito anos antes.',
+        ja: '1789年にマルティン・ハインリヒ・クラプロートによって発見されました。8年前に発見された天王星にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 93,
@@ -1869,6 +2789,16 @@ export const elements: ElementData[] = [
     xpos: 7,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Edwin McMillan & Philip H. Abelson',
+    named_by: null,
+    appearance: 'silvery-metallic',
+    history: {
+        en: 'First synthesized by Edwin McMillan and Philip H. Abelson in 1940 at the Berkeley Radiation Laboratory. It is named after the planet Neptune, the next planet out from Uranus.',
+        es: 'Sintetizado por primera vez por Edwin McMillan y Philip H. Abelson en 1940 en el Laboratorio de Radiación de Berkeley. Lleva el nombre del planeta Neptuno, el siguiente planeta después de Urano.',
+        fr: 'D\'abord synthétisé par Edwin McMillan et Philip H. Abelson en 1940 au Berkeley Radiation Laboratory. Il est nommé d\'après la planète Neptune, la planète suivante après Uranus.',
+        pt: 'Primeiro sintetizado por Edwin McMillan e Philip H. Abelson em 1940 no Laboratório de Radiação de Berkeley. É nomeado em homenagem ao planeta Netuno, o próximo planeta depois de Urano.',
+        ja: '1940年にバークレー放射線研究所でエドウィン・マクミランとフィリップ・H・アベルソンによって初めて合成されました。天王星の次の惑星である海王星にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 94,
@@ -1888,6 +2818,16 @@ export const elements: ElementData[] = [
     xpos: 8,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Glenn T. Seaborg, Edwin McMillan, Joseph W. Kennedy & Arthur C. Wahl',
+    named_by: null,
+    appearance: 'silvery-white, tarnishing to a dull gray',
+    history: {
+        en: 'First synthesized in 1940 by a team led by Glenn T. Seaborg and Edwin McMillan at the University of California, Berkeley. Named after the dwarf planet Pluto.',
+        es: 'Sintetizado por primera vez en 1940 por un equipo dirigido por Glenn T. Seaborg y Edwin McMillan en la Universidad de California, Berkeley. Nombrado en honor al planeta enano Plutón.',
+        fr: 'D\'abord synthétisé en 1940 par une équipe dirigée par Glenn T. Seaborg et Edwin McMillan à l\'Université de Californie, Berkeley. Nommé d\'après la planète naine Pluton.',
+        pt: 'Primeiro sintetizado em 1940 por uma equipe liderada por Glenn T. Seaborg e Edwin McMillan na Universidade da Califórnia, Berkeley. Nomeado em homenagem ao planeta anão Plutão.',
+        ja: '1940年にカリフォルニア大学バークレー校でグレン・T・シーボーグとエドウィン・マクミランが率いるチームによって初めて合成されました。準惑星冥王星にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 95,
@@ -1907,6 +2847,16 @@ export const elements: ElementData[] = [
     xpos: 9,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Glenn T. Seaborg, Ralph A. James, Leon O. Morgan & Albert Ghiorso',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'First synthesized in 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley. Named after the Americas, by analogy with its lanthanide homologue europium.',
+        es: 'Sintetizado por primera vez en 1944 por el grupo de Glenn T. Seaborg en la Universidad de California, Berkeley. Nombrado en honor a las Américas, por analogía con su homólogo lantánido, el europio.',
+        fr: 'D\'abord synthétisé en 1944 par le groupe de Glenn T. Seaborg à l\'Université de Californie, Berkeley. Nommé d\'après les Amériques, par analogie avec son homologue lanthanide, l\'europium.',
+        pt: 'Primeiro sintetizado em 1944 pelo grupo de Glenn T. Seaborg na Universidade da Califórnia, Berkeley. Nomeado em homenagem às Américas, por analogia com seu homólogo lantanídeo, európio.',
+        ja: '1944年にカリフォルニア大学バークレー校でグレン・T・シーボーグのグループによって初めて合成されました。そのランタノイド同族体であるユウロピウムとの類推から、南北アメリカ大陸にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 96,
@@ -1926,6 +2876,16 @@ export const elements: ElementData[] = [
     xpos: 10,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Glenn T. Seaborg, Ralph A. James & Albert Ghiorso',
+    named_by: null,
+    appearance: 'silvery-white, metallic',
+    history: {
+        en: 'First synthesized in 1944 by the group of Glenn T. Seaborg at the University of California, Berkeley. It is named for Marie and Pierre Curie.',
+        es: 'Sintetizado por primera vez en 1944 por el grupo de Glenn T. Seaborg en la Universidad de California, Berkeley. Lleva el nombre de Marie y Pierre Curie.',
+        fr: 'D\'abord synthétisé en 1944 par le groupe de Glenn T. Seaborg à l\'Université de Californie, Berkeley. Il est nommé d\'après Marie et Pierre Curie.',
+        pt: 'Primeiro sintetizado em 1944 pelo grupo de Glenn T. Seaborg na Universidade da Califórnia, Berkeley. É nomeado em homenagem a Marie e Pierre Curie.',
+        ja: '1944年にカリフォルニア大学バークレー校でグレン・T・シーボーグのグループによって初めて合成されました。マリー・キュリーとピエール・キュリーにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 97,
@@ -1945,6 +2905,16 @@ export const elements: ElementData[] = [
     xpos: 11,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Glenn T. Seaborg, Stanley G. Thompson, Albert Ghiorso & Kenneth Street, Jr.',
+    named_by: null,
+    appearance: 'silvery',
+    history: {
+        en: 'First synthesized in December 1949 at the University of California, Berkeley. Named after the city of Berkeley, California.',
+        es: 'Sintetizado por primera vez en diciembre de 1949 en la Universidad de California, Berkeley. Nombrado en honor a la ciudad de Berkeley, California.',
+        fr: 'D\'abord synthétisé en décembre 1949 à l\'Université de Californie, Berkeley. Nommé d\'après la ville de Berkeley, Californie.',
+        pt: 'Primeiro sintetizado em dezembro de 1949 na Universidade da Califórnia, Berkeley. Nomeado em homenagem à cidade de Berkeley, Califórnia.',
+        ja: '1949年12月にカリフォルニア大学バークレー校で初めて合成されました。カリフォルニア州バークレー市にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 98,
@@ -1964,6 +2934,16 @@ export const elements: ElementData[] = [
     xpos: 12,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Glenn T. Seaborg, Stanley G. Thompson, Kenneth Street, Jr. & Albert Ghiorso',
+    named_by: null,
+    appearance: 'silvery-white',
+    history: {
+        en: 'First synthesized at the University of California, Berkeley in 1950. Named after the state of California and the university.',
+        es: 'Sintetizado por primera vez en la Universidad de California, Berkeley en 1950. Nombrado en honor al estado de California y la universidad.',
+        fr: 'D\'abord synthétisé à l\'Université de Californie, Berkeley en 1950. Nommé d\'après l\'État de Californie et l\'université.',
+        pt: 'Primeiro sintetizado na Universidade da Califórnia, Berkeley em 1950. Nomeado em homenagem ao estado da Califórnia e à universidade.',
+        ja: '1950年にカリフォルニア大学バークレー校で初めて合成されました。カリフォルニア州と大学にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 99,
@@ -1983,6 +2963,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Albert Ghiorso',
+    named_by: null,
+    appearance: 'silvery, metallic',
+    history: {
+        en: 'Discovered in 1952 in the debris of the first hydrogen bomb explosion by a group of scientists led by Albert Ghiorso. Named after Albert Einstein.',
+        es: 'Descubierto en 1952 en los escombros de la primera explosión de una bomba de hidrógeno por un grupo de científicos dirigido por Albert Ghiorso. Nombrado en honor a Albert Einstein.',
+        fr: 'Découvert en 1952 dans les débris de la première explosion de bombe à hydrogène par un groupe de scientifiques dirigé par Albert Ghiorso. Nommé d\'après Albert Einstein.',
+        pt: 'Descoberto em 1952 nos destroços da primeira explosão da bomba de hidrogênio por um grupo de cientistas liderado por Albert Ghiorso. Nomeado em homenagem a Albert Einstein.',
+        ja: '1952年にアルバート・ギオルソが率いる科学者グループによって、最初の水素爆弾の爆発の残骸から発見されました。アルバート・アインシュタインにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 100,
@@ -2002,6 +2992,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Albert Ghiorso',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Discovered in 1952 in the debris of the first hydrogen bomb explosion by a team of scientists led by Albert Ghiorso. Named after Enrico Fermi, one of the pioneers of nuclear physics.',
+        es: 'Descubierto en 1952 en los escombros de la primera explosión de una bomba de hidrógeno por un equipo de científicos dirigido por Albert Ghiorso. Nombrado en honor a Enrico Fermi, uno de los pioneros de la física nuclear.',
+        fr: 'Découvert en 1952 dans les débris de la première explosion de bombe à hydrogène par une équipe de scientifiques dirigée par Albert Ghiorso. Nommé d\'après Enrico Fermi, l\'un des pionniers de la physique nucléaire.',
+        pt: 'Descoberto em 1952 nos destroços da primeira explosão da bomba de hidrogênio por uma equipe de cientistas liderada por Albert Ghiorso. Nomeado em homenagem a Enrico Fermi, um dos pioneiros da física nuclear.',
+        ja: '1952年にアルバート・ギオルソが率いる科学者チームによって、最初の水素爆弾の爆発の残骸から発見されました。核物理学のパイオニアの一人であるエンリコ・フェルミにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 101,
@@ -2021,6 +3021,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Albert Ghiorso, Glenn T. Seaborg, Gregory R. Choppin, Bernard G. Harvey & Stanley G. Thompson',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'First synthesized in 1955 at the University of California, Berkeley. Named after Dmitri Mendeleev, who created the Periodic Table.',
+        es: 'Sintetizado por primera vez en 1955 en la Universidad de California, Berkeley. Nombrado en honor a Dmitri Mendeléyev, quien creó la Tabla Periódica.',
+        fr: 'D\'abord synthétisé en 1955 à l\'Université de Californie, Berkeley. Nommé d\'après Dmitri Mendeleev, qui a créé le tableau périodique.',
+        pt: 'Primeiro sintetizado em 1955 na Universidade da Califórnia, Berkeley. Nomeado em homenagem a Dmitri Mendeleev, que criou a Tabela Periódica.',
+        ja: '1955年にカリフォルニア大学バークレー校で初めて合成されました。周期表を作成したドミトリ・メンデレーエフにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 102,
@@ -2040,6 +3050,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna) & Lawrence Berkeley National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'First synthesized at the Joint Institute for Nuclear Research in Dubna, Russia, in 1966. Named in honor of Alfred Nobel.',
+        es: 'Sintetizado por primera vez en el Instituto Conjunto de Investigación Nuclear en Dubna, Rusia, en 1966. Nombrado en honor a Alfred Nobel.',
+        fr: 'D\'abord synthétisé à l\'Institut unifié de recherches nucléaires de Doubna, en Russie, en 1966. Nommé en l\'honneur d\'Alfred Nobel.',
+        pt: 'Primeiro sintetizado no Instituto Conjunto de Pesquisa Nuclear em Dubna, Rússia, em 1966. Nomeado em homenagem a Alfred Nobel.',
+        ja: '1966年にロシアのドゥブナにある合同原子核研究所で初めて合成されました。アルフレッド・ノーベルに敬意を表して名付けられました。'
+    }
   },
   {
     atomicNumber: 103,
@@ -2059,6 +3079,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 10,
     phase: 'Solid',
+    discovered_by: 'Albert Ghiorso, Torbjørn Sikkeland, Almon E. Larsh, Robert M. Latimer',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'First synthesized in 1961 at the Lawrence Berkeley National Laboratory. Named in honor of Ernest O. Lawrence, inventor of the cyclotron.',
+        es: 'Sintetizado por primera vez en 1961 en el Laboratorio Nacional Lawrence Berkeley. Nombrado en honor a Ernest O. Lawrence, inventor del ciclotrón.',
+        fr: 'D\'abord synthétisé en 1961 au Laboratoire national Lawrence Berkeley. Nommé en l\'honneur d\'Ernest O. Lawrence, inventeur du cyclotron.',
+        pt: 'Primeiro sintetizado em 1961 no Laboratório Nacional Lawrence Berkeley. Nomeado em homenagem a Ernest O. Lawrence, inventor do ciclotron.',
+        ja: '1961年にローレンス・バークレー国立研究所で初めて合成されました。サイクロトロンの発明者であるアーネスト・O・ローレンスに敬意を表して名付けられました。'
+    }
   },
   {
     atomicNumber: 104,
@@ -2078,6 +3108,16 @@ export const elements: ElementData[] = [
     xpos: 4,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna) or Lawrence Berkeley National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1964 at the Joint Institute for Nuclear Research at Dubna, Russia. Named in honor of Ernest Rutherford, a pioneer of nuclear physics.',
+        es: 'Sintetizado en 1964 en el Instituto Conjunto de Investigación Nuclear en Dubna, Rusia. Nombrado en honor a Ernest Rutherford, un pionero de la física nuclear.',
+        fr: 'Synthétisé en 1964 à l\'Institut unifié de recherches nucléaires de Doubna, en Russie. Nommé en l\'honneur d\'Ernest Rutherford, un pionnier de la physique nucléaire.',
+        pt: 'Sintetizado em 1964 no Instituto Conjunto de Pesquisa Nuclear em Dubna, Rússia. Nomeado em homenagem a Ernest Rutherford, um pioneiro da física nuclear.',
+        ja: '1964年にロシアのドゥブナにある合同原子核研究所で合成されました。核物理学のパイオニアであるアーネスト・ラザフォードに敬意を表して名付けられました。'
+    }
   },
   {
     atomicNumber: 105,
@@ -2097,6 +3137,16 @@ export const elements: ElementData[] = [
     xpos: 5,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna) and Lawrence Berkeley National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1968 at the Joint Institute for Nuclear Research in Dubna. Named after Dubna, Russia, the site of the Joint Institute for Nuclear Research.',
+        es: 'Sintetizado en 1968 en el Instituto Conjunto de Investigación Nuclear en Dubna. Nombrado en honor a Dubna, Rusia, el sitio del Instituto Conjunto de Investigación Nuclear.',
+        fr: 'Synthétisé en 1968 à l\'Institut unifié de recherches nucléaires de Doubna. Nommé d\'après Doubna, en Russie, le site de l\'Institut unifié de recherches nucléaires.',
+        pt: 'Sintetizado em 1968 no Instituto Conjunto de Pesquisa Nuclear em Dubna. Nomeado em homenagem a Dubna, Rússia, o local do Instituto Conjunto de Pesquisa Nuclear.',
+        ja: '1968年にドゥブナの合同原子核研究所で合成されました。ロシアのドゥブナ、合同原子核研究所の所在地にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 106,
@@ -2116,6 +3166,16 @@ export const elements: ElementData[] = [
     xpos: 6,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Lawrence Berkeley National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1974 at the Lawrence Berkeley National Laboratory. Named after Glenn T. Seaborg, an American nuclear chemist.',
+        es: 'Sintetizado en 1974 en el Laboratorio Nacional Lawrence Berkeley. Nombrado en honor a Glenn T. Seaborg, un químico nuclear estadounidense.',
+        fr: 'Synthétisé en 1974 au Laboratoire national Lawrence Berkeley. Nommé d\'après Glenn T. Seaborg, un chimiste nucléaire américain.',
+        pt: 'Sintetizado em 1974 no Laboratório Nacional Lawrence Berkeley. Nomeado em homenagem a Glenn T. Seaborg, um químico nuclear americano.',
+        ja: '1974年にローレンス・バークレー国立研究所で合成されました。アメリカの核化学者グレン・T・シーボーグにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 107,
@@ -2135,6 +3195,16 @@ export const elements: ElementData[] = [
     xpos: 7,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Gesellschaft für Schwerionenforschung',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1976 at the Joint Institute for Nuclear Research in Dubna. Named after Niels Bohr, a Danish physicist.',
+        es: 'Sintetizado en 1976 en el Instituto Conjunto de Investigación Nuclear en Dubna. Nombrado en honor a Niels Bohr, un físico danés.',
+        fr: 'Synthétisé en 1976 à l\'Institut unifié de recherches nucléaires de Doubna. Nommé d\'après Niels Bohr, un physicien danois.',
+        pt: 'Sintetizado em 1976 no Instituto Conjunto de Pesquisa Nuclear em Dubna. Nomeado em homenagem a Niels Bohr, um físico dinamarquês.',
+        ja: '1976年にドゥブナの合同原子核研究所で合成されました。デンマークの物理学者ニールス・ボーアにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 108,
@@ -2154,6 +3224,16 @@ export const elements: ElementData[] = [
     xpos: 8,
     ypos: 7,
     phase: 'Solid',
+    discovered_by: 'Peter Armbruster & Gottfried Münzenberg',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1984 at the Gesellschaft für Schwerionenforschung in Darmstadt, Germany. Named after the Latin name for the German state of Hesse (Hassia).',
+        es: 'Sintetizado en 1984 en la Gesellschaft für Schwerionenforschung en Darmstadt, Alemania. Nombrado en honor al nombre latino del estado alemán de Hesse (Hassia).',
+        fr: 'Synthétisé en 1984 à la Gesellschaft für Schwerionenforschung à Darmstadt, en Allemagne. Nommé d\'après le nom latin de l\'État allemand de Hesse (Hassia).',
+        pt: 'Sintetizado em 1984 na Gesellschaft für Schwerionenforschung em Darmstadt, Alemanha. Nomeado em homenagem ao nome latino para o estado alemão de Hesse (Hassia).',
+        ja: '1984年にドイツのダルムシュタットにある重イオン研究所で合成されました。ドイツのヘッセン州のラテン名（ハッシア）にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 109,
@@ -2173,6 +3253,16 @@ export const elements: ElementData[] = [
     xpos: 9,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Peter Armbruster & Gottfried Münzenberg',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1982 by a German research team led by Peter Armbruster and Gottfried Münzenberg at the GSI Helmholtz Centre for Heavy Ion Research. Named for Lise Meitner.',
+        es: 'Sintetizado en 1982 por un equipo de investigación alemán dirigido por Peter Armbruster y Gottfried Münzenberg en el Centro Helmholtz de Investigación de Iones Pesados GSI. Nombrado en honor a Lise Meitner.',
+        fr: 'Synthétisé en 1982 par une équipe de recherche allemande dirigée par Peter Armbruster et Gottfried Münzenberg au GSI Helmholtz Centre for Heavy Ion Research. Nommé d\'après Lise Meitner.',
+        pt: 'Sintetizado em 1982 por uma equipe de pesquisa alemã liderada por Peter Armbruster e Gottfried Münzenberg no Centro Helmholtz de Pesquisa de Íons Pesados GSI. Nomeado em homenagem a Lise Meitner.',
+        ja: '1982年にGSIヘルムホルツ重イオン研究センターで、ペーター・アルムブルスターとゴットフリート・ミュンツェンベルクが率いるドイツの研究チームによって合成されました。リーゼ・マイトナーにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 110,
@@ -2192,6 +3282,16 @@ export const elements: ElementData[] = [
     xpos: 10,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Gesellschaft für Schwerionenforschung',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1994 at the Gesellschaft für Schwerionenforschung (GSI) in Darmstadt, Germany. Named after the city of Darmstadt.',
+        es: 'Sintetizado en 1994 en la Gesellschaft für Schwerionenforschung (GSI) en Darmstadt, Alemania. Nombrado en honor a la ciudad de Darmstadt.',
+        fr: 'Synthétisé en 1994 à la Gesellschaft für Schwerionenforschung (GSI) à Darmstadt, en Allemagne. Nommé d\'après la ville de Darmstadt.',
+        pt: 'Sintetizado em 1994 na Gesellschaft für Schwerionenforschung (GSI) em Darmstadt, Alemanha. Nomeado em homenagem à cidade de Darmstadt.',
+        ja: '1994年にドイツのダルムシュタットにある重イオン研究所（GSI）で合成されました。ダルムシュタット市にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 111,
@@ -2211,6 +3311,16 @@ export const elements: ElementData[] = [
     xpos: 11,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Gesellschaft für Schwerionenforschung',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1994 at the GSI Helmholtz Centre for Heavy Ion Research. Named after Wilhelm Conrad Röntgen, the discoverer of X-rays.',
+        es: 'Sintetizado en 1994 en el Centro Helmholtz de Investigación de Iones Pesados GSI. Nombrado en honor a Wilhelm Conrad Röntgen, el descubridor de los rayos X.',
+        fr: 'Synthétisé en 1994 au GSI Helmholtz Centre for Heavy Ion Research. Nommé d\'après Wilhelm Conrad Röntgen, le découvreur des rayons X.',
+        pt: 'Sintetizado em 1994 no Centro Helmholtz de Pesquisa de Íons Pesados GSI. Nomeado em homenagem a Wilhelm Conrad Röntgen, o descobridor dos raios-X.',
+        ja: '1994年にGSIヘルムホルツ重イオン研究センターで合成されました。X線発見者であるヴィルヘルム・コンラート・レントゲンにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 112,
@@ -2230,6 +3340,16 @@ export const elements: ElementData[] = [
     xpos: 12,
     ypos: 7,
     phase: 'Liquid',
+    discovered_by: 'Gesellschaft für Schwerionenforschung',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'First synthesized in 1996 at the GSI Helmholtz Centre for Heavy Ion Research. Named after astronomer Nicolaus Copernicus.',
+        es: 'Sintetizado por primera vez en 1996 en el Centro Helmholtz de Investigación de Iones Pesados GSI. Nombrado en honor al astrónomo Nicolás Copérnico.',
+        fr: 'D\'abord synthétisé en 1996 au GSI Helmholtz Centre for Heavy Ion Research. Nommé d\'après l\'astronome Nicolas Copernic.',
+        pt: 'Primeiro sintetizado em 1996 no Centro Helmholtz de Pesquisa de Íons Pesados GSI. Nomeado em homenagem ao astrônomo Nicolau Copérnico.',
+        ja: '1996年にGSIヘルムホルツ重イオン研究センターで初めて合成されました。天文学者ニコラウス・コペルニクスにちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 113,
@@ -2249,6 +3369,16 @@ export const elements: ElementData[] = [
     xpos: 13,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'RIKEN',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'First synthesized in 2003 at the RIKEN research institute in Japan. The name comes from "Nihon", the Japanese name for Japan.',
+        es: 'Sintetizado por primera vez en 2003 en el instituto de investigación RIKEN en Japón. El nombre proviene de "Nihon", el nombre japonés para Japón.',
+        fr: 'D\'abord synthétisé en 2003 à l\'institut de recherche RIKEN au Japon. Le nom vient de « Nihon », le nom japonais du Japon.',
+        pt: 'Primeiro sintetizado em 2003 no instituto de pesquisa RIKEN no Japão. O nome vem de "Nihon", o nome japonês para o Japão.',
+        ja: '2003年に日本の理化学研究所で初めて合成されました。名前は日本の日本語名である「日本」に由来します。'
+    }
   },
   {
     atomicNumber: 114,
@@ -2268,6 +3398,16 @@ export const elements: ElementData[] = [
     xpos: 14,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna)',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 1998 at the Joint Institute for Nuclear Research in Dubna, Russia. Named after the Flerov Laboratory of Nuclear Reactions of the institute, in honor of physicist Georgy Flyorov.',
+        es: 'Sintetizado en 1998 en el Instituto Conjunto de Investigación Nuclear en Dubna, Rusia. Nombrado en honor al Laboratorio Flerov de Reacciones Nucleares del instituto, en honor al físico Georgy Flyorov.',
+        fr: 'Synthétisé en 1998 à l\'Institut unifié de recherches nucléaires de Doubna, en Russie. Nommé d\'après le Laboratoire Flerov des réactions nucléaires de l\'institut, en l\'honneur du physicien Georgy Flyorov.',
+        pt: 'Sintetizado em 1998 no Instituto Conjunto de Pesquisa Nuclear em Dubna, Rússia. Nomeado em homenagem ao Laboratório Flerov de Reações Nucleares do instituto, em homenagem ao físico Georgy Flyorov.',
+        ja: '1998年にロシアのドゥブナにある合同原子核研究所で合成されました。物理学者ゲオルギー・フリョロフに敬意を表して、研究所のフレロフ核反応研究所にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 115,
@@ -2287,6 +3427,16 @@ export const elements: ElementData[] = [
     xpos: 15,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna) and Lawrence Livermore National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 2003 by a joint team of Russian and American scientists at the Joint Institute for Nuclear Research (JINR) in Dubna, Russia. Named for the Moscow Oblast, where the JINR is located.',
+        es: 'Sintetizado en 2003 por un equipo conjunto de científicos rusos y estadounidenses en el Instituto Conjunto de Investigación Nuclear (JINR) en Dubna, Rusia. Nombrado en honor al Óblast de Moscú, donde se encuentra el JINR.',
+        fr: 'Synthétisé en 2003 par une équipe conjointe de scientifiques russes et américains à l\'Institut unifié de recherches nucléaires (JINR) à Doubna, en Russie. Nommé d\'après l\'oblast de Moscou, où se trouve le JINR.',
+        pt: 'Sintetizado em 2003 por uma equipe conjunta de cientistas russos e americanos no Instituto Conjunto de Pesquisa Nuclear (JINR) em Dubna, Rússia. Nomeado para o Oblast de Moscou, onde o JINR está localizado.',
+        ja: '2003年にロシアのドゥブナにある合同原子核研究所（JINR）で、ロシアとアメリカの科学者の共同チームによって合成されました。JINRが所在するモスクワ州にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 116,
@@ -2306,6 +3456,16 @@ export const elements: ElementData[] = [
     xpos: 16,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna) and Lawrence Livermore National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 2000 at the Joint Institute for Nuclear Research in Dubna. Named after the Lawrence Livermore National Laboratory in Livermore, California.',
+        es: 'Sintetizado en 2000 en el Instituto Conjunto de Investigación Nuclear en Dubna. Nombrado en honor al Laboratorio Nacional Lawrence Livermore en Livermore, California.',
+        fr: 'Synthétisé en 2000 à l\'Institut unifié de recherches nucléaires de Doubna. Nommé d\'après le Laboratoire national Lawrence Livermore à Livermore, en Californie.',
+        pt: 'Sintetizado em 2000 no Instituto Conjunto de Pesquisa Nuclear em Dubna. Nomeado em homenagem ao Laboratório Nacional Lawrence Livermore em Livermore, Califórnia.',
+        ja: '2000年にドゥブナの合同原子核研究所で合成されました。カリフォルニア州リバモアにあるローレンス・リバモア国立研究所にちなんで名付けられました。'
+    }
   },
   {
     atomicNumber: 117,
@@ -2325,6 +3485,16 @@ export const elements: ElementData[] = [
     xpos: 17,
     ypos: 7,
     phase: 'Unknown',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna), Lawrence Livermore National Laboratory, and Oak Ridge National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'First made in 2010 at the Joint Institute for Nuclear Research in Dubna. Named in honor of the state of Tennessee, where Oak Ridge National Laboratory is located.',
+        es: 'Fabricado por primera vez en 2010 en el Instituto Conjunto de Investigación Nuclear en Dubna. Nombrado en honor al estado de Tennessee, donde se encuentra el Laboratorio Nacional de Oak Ridge.',
+        fr: 'Fabriqué pour la première fois en 2010 à l\'Institut unifié de recherches nucléaires de Doubna. Nommé en l\'honneur de l\'État du Tennessee, où se trouve le Laboratoire national d\'Oak Ridge.',
+        pt: 'Feito pela primeira vez em 2010 no Instituto Conjunto de Pesquisa Nuclear em Dubna. Nomeado em homenagem ao estado do Tennessee, onde o Laboratório Nacional de Oak Ridge está localizado.',
+        ja: '2010年にドゥブナの合同原子核研究所で初めて製造されました。オークリッジ国立研究所があるテネシー州に敬意を表して名付けられました。'
+    }
   },
   {
     atomicNumber: 118,
@@ -2344,5 +3514,15 @@ export const elements: ElementData[] = [
     xpos: 18,
     ypos: 7,
     phase: 'Gas',
+    discovered_by: 'Joint Institute for Nuclear Research (Dubna) and Lawrence Livermore National Laboratory',
+    named_by: null,
+    appearance: 'metallic',
+    history: {
+        en: 'Synthesized in 2002 at the Joint Institute for Nuclear Research in Dubna. Named after Yuri Oganessian, a Russian nuclear physicist.',
+        es: 'Sintetizado en 2002 en el Instituto Conjunto de Investigación Nuclear en Dubna. Nombrado en honor a Yuri Oganessian, un físico nuclear ruso.',
+        fr: 'Synthétisé en 2002 à l\'Institut unifié de recherches nucléaires de Doubna. Nommé d\'après Yuri Oganessian, un physicien nucléaire russe.',
+        pt: 'Sintetizado em 2002 no Instituto Conjunto de Pesquisa Nuclear em Dubna. Nomeado em homenagem a Yuri Oganessian, um físico nuclear russo.',
+        ja: '2002年にドゥブナの合同原子核研究所で合成されました。ロシアの核物理学者ユーリ・オガネシアンにちなんで名付けられました。'
+    }
   }
 ];

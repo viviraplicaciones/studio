@@ -18,4 +18,8 @@ export interface ElementData {
   xpos: number;
   ypos: number;
   phase: ElementPhase;
+  discovered_by: string | null;
+  named_by: string | null;
+  appearance: string | null;
+  history: MultilingualString;
 }
