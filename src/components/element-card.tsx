@@ -16,17 +16,17 @@ interface ElementCardProps {
 }
 
 const categoryColorMap: { [key: string]: string } = {
-  'noble-gas': 'bg-purple-400',
-  'alkali-metal': 'bg-red-400',
-  'alkaline-earth-metal': 'bg-orange-400',
-  'diatomic-nonmetal': 'bg-green-400',
-  'polyatomic-nonmetal': 'bg-green-500',
-  metalloid: 'bg-teal-400',
-  'post-transition-metal': 'bg-blue-400',
-  'transition-metal': 'bg-indigo-400',
-  lanthanide: 'bg-yellow-400',
-  actinide: 'bg-amber-500',
-  unknown: 'bg-gray-400',
+  'noble-gas': 'bg-purple-400 text-white',
+  'alkali-metal': 'bg-red-400 text-white',
+  'alkaline-earth-metal': 'bg-orange-400 text-white',
+  'diatomic-nonmetal': 'bg-green-400 text-white',
+  'polyatomic-nonmetal': 'bg-green-500 text-white',
+  metalloid: 'bg-teal-400 text-white',
+  'post-transition-metal': 'bg-blue-400 text-white',
+  'transition-metal': 'bg-indigo-400 text-white',
+  lanthanide: 'bg-yellow-400 text-black',
+  actinide: 'bg-amber-500 text-black',
+  unknown: 'bg-gray-400 text-white',
 };
 
 const ElementCard: React.FC<ElementCardProps> = ({ element, onClick, style, isFavorite, onToggleFavorite }) => {
@@ -43,7 +43,7 @@ const ElementCard: React.FC<ElementCardProps> = ({ element, onClick, style, isFa
     <motion.div
       style={style}
       className={cn(
-        'relative p-1.5 rounded-md cursor-pointer text-white shadow-md transition-transform transform hover:scale-110 hover:z-10',
+        'relative p-1.5 rounded-md cursor-pointer shadow-md transition-transform transform hover:scale-110 hover:z-10',
         colorClass
       )}
       onClick={onClick}
@@ -58,7 +58,7 @@ const ElementCard: React.FC<ElementCardProps> = ({ element, onClick, style, isFa
           className="p-1 z-20"
         >
           <Heart
-            className={cn('w-3 h-3 transition-colors', isFavorite ? 'text-red-500 fill-current' : 'text-white/70')}
+            className={cn('w-3 h-3 transition-colors', isFavorite ? 'text-red-500 fill-current' : 'text-inherit')}
           />
         </button>
       </div>
