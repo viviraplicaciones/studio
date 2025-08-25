@@ -1,3 +1,4 @@
+
 {
   "appName": "Living Periodic Table",
   "searchPlaceholder": "Search by name, symbol, number...",
@@ -24,5 +25,6 @@
   "lanthanide": "Lanthanide",
   "actinide": "Actinide",
   "unknown": "Unknown Properties",
-  "toggleFavorites": "Toggle favorites"
+  "toggleFavorites": "Toggle favorites",
+  "toggleGroups": "Group by category"
 }

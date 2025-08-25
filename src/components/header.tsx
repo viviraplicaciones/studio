@@ -1,6 +1,7 @@
+
 'use client';
 
-import { Search, Star } from 'lucide-react';
+import { Search, Star, Group } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import LanguageSwitcher from './language-switcher';
@@ -10,9 +11,11 @@ interface HeaderProps {
   onSearchChange: (query: string) => void;
   onToggleFavorites: () => void;
   showFavorites: boolean;
+  onToggleGroupByCategory: () => void;
+  groupByCategory: boolean;
 }
 
-const Header: React.FC<HeaderProps> = ({ onSearchChange, onToggleFavorites, showFavorites }) => {
+const Header: React.FC<HeaderProps> = ({ onSearchChange, onToggleFavorites, showFavorites, onToggleGroupByCategory, groupByCategory }) => {
   const { t } = useLanguage();
   
   return (
@@ -34,6 +37,14 @@ const Header: React.FC<HeaderProps> = ({ onSearchChange, onToggleFavorites, show
               onChange={(e) => onSearchChange(e.target.value)}
             />
           </div>
+           <Button
+            variant={groupByCategory ? 'default' : 'outline'}
+            size="icon"
+            onClick={onToggleGroupByCategory}
+            aria-label={t('toggleGroups')}
+          >
+            <Group className="h-5 w-5" />
+          </Button>
           <Button
             variant={showFavorites ? 'default' : 'outline'}
             size="icon"

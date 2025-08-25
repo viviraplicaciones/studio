@@ -1,8 +1,9 @@
+
 {
   "appName": "Tabela Periódica Viva",
   "searchPlaceholder": "Pesquisar por nome, símbolo, número...",
   "atomicNumber": "Número Atômico",
-  "atomicMass": "Massa Atômica",
+  "atomicMass": "Masa Atômica",
   "category": "Categoria",
   "electronConfiguration": "Configuração Eletrônica",
   "density": "Densidade",
@@ -24,5 +25,6 @@
   "lanthanide": "Lantanídeo",
   "actinide": "Actinídeo",
   "unknown": "Propriedades Desconhecidas",
-  "toggleFavorites": "Mostrar favoritos"
+  "toggleFavorites": "Mostrar favoritos",
+  "toggleGroups": "Agrupar por categoria"
 }

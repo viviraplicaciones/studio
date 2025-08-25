@@ -14,6 +14,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showFavorites, setShowFavorites] = useState(false);
+  const [groupByCategory, setGroupByCategory] = useState(false);
   const { language } = useLanguage();
   const { favorites, toggleFavorite } = useFavorites();
 
@@ -40,6 +41,10 @@ export default function Home() {
     setShowFavorites(prev => !prev);
   }
 
+  const handleToggleGroupByCategory = () => {
+    setGroupByCategory(prev => !prev);
+  };
+
   const handleElementClick = (element: ElementData) => {
     setSelectedElement(element);
   };
@@ -54,6 +59,8 @@ export default function Home() {
         onSearchChange={setSearchQuery} 
         onToggleFavorites={handleToggleFavorites}
         showFavorites={showFavorites}
+        onToggleGroupByCategory={handleToggleGroupByCategory}
+        groupByCategory={groupByCategory}
       />
       <main className="flex-grow p-4 md:p-8">
         <PeriodicTable
@@ -61,6 +68,7 @@ export default function Home() {
           onElementClick={handleElementClick}
           favorites={favorites}
           onToggleFavorite={toggleFavorite}
+          groupByCategory={groupByCategory}
         />
       </main>
       <ElementDetail

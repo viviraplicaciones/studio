@@ -1,3 +1,4 @@
+
 {
   "appName": "生きた周期表",
   "searchPlaceholder": "名前、記号、番号で検索...",
@@ -24,5 +25,6 @@
   "lanthanide": "ランタノイド",
   "actinide": "アクチノイド",
   "unknown": "不明なプロパティ",
-  "toggleFavorites": "お気に入りを表示"
+  "toggleFavorites": "お気に入りを表示",
+  "toggleGroups": "カテゴリーでグループ化"
 }
