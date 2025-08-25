@@ -91,16 +91,8 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ elements, onElementClick,
     );
   }
 
-  return (
-    <div
-      className="grid gap-1"
-      style={{
-        gridTemplateColumns: 'repeat(18, minmax(0, 1fr))',
-        gridTemplateRows: 'repeat(10, minmax(0, 1fr))',
-        maxWidth: '1200px',
-        margin: '0 auto',
-      }}
-    >
+  const defaultView = (
+    <div className="grid grid-cols-[repeat(18,minmax(0,1fr))] grid-rows-10 gap-1 max-w-[1200px] mx-auto">
       {elements.map((element) => (
         <ElementCard
           key={element.atomicNumber}
@@ -112,6 +104,28 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ elements, onElementClick,
         />
       ))}
     </div>
+  );
+
+  const responsiveView = (
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(6rem,1fr))] gap-2">
+        {elements.sort((a,b) => a.atomicNumber - b.atomicNumber).map((element) => (
+          <ElementCard
+            key={element.atomicNumber}
+            element={element}
+            onClick={() => onElementClick(element)}
+            style={{}}
+            isFavorite={favorites.includes(element.atomicNumber)}
+            onToggleFavorite={onToggleFavorite}
+          />
+        ))}
+    </div>
+  );
+
+  return (
+    <>
+      <div className="hidden md:grid">{defaultView}</div>
+      <div className="grid md:hidden">{responsiveView}</div>
+    </>
   );
 };
 
