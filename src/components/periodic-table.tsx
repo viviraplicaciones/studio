@@ -1,0 +1,34 @@
+'use client';
+
+import ElementCard from './element-card';
+import type { ElementData } from '@/lib/types';
+
+interface PeriodicTableProps {
+  elements: ElementData[];
+  onElementClick: (element: ElementData) => void;
+}
+
+const PeriodicTable: React.FC<PeriodicTableProps> = ({ elements, onElementClick }) => {
+  return (
+    <div
+      className="grid gap-1"
+      style={{
+        gridTemplateColumns: 'repeat(18, minmax(0, 1fr))',
+        gridTemplateRows: 'repeat(7, minmax(0, 1fr))',
+        maxWidth: '1200px',
+        margin: '0 auto',
+      }}
+    >
+      {elements.map((element) => (
+        <ElementCard
+          key={element.atomicNumber}
+          element={element}
+          onClick={() => onElementClick(element)}
+          style={{ gridColumnStart: element.xpos, gridRowStart: element.ypos }}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default PeriodicTable;
