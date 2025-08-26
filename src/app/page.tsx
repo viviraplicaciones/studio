@@ -40,26 +40,27 @@ function HomePageContent() {
   }, [searchParams, loading]);
 
   const filteredElements = useMemo(() => {
-    let elementsToFilter = elements;
+    let elementsToFilter = [...elements];
+    
     if (showFavorites) {
-      elementsToFilter = elements.filter(el => favorites.includes(el.atomicNumber));
+      elementsToFilter = elementsToFilter.filter(el => favorites.includes(el.atomicNumber));
     }
     
     if (filterByPhase !== 'all') {
       elementsToFilter = elementsToFilter.filter(el => el.phase === filterByPhase);
     }
 
-    if (!searchQuery) {
-      return elementsToFilter;
+    if (searchQuery) {
+      const lowerCaseQuery = searchQuery.toLowerCase();
+      elementsToFilter = elementsToFilter.filter(
+        (element) =>
+          element.name[language]?.toLowerCase().includes(lowerCaseQuery) ||
+          element.symbol.toLowerCase().includes(lowerCaseQuery) ||
+          String(element.atomicNumber).includes(lowerCaseQuery)
+      );
     }
     
-    const lowerCaseQuery = searchQuery.toLowerCase();
-    return elementsToFilter.filter(
-      (element) =>
-        element.name[language]?.toLowerCase().includes(lowerCaseQuery) ||
-        element.symbol.toLowerCase().includes(lowerCaseQuery) ||
-        String(element.atomicNumber).includes(lowerCaseQuery)
-    );
+    return elementsToFilter;
   }, [searchQuery, language, showFavorites, favorites, filterByPhase]);
 
   const handleToggleFavorites = () => {
