@@ -10,8 +10,10 @@ import PeriodicTable from '@/components/periodic-table';
 import ElementDetail from '@/components/element-detail';
 import { useLanguage } from '@/contexts/language-context';
 import { useFavorites } from '@/hooks/use-favorites';
+import SplashScreen from '@/components/splash-screen';
 
 function HomePageContent() {
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showFavorites, setShowFavorites] = useState(false);
@@ -22,6 +24,12 @@ function HomePageContent() {
   const searchParams = useSearchParams();
 
   useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    if (loading) return;
     const elementNumber = searchParams.get('element');
     if (elementNumber) {
       const element = elements.find(el => el.atomicNumber === parseInt(elementNumber, 10));
@@ -29,7 +37,7 @@ function HomePageContent() {
         setSelectedElement(element);
       }
     }
-  }, [searchParams]);
+  }, [searchParams, loading]);
 
   const filteredElements = useMemo(() => {
     let elementsToFilter = elements;
@@ -68,8 +76,14 @@ function HomePageContent() {
 
   const handleCloseDetail = () => {
     setSelectedElement(null);
-    window.history.pushState({}, '', window.location.pathname);
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.delete('element');
+    window.history.pushState({}, '', newUrl);
   };
+
+  if (loading) {
+    return <SplashScreen />;
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
@@ -106,7 +120,7 @@ function HomePageContent() {
 
 export default function Home() {
   return (
-    <React.Suspense fallback={<div>Loading...</div>}>
+    <React.Suspense fallback={<SplashScreen />}>
       <HomePageContent />
     </React.Suspense>
   )
