@@ -41,5 +41,8 @@
   "clearFavoritesTitle": "Êtes-vous sûr de vouloir effacer tous les favoris ?",
   "clearFavoritesDescription": "Cette action est irréversible. Cela supprimera définitivement tous vos éléments favoris enregistrés.",
   "cancel": "Annuler",
-  "confirm": "Confirmer"
+  "confirm": "Confirmer",
+  "funFactTitle": "Fait Amusant IA",
+  "generateFunFact": "Générer un fait amusant",
+  "funFactError": "Impossible de générer un fait amusant pour le moment."
 }
