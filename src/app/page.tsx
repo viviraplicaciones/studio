@@ -1,7 +1,8 @@
 
 'use client';
 
-import { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import type { ElementData, ElementPhase } from '@/lib/types';
 import { elements } from '@/data/elements';
 import Header from '@/components/header';
@@ -10,7 +11,7 @@ import ElementDetail from '@/components/element-detail';
 import { useLanguage } from '@/contexts/language-context';
 import { useFavorites } from '@/hooks/use-favorites';
 
-export default function Home() {
+function HomePageContent() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showFavorites, setShowFavorites] = useState(false);
@@ -18,6 +19,17 @@ export default function Home() {
   const [filterByPhase, setFilterByPhase] = useState<ElementPhase | 'all'>('all');
   const { language } = useLanguage();
   const { favorites, toggleFavorite, clearFavorites } = useFavorites();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const elementNumber = searchParams.get('element');
+    if (elementNumber) {
+      const element = elements.find(el => el.atomicNumber === parseInt(elementNumber, 10));
+      if (element) {
+        setSelectedElement(element);
+      }
+    }
+  }, [searchParams]);
 
   const filteredElements = useMemo(() => {
     let elementsToFilter = elements;
@@ -56,6 +68,7 @@ export default function Home() {
 
   const handleCloseDetail = () => {
     setSelectedElement(null);
+    window.history.pushState({}, '', window.location.pathname);
   };
 
   return (
@@ -89,4 +102,12 @@ export default function Home() {
       />
     </div>
   );
+}
+
+export default function Home() {
+  return (
+    <React.Suspense fallback={<div>Loading...</div>}>
+      <HomePageContent />
+    </React.Suspense>
+  )
 }

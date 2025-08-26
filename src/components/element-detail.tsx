@@ -1,5 +1,7 @@
+
 'use client';
 
+import React from 'react';
 import { Heart, Share2, Users, Languages } from 'lucide-react';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
@@ -23,16 +25,19 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose,
   if (!element) return null;
 
   const handleShare = async () => {
+    const url = new URL(window.location.href);
+    url.searchParams.set('element', element.atomicNumber.toString());
+
     const shareData = {
       title: `${t('appName')}: ${element.name[language]}`,
       text: `${element.name[language]} (${element.symbol}) - ${t('atomicNumber')}: ${element.atomicNumber}. ${element.summary[language]}`,
-      url: window.location.href,
+      url: url.toString(),
     };
     try {
       if (navigator.share) {
         await navigator.share(shareData);
       } else {
-        await navigator.clipboard.writeText(shareData.text);
+        await navigator.clipboard.writeText(shareData.url);
         toast({
           title: t('copiedToClipboardTitle'),
           description: t('copiedToClipboardDescription'),
