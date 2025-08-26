@@ -40,8 +40,8 @@ function HomePageContent() {
   }, [searchParams, loading]);
 
   const filteredElements = useMemo(() => {
-    let elementsToFilter = [...elements];
-    
+    let elementsToFilter = elements;
+
     if (showFavorites) {
       elementsToFilter = elementsToFilter.filter(el => favorites.includes(el.atomicNumber));
     }
