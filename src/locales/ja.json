@@ -36,5 +36,10 @@
   "all": "すべて",
   "appearance": "外観",
   "historyAndDiscovery": "歴史と発見",
-  "namedBy": "命名者"
+  "namedBy": "命名者",
+  "clearFavorites": "すべてのお気に入りを消去",
+  "clearFavoritesTitle": "すべてのお気に入りを消去してもよろしいですか？",
+  "clearFavoritesDescription": "この操作は元に戻せません。これにより、保存されているすべてのお気に入りの元素が完全に削除されます。",
+  "cancel": "キャンセル",
+  "confirm": "確認"
 }

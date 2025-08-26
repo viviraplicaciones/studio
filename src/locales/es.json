@@ -36,5 +36,10 @@
   "all": "Todos",
   "appearance": "Apariencia",
   "historyAndDiscovery": "Historia y Descubrimiento",
-  "namedBy": "Nombrado por"
+  "namedBy": "Nombrado por",
+  "clearFavorites": "Limpiar todos los favoritos",
+  "clearFavoritesTitle": "¿Estás seguro de que quieres limpiar todos los favoritos?",
+  "clearFavoritesDescription": "Esta acción no se puede deshacer. Esto eliminará permanentemente todos tus elementos favoritos guardados.",
+  "cancel": "Cancelar",
+  "confirm": "Confirmar"
 }

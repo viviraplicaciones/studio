@@ -35,5 +35,9 @@ export const useFavorites = () => {
     saveFavorites(newFavorites);
   }, [favorites]);
 
-  return { favorites, toggleFavorite };
+  const clearFavorites = useCallback(() => {
+    saveFavorites([]);
+  }, []);
+
+  return { favorites, toggleFavorite, clearFavorites };
 };

@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { LanguageProvider } from '@/contexts/language-context';
+import { ThemeProvider } from '@/components/theme-provider';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -18,15 +19,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <head>
         <meta name="theme-color" content="#30475E" />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
-        <LanguageProvider>
-          {children}
-          <Toaster />
-        </LanguageProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <LanguageProvider>
+            {children}
+            <Toaster />
+          </LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

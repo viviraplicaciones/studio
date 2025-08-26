@@ -1,7 +1,7 @@
 
 'use client';
 
-import { Search, Star, Group, Thermometer } from 'lucide-react';
+import { Search, Star, Group, Thermometer, Trash2 } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import LanguageSwitcher from './language-switcher';
@@ -14,7 +14,18 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
+import { ModeToggle } from './mode-toggle';
 
 interface HeaderProps {
   onSearchChange: (query: string) => void;
@@ -24,6 +35,8 @@ interface HeaderProps {
   groupByCategory: boolean;
   onFilterByPhaseChange: (phase: ElementPhase | 'all') => void;
   currentPhase: ElementPhase | 'all';
+  onClearFavorites: () => void;
+  hasFavorites: boolean;
 }
 
 const Header: React.FC<HeaderProps> = ({ 
@@ -33,7 +46,9 @@ const Header: React.FC<HeaderProps> = ({
   onToggleGroupByCategory, 
   groupByCategory,
   onFilterByPhaseChange,
-  currentPhase
+  currentPhase,
+  onClearFavorites,
+  hasFavorites
 }) => {
   const { t } = useLanguage();
   
@@ -91,7 +106,33 @@ const Header: React.FC<HeaderProps> = ({
           >
             <Star className="h-5 w-5" />
           </Button>
+
+          {hasFavorites && (
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button variant="destructive" size="icon" aria-label={t('clearFavorites')}>
+                  <Trash2 className="h-5 w-5" />
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>{t('clearFavoritesTitle')}</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    {t('clearFavoritesDescription')}
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>{t('cancel')}</AlertDialogCancel>
+                  <AlertDialogAction onClick={onClearFavorites}>
+                    {t('confirm')}
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          )}
+
           <LanguageSwitcher />
+          <ModeToggle />
         </div>
       </div>
     </header>

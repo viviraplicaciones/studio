@@ -17,7 +17,7 @@ export default function Home() {
   const [groupByCategory, setGroupByCategory] = useState(false);
   const [filterByPhase, setFilterByPhase] = useState<ElementPhase | 'all'>('all');
   const { language } = useLanguage();
-  const { favorites, toggleFavorite } = useFavorites();
+  const { favorites, toggleFavorite, clearFavorites } = useFavorites();
 
   const filteredElements = useMemo(() => {
     let elementsToFilter = elements;
@@ -68,6 +68,8 @@ export default function Home() {
         groupByCategory={groupByCategory}
         onFilterByPhaseChange={setFilterByPhase}
         currentPhase={filterByPhase}
+        onClearFavorites={clearFavorites}
+        hasFavorites={favorites.length > 0}
       />
       <main className="flex-grow p-4 md:p-8">
         <PeriodicTable
