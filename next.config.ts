@@ -2,9 +2,6 @@ import type {NextConfig} from 'next';
 import withPWA from 'next-pwa';
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: '/tablaperiodica',
-  assetPrefix: '/tablaperiodica/',
   typescript: {
     ignoreBuildErrors: true,
   },
