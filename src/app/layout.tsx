@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: 'Tabla Periódica Viva',
   description: 'Una tabla periódica interactiva, moderna y multilingüe.',
   manifest: '/manifest.json',
+  icons: {
+    icon: 'https://raw.githubusercontent.com/viviraplicaciones/tablaperiodica/refs/heads/main/atomo.png',
+  },
 };
 
 export default function RootLayout({
