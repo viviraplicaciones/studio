@@ -41,8 +41,5 @@
   "clearFavoritesTitle": "¿Estás seguro de que quieres limpiar todos los favoritos?",
   "clearFavoritesDescription": "Esta acción no se puede deshacer. Esto eliminará permanentemente todos tus elementos favoritos guardados.",
   "cancel": "Cancelar",
-  "confirm": "Confirmar",
-  "funFactTitle": "Dato Curioso con IA",
-  "generateFunFact": "Generar dato curioso",
-  "funFactError": "No se pudo generar un dato curioso en este momento."
+  "confirm": "Confirmar"
 }

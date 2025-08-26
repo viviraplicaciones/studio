@@ -41,8 +41,5 @@
   "clearFavoritesTitle": "Are you sure you want to clear all favorites?",
   "clearFavoritesDescription": "This action cannot be undone. This will permanently remove all your saved favorite elements.",
   "cancel": "Cancel",
-  "confirm": "Confirm",
-  "funFactTitle": "AI Fun Fact",
-  "generateFunFact": "Generate fun fact",
-  "funFactError": "Could not generate a fun fact at this time."
+  "confirm": "Confirm"
 }
