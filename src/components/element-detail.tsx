@@ -1,12 +1,14 @@
 'use client';
 
-import { Heart, Share2, Users, Languages } from 'lucide-react';
+import { Heart, Share2, Users, Languages, Atom } from 'lucide-react';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 import type { ElementData } from '@/lib/types';
 import { useLanguage } from '@/contexts/language-context';
 import { Separator } from '@/components/ui/separator';
+import AtomModel from './atom-model';
+import { useState }from 'react';
 
 interface ElementDetailProps {
   element: ElementData | null;
@@ -19,6 +21,7 @@ interface ElementDetailProps {
 const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose, isFavorite, onToggleFavorite }) => {
   const { toast } = useToast();
   const { t, language } = useLanguage();
+  const [showAtomModel, setShowAtomModel] = useState(false);
 
   if (!element) return null;
 
@@ -53,7 +56,10 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose,
   };
 
   return (
-    <Sheet open={isOpen} onOpenChange={onClose}>
+    <Sheet open={isOpen} onOpenChange={(open) => {
+      if (!open) setShowAtomModel(false);
+      onClose();
+    }}>
       <SheetContent className="w-full sm:max-w-lg overflow-y-auto bg-card">
         <SheetHeader className="pr-12">
           <SheetTitle className="text-3xl font-bold text-primary">
@@ -64,7 +70,14 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose,
           </SheetDescription>
         </SheetHeader>
         <div className="grid gap-6 py-6">
-          <p className="text-base leading-relaxed">{element.summary[language]}</p>
+          {showAtomModel ? (
+            <div className="h-64 rounded-lg bg-muted flex items-center justify-center">
+              <AtomModel atomicNumber={element.atomicNumber} />
+            </div>
+          ) : (
+             <p className="text-base leading-relaxed">{element.summary[language]}</p>
+          )}
+
           
           <div>
             <h3 className="font-semibold text-xl mb-2 text-primary">{t('properties')}</h3>
@@ -99,6 +112,10 @@ const ElementDetail: React.FC<ElementDetailProps> = ({ element, isOpen, onClose,
             <Button onClick={handleShare} variant="outline" size="sm">
               <Share2 className="mr-2 h-4 w-4" />
               {t('share')}
+            </Button>
+             <Button onClick={() => setShowAtomModel(prev => !prev)} variant="outline" size="sm">
+              <Atom className="mr-2 h-4 w-4" />
+              {showAtomModel ? t('showSummary') : t('showAtomModel')}
             </Button>
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 {
   "appName": "Tabla Periódica Viva",
   "searchPlaceholder": "Buscar por nombre, símbolo, número...",
@@ -41,5 +40,7 @@
   "clearFavoritesTitle": "¿Estás seguro de que quieres limpiar todos los favoritos?",
   "clearFavoritesDescription": "Esta acción no se puede deshacer. Esto eliminará permanentemente todos tus elementos favoritos guardados.",
   "cancel": "Cancelar",
-  "confirm": "Confirmar"
+  "confirm": "Confirmar",
+  "showAtomModel": "Ver modelo atómico",
+  "showSummary": "Ver resumen"
 }
