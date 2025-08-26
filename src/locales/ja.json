@@ -40,7 +40,5 @@
   "clearFavoritesTitle": "すべてのお気に入りを消去してもよろしいですか？",
   "clearFavoritesDescription": "この操作は元に戻せません。これにより、保存されているすべてのお気に入りの元素が完全に削除されます。",
   "cancel": "キャンセル",
-  "confirm": "確認",
-  "showAtomModel": "原子モデルを表示",
-  "showSummary": "概要を表示"
+  "confirm": "確認"
 }

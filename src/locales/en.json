@@ -40,7 +40,5 @@
   "clearFavoritesTitle": "Are you sure you want to clear all favorites?",
   "clearFavoritesDescription": "This action cannot be undone. This will permanently remove all your saved favorite elements.",
   "cancel": "Cancel",
-  "confirm": "Confirm",
-  "showAtomModel": "Show atom model",
-  "showSummary": "Show summary"
+  "confirm": "Confirm"
 }

@@ -40,7 +40,5 @@
   "clearFavoritesTitle": "Êtes-vous sûr de vouloir effacer tous les favoris ?",
   "clearFavoritesDescription": "Cette action est irréversible. Cela supprimera définitivement tous vos éléments favoris enregistrés.",
   "cancel": "Annuler",
-  "confirm": "Confirmer",
-  "showAtomModel": "Afficher le modèle atomique",
-  "showSummary": "Afficher le résumé"
+  "confirm": "Confirmer"
 }

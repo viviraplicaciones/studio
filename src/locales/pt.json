@@ -40,7 +40,5 @@
   "clearFavoritesTitle": "Tem certeza de que deseja limpar todos os favoritos?",
   "clearFavoritesDescription": "Esta ação não pode ser desfeita. Isso removerá permanentemente todos os seus elementos favoritos salvos.",
   "cancel": "Cancelar",
-  "confirm": "Confirmar",
-  "showAtomModel": "Ver modelo atômico",
-  "showSummary": "Ver resumo"
+  "confirm": "Confirmar"
 }
