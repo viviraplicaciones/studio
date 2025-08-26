@@ -1,19 +1,20 @@
 
 'use client';
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import type { ElementData, ElementPhase } from '@/lib/types';
 import { elements } from '@/data/elements';
 import Header from '@/components/header';
-import PeriodicTable from '@/components/periodic-table';
-import ElementDetail from '@/components/element-detail';
 import { useLanguage } from '@/contexts/language-context';
 import { useFavorites } from '@/hooks/use-favorites';
 import SplashScreen from '@/components/splash-screen';
 
+const PeriodicTable = React.lazy(() => import('@/components/periodic-table'));
+const ElementDetail = React.lazy(() => import('@/components/element-detail'));
+
 function HomePageContent() {
-  const [loading, setLoading] = useState(true);
+  const [isMounted, setIsMounted] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState<ElementData | null>(null);
   const [showFavorites, setShowFavorites] = useState(false);
@@ -24,12 +25,7 @@ function HomePageContent() {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  useEffect(() => {
-    if (loading) return;
+    setIsMounted(true);
     const elementNumber = searchParams.get('element');
     if (elementNumber) {
       const element = elements.find(el => el.atomicNumber === parseInt(elementNumber, 10));
@@ -37,10 +33,10 @@ function HomePageContent() {
         setSelectedElement(element);
       }
     }
-  }, [searchParams, loading]);
+  }, [searchParams]);
 
   const filteredElements = useMemo(() => {
-    let elementsToFilter = elements;
+    let elementsToFilter = [...elements];
 
     if (showFavorites) {
       elementsToFilter = elementsToFilter.filter(el => favorites.includes(el.atomicNumber));
@@ -82,7 +78,7 @@ function HomePageContent() {
     window.history.pushState({}, '', newUrl);
   };
 
-  if (loading) {
+  if (!isMounted) {
     return <SplashScreen />;
   }
 
@@ -100,29 +96,51 @@ function HomePageContent() {
         hasFavorites={favorites.length > 0}
       />
       <main className="flex-grow p-4 md:p-8">
-        <PeriodicTable
-          elements={filteredElements}
-          onElementClick={handleElementClick}
-          favorites={favorites}
-          onToggleFavorite={toggleFavorite}
-          groupByCategory={groupByCategory}
-        />
+        <Suspense fallback={<div className="text-center">Cargando tabla...</div>}>
+          <PeriodicTable
+            elements={filteredElements}
+            onElementClick={handleElementClick}
+            favorites={favorites}
+            onToggleFavorite={toggleFavorite}
+            groupByCategory={groupByCategory}
+          />
+        </Suspense>
       </main>
-      <ElementDetail
-        element={selectedElement}
-        isOpen={!!selectedElement}
-        onClose={handleCloseDetail}
-        isFavorite={selectedElement ? favorites.includes(selectedElement.atomicNumber) : false}
-        onToggleFavorite={toggleFavorite}
-      />
+      <Suspense>
+        <ElementDetail
+          element={selectedElement}
+          isOpen={!!selectedElement}
+          onClose={handleCloseDetail}
+          isFavorite={selectedElement ? favorites.includes(selectedElement.atomicNumber) : false}
+          onToggleFavorite={toggleFavorite}
+        />
+      </Suspense>
     </div>
   );
 }
 
+function HomePageWrapper() {
+  const [showSplash, setShowSplash] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (showSplash) {
+    return <SplashScreen />;
+  }
+
+  return <HomePageContent />;
+}
+
+
 export default function Home() {
   return (
-    <React.Suspense fallback={<SplashScreen />}>
-      <HomePageContent />
-    </React.Suspense>
-  )
+    <Suspense fallback={<SplashScreen />}>
+      <HomePageWrapper />
+    </Suspense>
+  );
 }

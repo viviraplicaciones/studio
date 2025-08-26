@@ -12,6 +12,7 @@ const SplashScreen = () => {
           width={200}
           height={200}
           unoptimized
+          priority
         />
       </div>
       <p className="mt-8 text-lg font-semibold text-foreground">
